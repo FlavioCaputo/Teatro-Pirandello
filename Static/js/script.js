@@ -1,7 +1,6 @@
 var overlay = document.getElementById('videobg');
 var t1 = document.getElementById('foyer')
 document.body.style.overflow = "hidden";
-overlay.style.display = 'none';
 t1.classList.add('fade-out')
 t1.style.display = 'none';
 setTimeout(function() {

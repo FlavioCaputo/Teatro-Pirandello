@@ -8,7 +8,7 @@ setTimeout(function() {
     overlay.style.display = 'none';
 }, 6000);
 function visita() {
-    window.location.href = "static/page/Visita.html";
+    window.location.href = "Static/page/Visita.html";
 }
 function Posin() {
     t1.style.display = 'block';

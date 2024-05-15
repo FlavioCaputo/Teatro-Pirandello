@@ -8,6 +8,16 @@
     left: 21.5%; /* Regola la posizione orizzontale del label */
     padding: 10px;
 }
+.title2 {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    top: 76%; /* Regola la posizione verticale del label */
+    left: 21.5%; /* Regola la posizione orizzontale del label */
+    padding: 10px;
+}
 #foyer {
     transition: opacity 0.5s ease;
 }
@@ -48,6 +58,21 @@
     position: absolute;
     top: 50%;
     left: 22%;
+}
+#bot2 {
+    width: 2.5%; /* Imposta la larghezza del bottone */
+    height: 5%; /* Imposta l'altezza del bottone */
+    border-radius: 50%; /* Imposta il bordo per ottenere la forma di un cerchio */
+    background-color: red; /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    color: white; /* Imposta il colore del testo */
+    font-size: 16px; /* Imposta la dimensione del carattere */
+    text-align: center; /* Centra il testo all'interno del bottone */
+    line-height: 50px; /* Centra il testo verticalmente */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    position: absolute;
+    top: 77%;
+    left: 26%;
 }
 
 /* Stile per il passaggio del mouse */

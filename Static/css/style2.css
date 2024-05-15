@@ -2,12 +2,20 @@
     padding: 0;
     margin: 0;
 }
-
+.custom-hotspot {
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+  }
 #panorama {
     width: 100vw;
     height: 100vh;
 }
-
+.custom-hotspot2 {
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+    width: 80px;
+    height: 80px;
+    background: url('../icone/freccia.png') no-repeat center center;
+    background-size: cover;
+  }
 .info {
     width: 100px; /* Larghezza del rettangolo */
     height: 60px; /* Altezza del rettangolo */

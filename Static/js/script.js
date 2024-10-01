@@ -13,23 +13,21 @@ b1.classList.add('fade-out')
 b2.classList.add('fade-out')
 overlay.style.display = 'none';
 mobov.style.display = 'block';
-handleResize()
+const view = window.innerWidth;
+if (view > 738) {
+    handleResize()
+}
 function handleResize() {
-    const viewportWidth = window.innerWidth;
-    if (viewportWidth <= 768) {
-        console.log('minore');
-     } else {
-        console.log('mag');
+    console.log('mag');
         mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
         overlay.style.display = 'block';  // Mostra l'elemento 'overlay'
         setTimeout(function() {
             document.body.style.overflow = "auto";  // Permetti lo scrolling
             overlay.style.display = 'none'; 
         }, 6000); 
-     }
 }
 
- window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
 function visita() {
     window.location.href = "Visita.html";
 }

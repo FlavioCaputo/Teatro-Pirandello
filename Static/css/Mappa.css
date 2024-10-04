@@ -1,0 +1,100 @@
+.title {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    top: 40%; /* Regola la posizione verticale del label */
+    left: 22%; /* Regola la posizione orizzontale del label */
+    padding: 10px;
+}
+.title2 {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    top: 72%; /* Regola la posizione verticale del label */
+    left: 21.5%; /* Regola la posizione orizzontale del label */
+    padding: 10px;
+}
+#foyer {
+    transition: opacity 0.5s ease;
+}
+.fade-out {
+    opacity: 0;
+}
+#videobg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 100000;
+}
+#co {
+    position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;   /* Centra orizzontalmente */
+  align-items: center;        /* Centra verticalmente */
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  z-index: 10000;
+}
+#gir {
+    position: fixed;
+    top: -2%;
+    left: 0;
+    justify-content: center; /* Per centrare orizzontalmente */
+    align-items: center;    /* Per centrare verticalmente */
+    width: 100%;
+    height: auto;
+    z-index: 100000000;
+}
+#inizio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Larghezza dello schermo */
+    height: 100%; /* Altezza dello schermo */
+    background-image: url('../pics/Inizio/Sfondo.jpeg'); /* Percorso dell'immagine di sfondo */
+    background-size: cover; /* Copre completamente l'elemento con l'immagine */
+    background-position: center; /* Posiziona l'immagine al centro */
+}
+#bot {
+    width: 7.5%; /* Imposta la larghezza del bottone */
+    height: 38%; /* Imposta l'altezza del bottone */
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    line-height: 50px; /* Centra il testo verticalmente */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    font-size: 12px; /* Imposta la dimensione del carattere */
+    text-align: center; /* Centra il testo all'interno del bottone */
+    position: absolute;
+    transition: opacity 0.5s ease;
+    top: 32.5%;
+    left: 22%;
+}
+#bot2 {
+    width: 8%; /* Imposta la larghezza del bottone */
+    height: 19%; /* Imposta l'altezza del bottone */
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    font-size: 12px; /* Imposta la dimensione del carattere */
+    text-align: center; /* Centra il testo all'interno del bottone */
+    line-height: 50px; /* Centra il testo verticalmente */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    position: absolute;
+    top: 73%;
+    left: 21.75%;
+}
+
+/* Stile per il passaggio del mouse */
+#button:hover {
+    opacity: 0.8; /* Riduce leggermente l'opacità quando il mouse si trova sopra il bottone */
+}

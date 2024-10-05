@@ -148,7 +148,7 @@ background
     color:rgba(59, 8, 16, 0.956) ;
     font-weight: bold;
     font-family: "Garamond", serif;
-    margin-top: 10%;
+    margin-top: 9.5%;
     position: absolute;
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
 }
@@ -163,7 +163,7 @@ background
     color:rgba(59, 8, 16, 0.956) ;
     font-weight: bold;
     font-family: "Garamond", serif;
-    margin-top: 17.5%;
+    margin-top: 17%;
     position: absolute;
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
 }

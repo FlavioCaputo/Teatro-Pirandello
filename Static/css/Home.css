@@ -86,7 +86,7 @@ testo
     font-family: "Times New Roman", Times, serif;
     position: fixed;
     height: 700px;
-    background-image: url("../pics/inizio/Teatro.jpeg");; /* Opacità per una migliore leggibilità */
+    background-image: url("../pics/Inizio/Teatro.jpeg");; /* Opacità per una migliore leggibilità */
     transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
     width: 100%;
     display: flex;
@@ -257,7 +257,7 @@ background
         font-family: "Times New Roman", Times, serif;
         position: fixed;
         height: 700px;
-        background-image: url("../pics/inizio/Teatrmobile.jpeg");; /* Opacità per una migliore leggibilità */
+        background-image: url("../pics/Inizio/Teatrmobile.jpeg");; /* Opacità per una migliore leggibilità */
         transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
         width: 100%;
         display: flex;

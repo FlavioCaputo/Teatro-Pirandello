@@ -186,3 +186,107 @@ pulsante per home
         left: 30vw;
     }
 }
+@media (aspect-ratio: 16/9) {
+    #bot{
+        width: 8vw; /* Riduci leggermente la larghezza per compensare */
+        height: 32.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 30px; /* Modifica la dimensione del testo se necessario */
+        /* Puoi adattare ulteriormente la posizione se serve */
+        top: 35vh;
+        left: 21.8vw;
+    }
+    #bot2{
+        width: 8.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 16vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 26px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 69.8vh;
+        left: 21.5vw;
+    }
+    #bot3{
+        width: 7.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 32.7vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 26px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 35.5vh;
+        left: 31vw;
+    }
+}
+@media (aspect-ratio: 18/9) {
+    #bot{
+        width: 8vw; /* Riduci leggermente la larghezza per compensare */
+        height: 36vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 30px; /* Modifica la dimensione del testo se necessario */
+        /* Puoi adattare ulteriormente la posizione se serve */
+        top: 33.8vh;
+        left: 21.8vw;
+    }
+    #bot2{
+        width: 8.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 18vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 26px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 72.3vh;
+        left: 21.5vw;
+    }
+    #bot3{
+        width: 7.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 35.8vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 26px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 34vh;
+        left: 31vw;
+    }
+}
+@media (aspect-ratio: 20/9) {
+    #bot{
+        width: 8vw; /* Riduci leggermente la larghezza per compensare */
+        height: 40.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 28px; /* Modifica la dimensione del testo se necessario */
+        /* Puoi adattare ulteriormente la posizione se serve */
+        top: 31.5vh;
+        left: 21.8vw;
+    }
+    #bot2{
+        width: 8.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 19.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 22px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 75vh;
+        left: 21.5vw;
+    }
+    #bot3{
+        width: 7.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 40vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 22px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 32vh;
+        left: 31vw;
+    }
+}
+@media (aspect-ratio: 22/9) {
+    #bot{
+        width: 8vw; /* Riduci leggermente la larghezza per compensare */
+        height: 44.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 30px; /* Modifica la dimensione del testo se necessario */
+        /* Puoi adattare ulteriormente la posizione se serve */
+        top: 30vh;
+        left: 21.8vw;
+    }
+    #bot2{
+        width: 8.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 22vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 22px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 77.5vh;
+        left: 21.5vw;
+    }
+    #bot3{
+        width: 7.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 45vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 22px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 30vh;
+        left: 31vw;
+    }
+}

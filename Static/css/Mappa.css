@@ -242,9 +242,9 @@ pulsante per home
     #bot{
         width: 8vw; /* Riduci leggermente la larghezza per compensare */
         height: 40.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
-        font-size: 28px; /* Modifica la dimensione del testo se necessario */
+        font-size: 14px; /* Modifica la dimensione del testo se necessario */
         /* Puoi adattare ulteriormente la posizione se serve */
-        top: 31.5vh;
+        top: 20vh;
         left: 21.8vw;
     }
     #bot2{

@@ -67,10 +67,14 @@ pulsante per home
 .fade-out {
     opacity: 0;
 }
+#map {
+    width: 100vw;
+    height: 100vh;
+}
 #co {
     position: fixed;
   display: flex;
-  top: 0;
+  top: 0; 
   left: 0;
   justify-content: center;   /* Centra orizzontalmente */
   align-items: center;        /* Centra verticalmente */
@@ -155,4 +159,30 @@ pulsante per home
 /* Stile per il passaggio del mouse */
 #button:hover {
     opacity: 0.8; /* Riduce leggermente l'opacità quando il mouse si trova sopra il bottone */
+}
+@media (aspect-ratio: 4/3) {
+    #bot{
+        width: 8.5vw; /* Riduci leggermente la larghezza per compensare */
+        height: 25.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 24px; /* Modifica la dimensione del testo se necessario */
+        /* Puoi adattare ulteriormente la posizione se serve */
+        top: 38.5vh;
+        left: 20.6vw;
+    }
+    #bot2{
+        width: 8.4vw; /* Riduci leggermente la larghezza per compensare */
+        height: 12.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 16px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 65.5vh;
+        left: 20.5vw;
+    }
+    #bot3{
+        width: 8vw; /* Riduci leggermente la larghezza per compensare */
+        height: 25.5vh; /* Aumenta l'altezza per mantenere il rapporto proporzionale */
+        font-size: 16px; /* Modifica la dimensione del testo se necessario */
+        line-height: 20px;
+        top: 38.5vh;
+        left: 30vw;
+    }
 }

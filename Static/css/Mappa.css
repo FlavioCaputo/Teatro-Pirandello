@@ -103,6 +103,13 @@ pulsante per home
     background-size: cover; /* Copre completamente l'elemento con l'immagine */
     background-position: center; /* Posiziona l'immagine al centro */
 }
+#test{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+}
 #bot {
     width: 7.8vw; /* Imposta la larghezza del bottone */
     height: 38vh; /* Imposta l'altezza del bottone */

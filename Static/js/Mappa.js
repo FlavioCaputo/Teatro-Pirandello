@@ -28,6 +28,7 @@ function rit() {
     window.location.href = "../../Home.html";
 }
 function visita() {
+    document.getElementById('test').innerText = 'Ratio: ' + window.screen.width + '  ' + window.screen.height;
     if (isMobile()) {
         if (selectedButton == b1){
             window.location.href = "Visita.html";

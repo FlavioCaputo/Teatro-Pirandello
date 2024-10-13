@@ -9,6 +9,7 @@ b2.classList.add('fade-out');
 b3.classList.add('fade-out');
 mobov.style.display = 'block';
 const view = window.innerWidth;
+document.getElementById('test').innerText = 'Ratio: ' + window.screen.width + '  ' + window.screen.height;
 var selectedButton = null; // Variabile per memorizzare l'elemento selezionato 
 if (view > 738) {
     handleResize()

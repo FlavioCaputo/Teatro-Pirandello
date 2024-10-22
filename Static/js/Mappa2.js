@@ -71,6 +71,10 @@ window.addEventListener('load', function() {
 function min() {
   if (view < 738) {
     mobov.style.display = 'block'; 
+}else {
+  console.log('mag');
+  mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
+}
 }
 }
 window.addEventListener('orientationchange', min);

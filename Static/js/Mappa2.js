@@ -51,7 +51,7 @@ pannellum.viewer('panorama', {
     },
   ]
 });
-if (window.innerWidth > window.innerHeight) {
+if (window.innerWidth < window.innerHeight) {
     handleResize()
 }
 function isMobile() {
@@ -63,7 +63,7 @@ function handleResize() {
 }
 function prov() {
   console.log('cambio');
-  if (window.innerWidth > window.innerHeight) {
+  if (window.innerWidth < window.innerHeight) {
     console.log('mag');
     mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
   }else {
@@ -72,7 +72,7 @@ function prov() {
 }
 window.addEventListener('orientationchange', prov);
 window.addEventListener('load', function() {
-  if (window.innerWidth > window.innerHeight) {
+  if (window.innerWidth < window.innerHeight) {
     mobov.style.display = 'none'; 
   }else {
     mobov.style.display = 'block';

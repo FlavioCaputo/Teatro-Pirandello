@@ -46,6 +46,7 @@ testo
     text-align: center;
     justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
     font-weight: bold;
+    padding-left: 6px;
     align-items: center;
     color: rgb(255, 255, 255);
 }
@@ -53,6 +54,7 @@ testo
     margin-top: 15px;
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
+    padding-left: 6px;
     align-items: center;
     color: rgb(255, 255, 255);
 }
@@ -215,6 +217,7 @@ background
         font-family: "Times New Roman", Times, serif;
         font-size: 35px;
         text-align: center;
+        padding-left: 6px;
         justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
         font-weight: bold;
         align-items: center;
@@ -223,6 +226,7 @@ background
     #testo3 {
         margin-top: 15px;
         font-family: "Times New Roman", Times, serif;
+        padding-left: 6px;
         font-size: 30px;
         align-items: center;
         color: rgb(255, 255, 255);
@@ -309,9 +313,9 @@ background
         cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     }
     #start2 {
-        margin-top: 31%;
+        margin-top: 37%;
     }
     #start3 {
-        margin-top: 53.5%;
+        margin-top: 64%;
     }
 }

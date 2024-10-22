@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var headerHeight;
-    if (isMobile()) {
+    if ((isMobile() && this.window.innerWidth > this.window.innerHeight)) {
         var scrollDirection = scrollPosition > lastScrollTop ? 'down' : 'up';
         var of = 1.4;
 

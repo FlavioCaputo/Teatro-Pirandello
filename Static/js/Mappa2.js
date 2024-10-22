@@ -1,7 +1,6 @@
 var mobov = document.getElementById('co');
 document.body.style.overflow = "hidden";
 mobov.style.display = 'block';
-const view = window.innerWidth;
 var selectedButton = null; // Variabile per memorizzare l'elemento selezionato 
 pannellum.viewer('panorama', {
   "type": "equirectangular",
@@ -52,7 +51,7 @@ pannellum.viewer('panorama', {
     },
   ]
 });
-if (view > 738) {
+if (window.innerWidth > 738) {
     handleResize()
 }
 function isMobile() {
@@ -64,18 +63,16 @@ function handleResize() {
 
 }
 window.addEventListener('load', function() {
-  if (view < 738) {
+  if (window.innerWidth < 738) {
     mobov.style.display = 'block'; 
 }
 });
 function min() {
-  if (view < 738) {
+  if (window.innerWidth < 738) {
     mobov.style.display = 'block'; 
-}else {
-  console.log('mag');
-  mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
-}
-}
+  }else {
+    mobov.style.display = 'block'; 
+  }
 }
 window.addEventListener('orientationchange', min);
 function Foyer(hotSpotDiv, args) {

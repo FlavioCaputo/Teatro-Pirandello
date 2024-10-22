@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(32, 42, 64); 
 }
 ::-webkit-scrollbar {
     width: 0;
@@ -170,10 +171,11 @@ background
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
 }
 
-@media (max-width: 768px) {
+@media (pointer: coarse) and (max-width: 737px) {
     body {
         margin: 0;
         padding: 0;
+        background-color: rgb(32, 42, 64); 
     }
     ::-webkit-scrollbar {
         width: 0;
@@ -317,5 +319,180 @@ background
     }
     #start3 {
         margin-top: 64%;
+    }
+}
+@media (pointer: coarse) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(32, 42, 64); 
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+        background-color: transparent; /* Imposta il colore di sfondo della barra di scorrimento trasparente */
+    }
+    /*
+    testo
+    */
+    #title {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 180px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 
+            -1px -1px 0 white,  
+             1px -1px 0 white,
+            -1px  1px 0 white,
+             1px  1px 0 white;
+    }
+    #titoli {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 60px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: -30px;
+    }
+    #testo {
+        margin-top: 15px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+        align-items: center;
+        color: rgb(0, 0, 0);
+    }
+    #testo2 {
+        margin-top: 15px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 35px;
+        text-align: center;
+        justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+        font-weight: bold;
+        padding-left: 6px;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    #testo3 {
+        margin-top: 15px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        padding-left: 6px;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    #testo4 {
+        margin-top: 15px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+        color: rgb(255, 255, 255);
+    }
+    #minititoli {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 40px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    #bolla {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 33px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    
+    /*
+        Parte iniziale alta
+    */
+    #header {
+        font-family: "Times New Roman", Times, serif;
+        position: fixed;
+        height: 700px;
+        background-image: url("../pics/Inizio/Teatro.jpeg"); /* Opacità per una migliore leggibilità */
+        transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+        align-items: center;
+        z-index: 3;
+    }
+    .header-content {
+        padding: 0px;
+    }
+    .header-content img {
+        max-width: 100%;
+        height: auto;
+    }
+    /*
+    background
+    */
+    #bc {
+        background-color: rgb(32, 42, 64); /* Percorso dell'immagine */
+        background-size: cover; /* Adatta l'immagine per coprire tutto l'elemento */
+        background-position: center; /* Centra l'immagine */ /* Altezza della finestra del browser */
+        transition: opacity 1s ease;
+    }
+    .image-container {
+        display: flex; /* Utilizza un layout flessibile */
+        justify-content: space-between; /* Spazio uniforme tra le immagini */
+        align-items: center; /* Allinea le immagini verticalmente */
+    }
+    
+    /* Stile per le immagini */
+    .image-container img {
+        max-width: 10%; /* Larghezza massima del 25% del contenitore per ciascuna immagine */
+        height: auto; /* Altezza automatica per mantenere le proporzioni */
+    }
+    /*Stile button*/
+    #start {
+        width: 175px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.54);
+        border-color: rgba(127, 255, 212, 0);
+        border: 7px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 25px;
+        top: 15%;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
+    }
+    #start2 {
+        width: 131.25px;
+        height: 56.875px;
+        background-color: rgba(255, 255, 255, 0.633);
+        border-color: rgba(127, 255, 212, 0);
+        border: 4px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 22px;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        top: 12.5%;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
+    }
+    #start3 {
+        width: 87.5px;
+        height: 35px;
+        background-color: rgba(255, 255, 255, 0.633);
+        border-color: rgba(127, 255, 212, 0);
+        border: 4px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 25px;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        top: 11.5%;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     }
 }

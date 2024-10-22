@@ -233,7 +233,7 @@ pulsante per home
         font-family: "Times New Roman", Times, serif;
         position: absolute;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 10px;
         background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
         border: none; /* Rimuove il bordo */
         cursor: pointer; /* Cambia il cursore al passaggio del mouse */
@@ -252,7 +252,7 @@ pulsante per home
         font-family: "Times New Roman", Times, serif;
         position: absolute;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 6px;
         padding-left: 0.2vw;
         background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
         border: none; /* Rimuove il bordo */
@@ -272,7 +272,7 @@ pulsante per home
         font-family: "Times New Roman", Times, serif;
         position: absolute;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 6px;
         padding-left: 0.3vw;
         background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
         border: none; /* Rimuove il bordo */
@@ -376,7 +376,7 @@ pulsante per home
         position: absolute;
         width: 35px;
         height: 30px;
-        bottom: 10%;
+        bottom: 5%;
         margin-left: 48%;
         background-color:rgba(0, 0, 0, 0.038);
         color: rgb(0, 0, 0);

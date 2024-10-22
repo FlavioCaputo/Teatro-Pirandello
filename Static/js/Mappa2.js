@@ -74,7 +74,7 @@ function min() {
     mobov.style.display = 'block'; 
   }
 }
-window.addEventListener('orientationchange', min);
+window.addEventListener('orientationchange', handleResize);
 function Foyer(hotSpotDiv, args) {
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   hotSpotDiv.textContent = "Foyer";

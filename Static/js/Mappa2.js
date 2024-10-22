@@ -63,7 +63,17 @@ function handleResize() {
   mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
 
 }
-window.addEventListener('orientationchange', handleResize);
+window.addEventListener('load', function() {
+  if (view < 738) {
+    mobov.style.display = 'block'; 
+}
+});
+function min() {
+  if (view < 738) {
+    mobov.style.display = 'block'; 
+}
+}
+window.addEventListener('orientationchange', min);
 function Foyer(hotSpotDiv, args) {
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   hotSpotDiv.textContent = "Foyer";

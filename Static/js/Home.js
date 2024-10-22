@@ -6,8 +6,10 @@ var triggerPixelEnd = 350;
 var button = document.getElementById('start');
 var button2 = document.getElementById('start2');
 var button3 = document.getElementById('start3');
-
-
+var minmob = 220;
+function isMobile() {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+}
 function hide() {
     overlayimg.style.display = 'none';
     img.classList.remove('vedere')
@@ -16,7 +18,11 @@ function hide() {
     document.body.style.overflow = 'auto';
     window.scrollTo(0, alt);
     if (window.scrollY > triggerPixelEnd) {
-        header.style.height = minHeight + "px";
+        if (isMobile()) {
+            header.style.height = minmob + "px";
+        }else {
+            header.style.height = minHeight + "px";
+        }
     }
 }
 button.addEventListener('click', function() {
@@ -31,7 +37,11 @@ button3.addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
     var scrollPosition = window.scrollY;
     if (scrollPosition > triggerPixelEnd) {
-        header.style.height = minHeight + "px";
+        if (isMobile()) {
+            header.style.height = minmob + "px";
+        }else {
+            header.style.height = minHeight + "px";
+        }
     } else if (scrollPosition == 0) {
         header.style.height = maxHeight + "px";
     }
@@ -39,10 +49,33 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var headerHeight;
+    if (isMobile()) {
+        var scrollDirection = scrollPosition > lastScrollTop ? 'down' : 'up';
+        var of = 1.4;
 
+    if (scrollPosition < triggerPixelEnd) {
+        // Esegui le azioni in base alla direzione dello scroll
+        if (scrollDirection === 'down') {
+            console.log("Scorrimento verso il basso");
+            let currentBottom = parseFloat(button2.style.bottom) || 0;
+            headerHeight = header.offsetHeight - of*(scrollPosition - lastScrollTop);
+            header.style.height = Math.max(headerHeight, minmob) + 'px';
+        } else {
+            console.log("Scorrimento verso l'alto");
+            headerHeight = header.offsetHeight + of*(lastScrollTop - scrollPosition);
+            header.style.height = Math.min(headerHeight, maxHeight) + 'px';
+        }
+        if (scrollPosition === 0) {
+            header.style.height = maxHeight + "px";
+        }
+    } else {
+        header.style.height = minmob + "px";
+    };
 
-    // Rileva la direzione dello scroll
-    var scrollDirection = scrollPosition > lastScrollTop ? 'down' : 'up';
+    // Aggiorna la posizione dello scroll precedente
+    lastScrollTop = scrollPosition <= 0 ? 0 : scrollPosition;
+    }else {
+        var scrollDirection = scrollPosition > lastScrollTop ? 'down' : 'up';
 
     if (scrollPosition < triggerPixelEnd) {
         // Esegui le azioni in base alla direzione dello scroll
@@ -65,4 +98,6 @@ window.addEventListener('scroll', function() {
 
     // Aggiorna la posizione dello scroll precedente
     lastScrollTop = scrollPosition <= 0 ? 0 : scrollPosition;
+    }
 });
+

@@ -108,6 +108,7 @@
 #co {
     position: fixed;
   display: flex;
+  display: block;
   top: 0; 
   left: 0;
   justify-content: center;   /* Centra orizzontalmente */
@@ -326,6 +327,7 @@ pulsante per home
     #co {
         position: fixed;
       display: flex;
+      display: block;
       top: 0; 
       left: 0;
       justify-content: center;   /* Centra orizzontalmente */
@@ -376,7 +378,7 @@ pulsante per home
         position: absolute;
         width: 35px;
         height: 30px;
-        bottom: 15%;
+        bottom: 10%;
         margin-left: 48%;
         background-color:rgba(0, 0, 0, 0.038);
         color: rgb(0, 0, 0);

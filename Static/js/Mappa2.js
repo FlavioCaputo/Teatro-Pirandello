@@ -1,7 +1,11 @@
 var mobov = document.getElementById('co');
 document.body.style.overflow = "hidden";
 mobov.style.display = 'block';
-var selectedButton = null; // Variabile per memorizzare l'elemento selezionato 
+var selectedButton = null; // Variabile per memorizzare l'elemento selezionato
+if (window.innerWidth > window.innerHeight) {
+  console.log('mag');
+  mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
+} 
 pannellum.viewer('panorama', {
   "type": "equirectangular",
   "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/untitled.png",
@@ -51,15 +55,8 @@ pannellum.viewer('panorama', {
     },
   ]
 });
-if (window.innerWidth < window.innerHeight) {
-    handleResize()
-}
 function isMobile() {
     return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
-}
-function handleResize() {
-  console.log('mag');
-  mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
 }
 function prov() {
   console.log('cambio');
@@ -72,7 +69,7 @@ function prov() {
 }
 window.addEventListener('orientationchange', prov);
 window.addEventListener('load', function() {
-  if (window.innerWidth < window.innerHeight) {
+  if (window.innerWidth > window.innerHeight) {
     mobov.style.display = 'none'; 
   }else {
     mobov.style.display = 'block';

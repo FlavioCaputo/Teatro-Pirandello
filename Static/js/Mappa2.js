@@ -51,7 +51,7 @@ pannellum.viewer('panorama', {
     },
   ]
 });
-if (window.innerWidth < 738) {
+if (window.innerWidth > window.innerHeight) {
     handleResize()
 }
 function isMobile() {
@@ -63,7 +63,7 @@ function handleResize() {
 }
 function prov() {
   console.log('cambio');
-  if (window.innerWidth < 738) {
+  if (window.innerWidth > window.innerHeight) {
     console.log('mag');
     mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
   }else {
@@ -72,19 +72,12 @@ function prov() {
 }
 window.addEventListener('orientationchange', prov);
 window.addEventListener('load', function() {
-  if (window.innerWidth < 738) {
+  if (window.innerWidth > window.innerHeight) {
     mobov.style.display = 'none'; 
   }else {
     mobov.style.display = 'block';
   }
 });
-function min() {
-  if (window.innerWidth < 738) {
-    mobov.style.display = 'block'; 
-  }else {
-    mobov.style.display = 'block'; 
-  }
-}
 function Foyer(hotSpotDiv, args) {
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   hotSpotDiv.textContent = "Foyer";

@@ -1,162 +1,435 @@
-var mobov = document.getElementById('co');
-document.body.style.overflow = "hidden";
-mobov.style.display = 'block';
-var selectedButton = null; // Variabile per memorizzare l'elemento selezionato
-if (window.innerWidth > window.innerHeight) {
-  console.log('mag');
-  mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
-} 
-pannellum.viewer('panorama', {
-  "type": "equirectangular",
-  "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/untitled.png",
-  "haov": 180,
-  "autoLoad": true,
-  "showControls": false,
-  "hfov": 30, // Campo visivo ridotto per simulare uno zoom maggiore
-  "minHfov": 78, // Impedisce di ridurre lo zoom al di sotto di questo valore
-  "maxHfov": 78, // Permette di "allargare" lo zoom se necessario
-  "disableKeyboardCtrl": true, // Disabilita il controllo da tastiera
-  "disableMouseCtrl": true, // Disabilita il controllo da mouse
-  "disableTouchCtrl": true, // Disabilita il controllo da touch
-  "draggable": false, // Disabilita il drag (trascinamento) con mouse e touch
-  "yaw": 0, // Imposta l'angolo orizzontale fisso
-  "pitch": 0, // Imposta l'angolo verticale fisso
-  "hotSpots": [
-    {
-      "pitch": -0.2,
-      "yaw": -30.7,
-      "cssClass": "custom-hotspot2",
-      "text": "Stanza Laterale",
-      "createTooltipFunc": Foyer,
-      "createTooltipArgs": "Custom Hotspot"
-    },
-    {
-      "pitch": -6.2,
-      "yaw": -30,
-      "cssClass": "custom-hotspot3",
-      "text": "Stanza Laterale",
-      "createTooltipFunc": Foyerlat,
-      "createTooltipArgs": "Custom Hotspot"
-    },
-    {
-      "pitch": -0.2,
-      "yaw": -30.7,
-      "cssClass": "custom-hotspot4",
-      "text": "Stanza Laterale",
-      "createTooltipFunc": Foyerdav,
-      "createTooltipArgs": "Custom Hotspot"
-    },
-    {
-      "pitch": -0.5,
-      "yaw": -19,
-      "type": "info",
-      "text": "Metastasio",
-      "createTooltipFunc": Inizio,
-    },
-  ]
-});
-function isMobile() {
-    return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+* {
+    padding: 0;
+    margin: 0;
 }
-function prov() {
-  console.log('cambio');
-  if (window.innerWidth < window.innerHeight) {
-    console.log('mag');
-    mobov.style.display = 'none';  // Nascondi l'elemento 'mobov'
-  }else {
-    mobov.style.display = 'block';
-  }
+.custom-hotspot {
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
 }
-window.addEventListener('orientationchange', prov);
-window.addEventListener('load', function() {
-  if (window.innerWidth > window.innerHeight) {
-    mobov.style.display = 'none'; 
-  }else {
-    mobov.style.display = 'block';
-  }
-});
-function Foyer(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
-  hotSpotDiv.textContent = "Foyer";
-  hotSpotDiv.onclick = function() {
-    if (isMobile()) {
-      if (selectedButton == hotSpotDiv){
-          window.location.href = "Visita.html";
-      }
-      selectedButton = hotSpotDiv;
-    }else {
-      window.location.href = "Visita.html";
-    }
-  };
-  hotSpotDiv.onmouseenter = function() {
-    hotSpotDiv.classList.add('fade-in');
-  }
-  hotSpotDiv.onmouseleave = function() {
-    hotSpotDiv.classList.remove('fade-in');
-  }
+#panorama {
+    width: 100vw;
+    height: 100vh;
 }
-function Foyerlat(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
-  hotSpotDiv.textContent = "Stanza Laterale";
-  hotSpotDiv.onclick = function() {
-    if (isMobile()) {
-      if (selectedButton == hotSpotDiv){
-          window.location.href = "Visita2.html";
-      }
-      selectedButton = hotSpotDiv;
-    }else {
-      window.location.href = "Visita2.html";
-    }
-  };
-  hotSpotDiv.onmouseenter = function() {
-    hotSpotDiv.classList.add('fade-in');
-  }
-  hotSpotDiv.onmouseleave = function() {
-    hotSpotDiv.classList.remove('fade-in');
-  }
-}
-function Foyerdav(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
-  hotSpotDiv.textContent = "Foyer Davanti";
-  hotSpotDiv.onclick = function() {
-    if (isMobile()) {
-      if (selectedButton == hotSpotDiv){
-          window.location.href = "Visita3.html";
-      }
-      selectedButton = hotSpotDiv;
-    }else {
-      window.location.href = "Visita3.html";
-    }
-  };
-  hotSpotDiv.onmouseenter = function() {
-    hotSpotDiv.classList.add('fade-in');
-  }
-  hotSpotDiv.onmouseleave = function() {
-    hotSpotDiv.classList.remove('fade-in');
-  }
-}
-function Inizio(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
-  var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Inizia tour';
-  nuovoOggetto.classList.add('info'); 
-  hotSpotDiv.appendChild(nuovoOggetto);
+.custom-hotspot2 {
+    width: 4.2vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 24.3vw;
+    opacity: 0;
 
-  hotSpotDiv.onclick = function() {
-    if (isMobile()) {
-      if (selectedButton == hotSpotDiv){
-      }
-      selectedButton = hotSpotDiv;
-    }else {
-    }
-  };
-  hotSpotDiv.onmouseenter = function() {
-    nuovoOggetto.style.display = "Block";
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+} 
+.custom-hotspot3 {
+    width: 4.3vw; /* Imposta la larghezza del bottone */
+    height: 9.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 0.2vw;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 23.3vw;
+    opacity: 0;
+
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
   }
-  hotSpotDiv.onmouseleave = function() {
-    nuovoOggetto.style.display = "none";
-  }
+  .custom-hotspot4 {
+    width: 4vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 0.3vw;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 29vw;
+    opacity: 0;
+
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+} 
+.info {
+    width: 100px; /* Larghezza del rettangolo */
+    height: 30px; /* Altezza del rettangolo */
+    border-radius: 10px; /* Bordi arrotondati */
+    background-color: rgba(18, 17, 16, 0.8); /* Colore di sfondo */
+    margin-top: -30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
 }
-function rit() {
-  window.location.href = "../../Home.html";
+.info::after {
+    content: ''; /* Contenuto pseudoelemento */
+    position: absolute; /* Imposta la posizione assoluta rispetto al rettangolo */
+    bottom: -15px; /* Sposta il triangolo in basso del valore desiderato */
+    left: 13%; /* Centra il triangolo orizzontalmente */
+    margin-left: -10px; /* Per centrare il triangolo */
+    border-width: 10px; /* Dimensioni del triangolo */
+    border-style: solid;
+    border-color: rgba(18, 17, 16, 0.8) transparent transparent transparent; /* Colore del triangolo */
+}
+#foyer {
+    transition: opacity 0.5s ease;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
+}
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+#co {
+    position: fixed;
+  display: flex;
+  top: 0; 
+  left: 0;
+  justify-content: center;   /* Centra orizzontalmente */
+  align-items: center;        /* Centra verticalmente */
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  z-index: 10000;
+}
+#gir {
+    position: fixed;
+    top: -2%;
+    left: 0;
+    justify-content: center; /* Per centrare orizzontalmente */
+    align-items: center;    /* Per centrare verticalmente */
+    width: 100%;
+    height: auto;
+    z-index: 100000000;
+}
+#test{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+}
+#testo {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    width: 16vw;/* Larghezza fissata a 40px */
+    z-index: 1000;
+    margin-top: 16vh; /* Spostamento dall'alto */
+    margin-left: 25vw;
+    text-align: center; /* Centro orizzontale del testo */
+    
+    /* Usare Flexbox per il centraggio verticale */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+}
+
+/*
+pulsante per home
+*/
+#buttonbordered {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    bottom: 20%;
+    margin-left: 48%;
+    background-color:rgba(0, 0, 0, 0.038);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
+    border: 0.5px solid black;
+}
+#buttonbordered::before,
+#buttonbordered::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 25px;
+    border-radius: 4px;
+    top: 25px;
+    background-color: #000;
+}
+
+#buttonbordered::before {
+    left: 15px;
+}
+
+#buttonbordered::after {
+    right: 15px;
+}
+#casa {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    border-radius: 4px;
+    left: 15px;
+    top: 25px;
+    background-color: #000;
+}
+#casa::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    border-radius: 4px;
+    left: -5px;
+    top: -20px;
+    background-color: #000;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#casa::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    border-radius: 2px;
+    left: 26px;
+    top: -20px;
+    background-color: #000;
+}
+
+@media (pointer: coarse) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .custom-hotspot {
+        cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+    }
+    #panorama {
+        width: 100vw;
+        height: 100vh;
+    }
+    .custom-hotspot2 {
+        width: 4.2vw; /* Imposta la larghezza del bottone */
+        height: 19.5vh; /* Imposta l'altezza del bottone */
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+        border: none; /* Rimuove il bordo */
+        cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+        transition: opacity 0.5s ease;
+        left: 24.3vw;
+        opacity: 0;
+    
+        /* Flexbox per centrare il testo */
+        display: flex;
+        justify-content: center; /* Centro orizzontale */
+        align-items: center; /* Centro verticale */
+    } 
+    .custom-hotspot3 {
+        width: 4.3vw; /* Imposta la larghezza del bottone */
+        height: 9.5vh; /* Imposta l'altezza del bottone */
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        font-size: 10px;
+        padding-left: 0.2vw;
+        background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+        border: none; /* Rimuove il bordo */
+        cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+        transition: opacity 0.5s ease;
+        left: 23.3vw;
+        opacity: 0;
+    
+        /* Flexbox per centrare il testo */
+        display: flex;
+        justify-content: center; /* Centro orizzontale */
+        align-items: center; /* Centro verticale */
+      }
+      .custom-hotspot4 {
+        width: 4vw; /* Imposta la larghezza del bottone */
+        height: 19.5vh; /* Imposta l'altezza del bottone */
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        font-size: 10px;
+        padding-left: 0.3vw;
+        background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+        border: none; /* Rimuove il bordo */
+        cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+        transition: opacity 0.5s ease;
+        left: 29vw;
+        opacity: 0;
+    
+        /* Flexbox per centrare il testo */
+        display: flex;
+        justify-content: center; /* Centro orizzontale */
+        align-items: center; /* Centro verticale */
+    } 
+    .info {
+        width: 100px; /* Larghezza del rettangolo */
+        height: 30px; /* Altezza del rettangolo */
+        border-radius: 10px; /* Bordi arrotondati */
+        background-color: rgba(18, 17, 16, 0.8); /* Colore di sfondo */
+        margin-top: -30px;
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        display: none;
+    }
+    .info::after {
+        content: ''; /* Contenuto pseudoelemento */
+        position: absolute; /* Imposta la posizione assoluta rispetto al rettangolo */
+        bottom: -15px; /* Sposta il triangolo in basso del valore desiderato */
+        left: 13%; /* Centra il triangolo orizzontalmente */
+        margin-left: -10px; /* Per centrare il triangolo */
+        border-width: 10px; /* Dimensioni del triangolo */
+        border-style: solid;
+        border-color: rgba(18, 17, 16, 0.8) transparent transparent transparent; /* Colore del triangolo */
+    }
+    #foyer {
+        transition: opacity 0.5s ease;
+    }
+    .fade-out {
+        opacity: 0;
+    }
+    .fade-in {
+        opacity: 1;
+    }
+    #map {
+        width: 100vw;
+        height: 100vh;
+    }
+    #co {
+        position: fixed;
+      display: flex;
+      top: 0; 
+      left: 0;
+      justify-content: center;   /* Centra orizzontalmente */
+      align-items: center;        /* Centra verticalmente */
+      width: 100%;
+      height: 100%;
+      background-color: black; 
+      z-index: 10000;
+    }
+    #gir {
+        position: fixed;
+        top: -2%;
+        left: 0;
+        justify-content: center; /* Per centrare orizzontalmente */
+        align-items: center;    /* Per centrare verticalmente */
+        width: 100%;
+        height: auto;
+        z-index: 100000000;
+    }
+    #test{
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+    }
+    #testo {
+        font-family: "Times New Roman", Times, serif;
+        position: absolute;
+        font-weight: bold;
+        font-size: 12px;
+        width: 16vw;/* Larghezza fissata a 40px */
+        z-index: 1000;
+        margin-top: 14vh; /* Spostamento dall'alto */
+        margin-left: 25vw;
+        text-align: center; /* Centro orizzontale del testo */
+        
+        /* Usare Flexbox per il centraggio verticale */
+        display: flex;
+        justify-content: center; /* Centro orizzontale */
+        align-items: center; /* Centro verticale */
+    }
+    
+    /*
+    pulsante per home
+    */
+    #buttonbordered {
+        position: absolute;
+        width: 35px;
+        height: 30px;
+        bottom: 10%;
+        margin-left: 48%;
+        background-color:rgba(0, 0, 0, 0.038);
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
+        border: 0.5px solid black;
+    }
+    #buttonbordered::before,
+    #buttonbordered::after {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 12.5px;
+        border-radius: 2px;
+        top: 12.5px;
+        background-color: #000;
+    }
+    
+    #buttonbordered::before {
+        left: 7.5px;
+    }
+    
+    #buttonbordered::after {
+        right: 7.5px;
+    }
+    #casa {
+        position: absolute;
+        width: 20px;
+        height: 5px;
+        border-radius: 2px;
+        left: 7.5px;
+        top: 12.5px;
+        background-color: #000;
+    }
+    #casa::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 11px;
+        border-radius: 2px;
+        left: -2.5px;
+        top: -10px;
+        background-color: #000;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    #casa::before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 20px;
+        border-radius: 1px;
+        left: 13px;
+        top: -10px;
+        background-color: #000;
+    }
 }

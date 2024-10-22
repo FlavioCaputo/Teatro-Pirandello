@@ -108,7 +108,6 @@
 #co {
     position: fixed;
   display: flex;
-  display: block;
   top: 0; 
   left: 0;
   justify-content: center;   /* Centra orizzontalmente */
@@ -216,7 +215,7 @@ pulsante per home
     background-color: #000;
 }
 
-@media (max-width: 900px) {
+@media (max-aspect-ratio: 1/1) {
     * {
         padding: 0;
         margin: 0;
@@ -327,7 +326,7 @@ pulsante per home
     #co {
         position: fixed;
       display: flex;
-      display: block;
+      display: none;
       top: 0; 
       left: 0;
       justify-content: center;   /* Centra orizzontalmente */

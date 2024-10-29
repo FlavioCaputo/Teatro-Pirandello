@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Mappa.css"> 
+    <title>Visita Digitale Teatro Pirandello</title>
+    <link rel="icon" type="image/jpg" href="../pics/loghi/Stemma-Agrigento.jpg"> 
+</head>
+<body>
+    <div id="co">
+        <video id="gir" autoplay muted loop>
+            <source src="../video/Tel.mp4" type="video/mp4">
+            Fallback per i browser che non supportano il formato MOV 
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="cornice">
+        <div id="inizio">
+            <p id="test">Ratio:</p>
+            <button id="bot" onclick="visita()" onmouseenter="Posin()" onmouseleave="Posout()">Foyer</button>
+            <button id="bot2" onclick="visita2()" onmouseenter="Posin2()" onmouseleave="Posout2()">Stanza Laterale</button>
+            <button id="bot3" onclick="visita3()" onmouseenter="Posin3()" onmouseleave="Posout3()">Foyer Davanti</button>
+            <div id="buttonbordered" onclick="rit()">
+                <div id="casa"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/Mappa.js"></script>
+</html>

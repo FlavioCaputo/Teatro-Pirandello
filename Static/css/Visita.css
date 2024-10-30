@@ -312,7 +312,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 90px solid #FFF;
+    border-bottom: 90px solid #FFFFFF;
 }
 .Mil {
     position: absolute;

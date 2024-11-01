@@ -1,6 +1,6 @@
 pannellum.viewer('panorama', {
     "type": "equirectangular",
-    "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/Stanza.jpg",
+    "panorama": "../Panorama/Stanza.jpg",
     "autoLoad": true,
     "showControls": false,
     "hotSpots": [

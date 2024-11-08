@@ -7,9 +7,8 @@ var button = document.getElementById('start');
 var button2 = document.getElementById('start2');
 var button3 = document.getElementById('start3');
 var minmob = 220;
-function isMobile() {
-    return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
-}
+var maxmob = 500;
+const isMobile = navigator.userAgentData.mobile;
 function hide() {
     overlayimg.style.display = 'none';
     img.classList.remove('vedere')
@@ -18,7 +17,7 @@ function hide() {
     document.body.style.overflow = 'auto';
     window.scrollTo(0, alt);
     if (window.scrollY > triggerPixelEnd) {
-        if (isMobile()) {
+        if (isMobile) {
             header.style.height = minmob + "px";
         }else {
             header.style.height = minHeight + "px";
@@ -37,21 +36,25 @@ button3.addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
     var scrollPosition = window.scrollY;
     if (scrollPosition > triggerPixelEnd) {
-        if (isMobile()) {
+        if (isMobile) {
             header.style.height = minmob + "px";
         }else {
             header.style.height = minHeight + "px";
         }
     } else if (scrollPosition == 0) {
-        header.style.height = maxHeight + "px";
+        if (isMobile) {
+            header.style.height = maxmob + "px";
+        }else {
+            header.style.height = maxHeight + "px";
+        }
     }
 });
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var headerHeight;
-    if (isMobile() && this.window.innerWidth > this.window.innerHeight) {
+    if (isMobile && this.window.innerWidth < this.window.innerHeight) {
         var scrollDirection = scrollPosition > lastScrollTop ? 'down' : 'up';
-        var of = 1.4;
+        var of = 1;
 
     if (scrollPosition < triggerPixelEnd) {
         // Esegui le azioni in base alla direzione dello scroll
@@ -63,10 +66,10 @@ window.addEventListener('scroll', function() {
         } else {
             console.log("Scorrimento verso l'alto");
             headerHeight = header.offsetHeight + of*(lastScrollTop - scrollPosition);
-            header.style.height = Math.min(headerHeight, maxHeight) + 'px';
+            header.style.height = Math.min(headerHeight, maxmob) + 'px';
         }
         if (scrollPosition === 0) {
-            header.style.height = maxHeight + "px";
+            header.style.height = maxmob + "px";
         }
     } else {
         header.style.height = minmob + "px";

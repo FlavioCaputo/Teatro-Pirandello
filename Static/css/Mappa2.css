@@ -242,7 +242,7 @@ pulsante per home
         height: 30px; /* Altezza del rettangolo */
         border-radius: 10px; /* Bordi arrotondati */
         margin-top: -30px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #testo {
@@ -329,7 +329,7 @@ pulsante per home
         height: 30px; /* Altezza del rettangolo */
         border-radius: 10px; /* Bordi arrotondati */
         margin-top: -30px;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     #testo {

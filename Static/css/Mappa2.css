@@ -239,10 +239,10 @@ pulsante per home
     } 
     .info {
         width: 100px; /* Larghezza del rettangolo */
-        height: 30px; /* Altezza del rettangolo */
+        height: 20px; /* Altezza del rettangolo */
         border-radius: 10px; /* Bordi arrotondati */
         margin-top: -30px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     #testo {
@@ -326,10 +326,10 @@ pulsante per home
     } 
     .info {
         width: 100px; /* Larghezza del rettangolo */
-        height: 30px; /* Altezza del rettangolo */
+        height: 20px; /* Altezza del rettangolo */
         border-radius: 10px; /* Bordi arrotondati */
         margin-top: -30px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     #testo {

@@ -306,13 +306,13 @@ pulsante per home
     .custom-hotspot2 {
         width: 4.2vw; /* Imposta la larghezza del bottone */
         height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 10px;
+        font-size: 9px;
         left: 24.3vw;
     } 
     .custom-hotspot3 {
         width: 4.3vw; /* Imposta la larghezza del bottone */
         height: 9.5vh; /* Imposta l'altezza del bottone */
-        font-size: 7.5px;
+        font-size: 6.5px;
         padding-left: 0.2vw;
         left: 23.3vw;
 
@@ -320,7 +320,7 @@ pulsante per home
       .custom-hotspot4 {
         width: 4vw; /* Imposta la larghezza del bottone */
         height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 7.5px;
+        font-size: 6.5px;
         padding-left: 0.3vw;
         left: 29vw;
     } 
@@ -329,11 +329,11 @@ pulsante per home
         height: 30px; /* Altezza del rettangolo */
         border-radius: 10px; /* Bordi arrotondati */
         margin-top: -30px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #testo {
-        font-size: 8px;
+        font-size: 10px;
         width: 16vw;/* Larghezza fissata a 40px */
         z-index: 1000;
         margin-top: 14vh; /* Spostamento dall'alto */

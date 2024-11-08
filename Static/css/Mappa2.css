@@ -356,7 +356,7 @@ pulsante per home
         font-family: "Times New Roman", Times, serif;
         position: absolute;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 10px;
         width: 16vw;/* Larghezza fissata a 40px */
         z-index: 1000;
         margin-top: 14vh; /* Spostamento dall'alto */

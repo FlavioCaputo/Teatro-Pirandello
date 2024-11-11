@@ -427,7 +427,7 @@ function Lapide06(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-44px';
-    nuovoOggetto.style.fontSize = '17px';
+    nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-78px';
   }
@@ -478,7 +478,7 @@ function Lapide95(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-43px';
     testo.style.fontSize = '10px';
-    nuovoOggetto.style.fontSize = "17px";
+    nuovoOggetto.style.fontSize = "13px";
   } else {
     testo.style.bottom = '-65px';
   }

@@ -150,6 +150,9 @@ function Bigl(hotSpotDiv, args) {
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.height = "30px";
   nuovoOggetto.style.marginTop = "-30px";
+  if (isMobile) {
+    nuovoOggetto.style.font = '15px'
+  }
   hotSpotDiv.appendChild(nuovoOggetto);
   hotSpotDiv.text = "Ciao";
   hotSpotDiv.onclick = function() {
@@ -310,7 +313,6 @@ function abito1(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
-  nuovoOggetto.style.fontSize = '15px';
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
   nuovoOggetto.style.top = '-10px';
@@ -322,9 +324,11 @@ function abito1(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-45px';
     testo.style.fontSize = '7.5px';
+    nuovoOggetto.style.fontSize = '10px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';
+    nuovoOggetto.style.fontSize = '15px';
   }
   Oggetto2.appendChild(testo);
   hotSpotDiv.appendChild(Oggetto2);
@@ -359,7 +363,6 @@ function abito2(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
-  nuovoOggetto.style.fontSize = '15px';
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
   nuovoOggetto.style.top = '-10px';
@@ -368,12 +371,14 @@ function abito2(hotSpotDiv, args) {
   var testo = document.createElement('p');
   testo.textContent = "Giovan Battista Inghilleri, baritono nato a Porto Empedocle nel 1894, fu celebre per le esibizioni nei principali teatri italiani e internazionali, interpretando ruoli iconici come Carlo Gérard, Alfio, Tonio e Figaro.";
   testo.classList.add('text');
-  if (isMobile) {
+ if (isMobile) {
     testo.style.bottom = '-45px';
     testo.style.fontSize = '7.5px';
+    nuovoOggetto.style.fontSize = '10px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';
+    nuovoOggetto.style.fontSize = '15px';
   }
   Oggetto2.appendChild(testo);
   hotSpotDiv.appendChild(Oggetto2);

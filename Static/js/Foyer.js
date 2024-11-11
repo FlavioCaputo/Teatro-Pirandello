@@ -151,7 +151,7 @@ function Bigl(hotSpotDiv, args) {
   nuovoOggetto.style.height = "30px";
   nuovoOggetto.style.marginTop = "-30px";
   if (isMobile) {
-    nuovoOggetto.style.font = '15px'
+    nuovoOggetto.style.fontSize = '15px';
   }
   hotSpotDiv.appendChild(nuovoOggetto);
   hotSpotDiv.text = "Ciao";

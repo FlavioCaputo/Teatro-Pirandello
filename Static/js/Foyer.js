@@ -326,7 +326,7 @@ function abito1(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-45px';
-    testo.style.fontSize = '7.5px';
+    testo.style.fontSize = '5.5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-65px';
@@ -376,7 +376,7 @@ function abito2(hotSpotDiv, args) {
   testo.classList.add('text');
  if (isMobile) {
     testo.style.bottom = '-45px';
-    testo.style.fontSize = '7.5px';
+    testo.style.fontSize = '5.5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-65px';
@@ -427,6 +427,7 @@ function Lapide06(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-44px';
+    testo.style.fontSize = '7px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-78px';
@@ -477,7 +478,7 @@ function Lapide95(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-43px';
-    testo.style.fontSize = '10px';
+    testo.style.fontSize = '7px';
     nuovoOggetto.style.fontSize = "13px";
   } else {
     testo.style.bottom = '-65px';
@@ -522,7 +523,7 @@ function Dedica(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-38px';
-    testo.style.fontSize = '9px';
+    testo.style.fontSize = '7px';
   } else {
     testo.style.bottom = '-75px';
   }

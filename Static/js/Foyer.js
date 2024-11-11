@@ -327,7 +327,7 @@ function abito1(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-45px';
     testo.style.fontSize = '5.5px';
-    nuovoOggetto.style.fontSize = '13px';
+    nuovoOggetto.style.fontSize = '14px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';
@@ -377,7 +377,7 @@ function abito2(hotSpotDiv, args) {
  if (isMobile) {
     testo.style.bottom = '-45px';
     testo.style.fontSize = '5.5px';
-    nuovoOggetto.style.fontSize = '13px';
+    nuovoOggetto.style.fontSize = '14px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';
@@ -427,7 +427,7 @@ function Lapide06(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-44px';
-    testo.style.fontSize = '7px';
+    testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-78px';

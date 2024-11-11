@@ -569,7 +569,7 @@ function PlanL(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-38px';
-    testo.style.fontSize = '9px';
+    testo.style.fontSize = '7px';
   } else {
     testo.style.bottom = '-60px';
   }

@@ -326,8 +326,8 @@ function abito1(hotSpotDiv, args) {
   testo.classList.add('text');
   if (isMobile) {
     testo.style.bottom = '-45px';
-    testo.style.fontSize = '4px';
-    nuovoOggetto.style.fontSize = '18px';
+    testo.style.fontSize = '6.5px';
+    nuovoOggetto.style.fontSize = '11px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';
@@ -376,8 +376,8 @@ function abito2(hotSpotDiv, args) {
   testo.classList.add('text');
  if (isMobile) {
     testo.style.bottom = '-45px';
-    testo.style.fontSize = '4px';
-    nuovoOggetto.style.fontSize = '17px';
+    testo.style.fontSize = '6.5px';
+    nuovoOggetto.style.fontSize = '11px';
   } else {
     testo.style.bottom = '-65px';
     testo.style.fontSize = '12px';

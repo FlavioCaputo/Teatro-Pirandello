@@ -1,390 +1,305 @@
-* {
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+    background-color: rgb(32, 42, 64); 
 }
-.custom-hotspot {
-    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent; /* Imposta il colore di sfondo della barra di scorrimento trasparente */
 }
-#panorama {
-    width: 100vw;
-    height: 100vh;
-}
-.custom-hotspot2 {
-    width: 4.2vw; /* Imposta la larghezza del bottone */
-    height: 19.5vh; /* Imposta l'altezza del bottone */
+/*
+testo
+*/
+#title {
     font-family: "Times New Roman", Times, serif;
-    position: absolute;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
-    border: none; /* Rimuove il bordo */
-    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
-    transition: opacity 0.5s ease;
-    left: 24.3vw;
-    opacity: 0;
-
-    /* Flexbox per centrare il testo */
-    display: flex;
-    justify-content: center; /* Centro orizzontale */
-    align-items: center; /* Centro verticale */
-} 
-.custom-hotspot3 {
-    width: 4.3vw; /* Imposta la larghezza del bottone */
-    height: 9.5vh; /* Imposta l'altezza del bottone */
-    font-family: "Times New Roman", Times, serif;
-    position: absolute;
-    font-weight: bold;
-    font-size: 17px;
-    padding-left: 0.2vw;
-    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
-    border: none; /* Rimuove il bordo */
-    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
-    transition: opacity 0.5s ease;
-    left: 23.3vw;
-    opacity: 0;
-
-    /* Flexbox per centrare il testo */
-    display: flex;
-    justify-content: center; /* Centro orizzontale */
-    align-items: center; /* Centro verticale */
-  }
-  .custom-hotspot4 {
-    width: 4vw; /* Imposta la larghezza del bottone */
-    height: 19.5vh; /* Imposta l'altezza del bottone */
-    font-family: "Times New Roman", Times, serif;
-    position: absolute;
-    font-weight: bold;
-    font-size: 17px;
-    padding-left: 0.3vw;
-    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
-    border: none; /* Rimuove il bordo */
-    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
-    transition: opacity 0.5s ease;
-    left: 29vw;
-    opacity: 0;
-
-    /* Flexbox per centrare il testo */
-    display: flex;
-    justify-content: center; /* Centro orizzontale */
-    align-items: center; /* Centro verticale */
-} 
-.info {
-    width: 100px; /* Larghezza del rettangolo */
-    height: 30px; /* Altezza del rettangolo */
-    border-radius: 10px; /* Bordi arrotondati */
-    background-color: rgba(18, 17, 16, 0.8); /* Colore di sfondo */
-    margin-top: -30px;
-    font-family: "Times New Roman", Times, serif;
-    position: absolute;
+    font-size: 180px;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-    display: none;
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
 }
-.info::after {
-    content: ''; /* Contenuto pseudoelemento */
-    position: absolute; /* Imposta la posizione assoluta rispetto al rettangolo */
-    bottom: -15px; /* Sposta il triangolo in basso del valore desiderato */
-    left: 13%; /* Centra il triangolo orizzontalmente */
-    margin-left: -10px; /* Per centrare il triangolo */
-    border-width: 10px; /* Dimensioni del triangolo */
-    border-style: solid;
-    border-color: rgba(18, 17, 16, 0.8) transparent transparent transparent; /* Colore del triangolo */
-}
-#foyer {
-    transition: opacity 0.5s ease;
-}
-.fade-out {
-    opacity: 0;
-}
-.fade-in {
-    opacity: 1;
-}
-#map {
-    width: 100vw;
-    height: 100vh;
-}
-#co {
-    position: fixed;
-  display: flex;
-  top: 0; 
-  left: 0;
-  justify-content: center;   /* Centra orizzontalmente */
-  align-items: center;        /* Centra verticalmente */
-  width: 100%;
-  height: 100%;
-  background-color: black; 
-  z-index: 10000;
-}
-#gir {
-    position: fixed;
-    top: -2%;
-    left: 0;
-    justify-content: center; /* Per centrare orizzontalmente */
-    align-items: center;    /* Per centrare verticalmente */
-    width: 100%;
-    height: auto;
-    z-index: 100000000;
-}
-#test{
-    font-size: 30px;
+#titoli {
     font-family: "Times New Roman", Times, serif;
-    position: absolute;
-    font-weight: bold;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: -30px;
 }
 #testo {
+    margin-top: 15px;
     font-family: "Times New Roman", Times, serif;
-    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+#testo2 {
+    margin-top: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
     font-weight: bold;
+    padding-left: 6px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+#testo3 {
+    margin-top: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding-left: 6px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+#testo4 {
+    margin-top: 15px;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    width: 16vw;/* Larghezza fissata a 40px */
-    z-index: 1000;
-    margin-top: 16vh; /* Spostamento dall'alto */
-    margin-left: 25vw;
-    text-align: center; /* Centro orizzontale del testo */
-    
-    /* Usare Flexbox per il centraggio verticale */
-    display: flex;
-    justify-content: center; /* Centro orizzontale */
-    align-items: center; /* Centro verticale */
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    color: rgb(255, 255, 255);
+}
+#minititoli {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#bolla {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 /*
-pulsante per home 
+    Parte iniziale alta
 */
-#buttonbordered {
+#header {
+    font-family: "Times New Roman", Times, serif;
+    position: fixed;
+    height: 700px;
+    background-image: url("../pics/Inizio/Teatro.jpeg"); /* Opacità per una migliore leggibilità */
+    transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    align-items: center;
+    z-index: 3;
+}
+.header-content {
+    padding: 0px;
+}
+.header-content img {
+    max-width: 100%;
+    height: auto;
+}
+/*
+background
+*/
+#bc {
+    background-color: rgb(32, 42, 64); /* Percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine per coprire tutto l'elemento */
+    background-position: center; /* Centra l'immagine */ /* Altezza della finestra del browser */
+    transition: opacity 1s ease;
+}
+.image-container {
+    display: flex; /* Utilizza un layout flessibile */
+    justify-content: space-between; /* Spazio uniforme tra le immagini */
+    align-items: center; /* Allinea le immagini verticalmente */
+}
+
+/* Stile per le immagini */
+.image-container img {
+    max-width: 10%; /* Larghezza massima del 25% del contenitore per ciascuna immagine */
+    height: auto; /* Altezza automatica per mantenere le proporzioni */
+}
+/*Stile button*/
+#start {
+    width: 200px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.54);
+    border-color: rgba(127, 255, 212, 0);
+    border: 8px solid rgba(90, 15, 27, 0.956);
+    border-radius: 50px;
+    font-size: 30px;
+    color:rgba(59, 8, 16, 0.956) ;
+    font-weight: bold;
+    font-family: "Garamond", serif;
     position: absolute;
-    width: 70px;
-    height: 60px;
-    bottom: 20%;
-    margin-left: 48%;
-    background-color:rgba(0, 0, 0, 0.038);
-    color: rgb(0, 0, 0);
-    border-radius: 30px;
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
-    border: 0.5px solid black;
 }
-#buttonbordered::before,
-#buttonbordered::after {
-    content: '';
+#start2 {
+    width: 150px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-color: rgba(127, 255, 212, 0);
+    border: 4px solid rgba(90, 15, 27, 0.956);
+    border-radius: 50px;
+    font-size: 25px;
+    color:rgba(59, 8, 16, 0.956) ;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    margin-top: 10%;
     position: absolute;
-    width: 16px;
-    height: 25px;
-    border-radius: 4px;
-    top: 25px;
-    background-color: #000;
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
 }
-
-#buttonbordered::before {
-    left: 15px;
-}
-
-#buttonbordered::after {
-    right: 15px;
-}
-#casa {
-    position: absolute;
-    width: 40px;
-    height: 10px;
-    border-radius: 4px;
-    left: 15px;
-    top: 25px;
-    background-color: #000;
-}
-#casa::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 22px;
-    border-radius: 4px;
-    left: -5px;
-    top: -20px;
-    background-color: #000;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
-#casa::before {
-    content: '';
-    position: absolute;
-    width: 10px;
+#start3 {
+    width: 100px;
     height: 40px;
-    border-radius: 2px;
-    left: 26px;
-    top: -20px;
-    background-color: #000;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-color: rgba(127, 255, 212, 0);
+    border: 4px solid rgba(90, 15, 27, 0.956);
+    border-radius: 50px;
+    font-size: 25px;
+    color:rgba(59, 8, 16, 0.956) ;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    margin-top: 17.5%;
+    position: absolute;
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
 }
-
+@media (pointer: coarse) and (max-width: 737px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(32, 42, 64); 
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+        background-color: transparent; /* Imposta il colore di sfondo della barra di scorrimento trasparente */
+    }
+    .des {
+        display: none;
+    }
+    /*
+        Parte iniziale alta
+    */
+    #header {
+        height: 500px;
+    }
+    /*Stile button*/
+    #start {
+        width: 200px;
+        height: 80px;
+    }
+    #start2 {
+        margin-top: 21%;
+    }
+    #start3 {
+        margin-top: 40.5%;
+    }
+}
 @media (pointer: coarse) {
-    .custom-hotspot2 {
-        width: 4.2vw; /* Imposta la larghezza del bottone */
-        height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 10px;
-        left: 24.3vw;
-    } 
-    .custom-hotspot3 {
-        width: 4.3vw; /* Imposta la larghezza del bottone */
-        height: 9.5vh; /* Imposta l'altezza del bottone */
-        font-size: 7.5px;
-        padding-left: 0.2vw;
-        left: 23.3vw;
-
-      }
-      .custom-hotspot4 {
-        width: 4vw; /* Imposta la larghezza del bottone */
-        height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 7.5px;
-        padding-left: 0.3vw;
-        left: 29vw;
-    } 
-    .info {
-        width: 100px; /* Larghezza del rettangolo */
-        height: 20px; /* Altezza del rettangolo */
-        border-radius: 10px; /* Bordi arrotondati */
-        margin-top: -30px;
-        font-size: 15px;
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(32, 42, 64); 
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+        background-color: transparent; /* Imposta il colore di sfondo della barra di scorrimento trasparente */
     }
 
-    #testo {
-        font-size: 12px;
-        width: 16vw;/* Larghezza fissata a 40px */
-        z-index: 1000;
-        margin-top: 14vh; /* Spostamento dall'alto */
-        margin-left: 25vw;
-    }
     
     /*
-    pulsante per home
+        Parte iniziale alta
     */
-    #buttonbordered {
-        width: 35px;
-        height: 30px;
-        bottom: 5%;
-        margin-left: 48%;
-        border-radius: 30px;
-        border: 0.5px solid black;
+    #header {
+        font-family: "Times New Roman", Times, serif;
+        position: fixed;
+        height: 700px;
+        background-image: url("../pics/Inizio/Teatro.jpeg"); /* Opacità per una migliore leggibilità */
+        transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+        align-items: center;
+        z-index: 3;
     }
-    #buttonbordered::before,
-    #buttonbordered::after {
-        width: 8px;
-        height: 12.5px;
-        border-radius: 2px;
-        top: 12.5px;
+    .header-content {
+        padding: 0px;
     }
-    
-    #buttonbordered::before {
-        left: 7.5px;
+    .header-content img {
+        max-width: 100%;
+        height: auto;
     }
-    
-    #buttonbordered::after {
-        right: 7.5px;
-    }
-    #casa {
-        width: 20px;
-        height: 5px;
-        border-radius: 2px;
-        left: 7.5px;
-        top: 12.5px;
-    }
-    #casa::after {
-        width: 25px;
-        height: 11px;
-        border-radius: 2px;
-        left: -2.5px;
-        top: -10px;
-    }
-    #casa::before {
-        width: 5px;
-        height: 20px;
-        border-radius: 1px;
-        left: 13px;
-        top: -10px;
-    }
-}
-
-@media (pointer: coarse) and (max-height: 300px) {
-    .custom-hotspot2 {
-        width: 4.2vw; /* Imposta la larghezza del bottone */
-        height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 9px;
-        left: 24.3vw;
-    } 
-    .custom-hotspot3 {
-        width: 4.3vw; /* Imposta la larghezza del bottone */
-        height: 9.5vh; /* Imposta l'altezza del bottone */
-        font-size: 6.5px;
-        padding-left: 0.2vw;
-        left: 23.3vw;
-
-      }
-      .custom-hotspot4 {
-        width: 4vw; /* Imposta la larghezza del bottone */
-        height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 6.5px;
-        padding-left: 0.3vw;
-        left: 29vw;
-    } 
-    .info {
-        width: 100px; /* Larghezza del rettangolo */
-        height: 20px; /* Altezza del rettangolo */
-        border-radius: 10px; /* Bordi arrotondati */
-        margin-top: -30px;
-        font-size: 15px;
-    }
-
-    #testo {
-        font-size: 10px;
-        width: 16vw;/* Larghezza fissata a 40px */
-        z-index: 1000;
-        margin-top: 14vh; /* Spostamento dall'alto */
-        margin-left: 25vw;
-    }
-    
     /*
-    pulsante per home
+    background
     */
-    #buttonbordered {
-        width: 35px;
-        height: 30px;
-        bottom: 5%;
-        margin-left: 48%;
-        border-radius: 30px;
-        border: 0.5px solid black;
+    #bc {
+        background-color: rgb(32, 42, 64); /* Percorso dell'immagine */
+        background-size: cover; /* Adatta l'immagine per coprire tutto l'elemento */
+        background-position: center; /* Centra l'immagine */ /* Altezza della finestra del browser */
+        transition: opacity 1s ease;
     }
-    #buttonbordered::before,
-    #buttonbordered::after {
-        width: 8px;
-        height: 12.5px;
-        border-radius: 2px;
-        top: 12.5px;
+    .image-container {
+        display: flex; /* Utilizza un layout flessibile */
+        justify-content: space-between; /* Spazio uniforme tra le immagini */
+        align-items: center; /* Allinea le immagini verticalmente */
     }
     
-    #buttonbordered::before {
-        left: 7.5px;
+    /* Stile per le immagini */
+    .image-container img {
+        max-width: 10%; /* Larghezza massima del 25% del contenitore per ciascuna immagine */
+        height: auto; /* Altezza automatica per mantenere le proporzioni */
     }
-    
-    #buttonbordered::after {
-        right: 7.5px;
+    /*Stile button*/
+    #start {
+        width: 175px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.54);
+        border-color: rgba(127, 255, 212, 0);
+        border: 7px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 25px;
+        top: 15%;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     }
-    #casa {
-        width: 20px;
-        height: 5px;
-        border-radius: 2px;
-        left: 7.5px;
-        top: 12.5px;
+    #start2 {
+        width: 131.25px;
+        height: 56.875px;
+        background-color: rgba(255, 255, 255, 0.633);
+        border-color: rgba(127, 255, 212, 0);
+        border: 4px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 22px;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        top: 14.5%;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     }
-    #casa::after {
-        width: 25px;
-        height: 11px;
-        border-radius: 2px;
-        left: -2.5px;
-        top: -10px;
-    }
-    #casa::before {
-        width: 5px;
-        height: 20px;
-        border-radius: 1px;
-        left: 13px;
-        top: -10px;
+    #start3 {
+        width: 87.5px;
+        height: 35px;
+        background-color: rgba(255, 255, 255, 0.633);
+        border-color: rgba(127, 255, 212, 0);
+        border: 4px solid rgba(90, 15, 27, 0.956);
+        border-radius: 50px;
+        font-size: 25px;
+        color:rgba(59, 8, 16, 0.956) ;
+        font-weight: bold;
+        font-family: "Garamond", serif;
+        top: 12.5%;
+        position: absolute;
+        cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     }
 }

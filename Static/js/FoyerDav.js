@@ -21,6 +21,14 @@ pannellum.viewer('panorama', {
         "createTooltipArgs": "Custom Hotspot"
       },
       {
+        "pitch": -7,
+        "yaw": -93,
+        "cssClass": "custom-hotspot2",
+        "text": "Stanza Laterale",
+        "createTooltipFunc": Freccia2,
+        "createTooltipArgs": "Custom Hotspot"
+      },
+      {
         "pitch": 2,
         "yaw": -38,
         "type": "info",
@@ -160,6 +168,12 @@ pannellum.viewer('panorama', {
     hotSpotDiv.classList.add('custom-hotspot');
     hotSpotDiv.onclick = function() {
         window.location.href = "../page/Visita.html";
+      };
+  }
+  function Freccia2(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-hotspot');
+    hotSpotDiv.onclick = function() {
+        window.location.href = "../page/Plat.html";
       };
   }
   function piano(hotSpotDiv, args) {

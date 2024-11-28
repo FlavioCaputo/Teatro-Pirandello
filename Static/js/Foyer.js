@@ -1,6 +1,6 @@
 pannellum.viewer('panorama', {
   "type": "equirectangular",
-  "panorama": "../Panorama/foyer.jpg",
+  "panorama": "../Panorama/foyer.jpeg",
   "autoLoad": true,
   "showControls": false,
   "haov": 180,

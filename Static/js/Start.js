@@ -1,6 +1,6 @@
 pannellum.viewer('panorama', {
   "type": "equirectangular",
-  "panorama": "https://raw.githubusercontent.com/FlavioCaputo/Teatro-Pirandello/refs/heads/main/Static/Panorama/Inizio.jpg",
+  "panorama": "https://raw.githubusercontent.com/FlavioCaputo/Teatro-Pirandello/refs/heads/main/Static/Panorama/Inizio.jpeg",
   "autoLoad": true,
   "showControls": false,
   "yaw": 90, 

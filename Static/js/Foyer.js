@@ -234,6 +234,7 @@ function Freccia1(hotSpotDiv, args) {
 function Freccia2(hotSpotDiv, args) {
   hotSpotDiv.classList.add('custom-hotspot');
   hotSpotDiv.onclick = function() {
+    localStorage.setItem('inc', true);
       window.location.href = "../page/Visita3.html";
   };
   hotSpotDiv.onmouseenter = function() {

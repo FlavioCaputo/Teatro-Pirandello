@@ -142,6 +142,12 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": quad,
     },
     {
+      "pitch": 15,
+      "yaw": -130.5,
+      "type": "info",
+      "createTooltipFunc": leo1,
+    },
+    {
       "pitch": 16,
       "yaw": -133.5,
       "type": "info",
@@ -152,6 +158,222 @@ viewer = pannellum.viewer('panorama', {
       "yaw": -137,
       "type": "info",
       "createTooltipFunc": div,
+    },
+    {
+      "pitch": 17,
+      "yaw": -140.6,
+      "type": "info",
+      "createTooltipFunc": leo2,
+    },
+    {
+      "pitch": 18.5,
+      "yaw": -149,
+      "type": "info",
+      "createTooltipFunc": ful,
+    },
+    {
+      "pitch": 19,
+      "yaw": -153.5,
+      "type": "info",
+      "createTooltipFunc": leo3,
+    },
+    {
+      "pitch": 20,
+      "yaw": -158,
+      "type": "info",
+      "createTooltipFunc": ztest1,
+    },
+    {
+      "pitch": 21,
+      "yaw": -163,
+      "type": "info",
+      "createTooltipFunc": gra,
+    },
+    {
+      "pitch": 22,
+      "yaw": -168,
+      "type": "info",
+      "createTooltipFunc": leo4,
+    },
+    {
+      "pitch": 23,
+      "yaw": -173.3,
+      "type": "info",
+      "createTooltipFunc": divlep1,
+    },
+    {
+      "pitch": 24,
+      "yaw": -179,
+      "type": "info",
+      "createTooltipFunc": cavallo,
+    },
+    {
+      "pitch": 25,
+      "yaw": -185,
+      "type": "info",
+      "createTooltipFunc": leo5,
+    },
+    {
+      "pitch": 29,
+      "yaw": -198.7,
+      "type": "info",
+      "createTooltipFunc": gra1,
+    },
+    {
+      "pitch": 31,
+      "yaw": -206.5,
+      "type": "info",
+      "createTooltipFunc": leo6,
+    },
+    {
+      "pitch": 33,
+      "yaw": -215,
+      "type": "info",
+      "createTooltipFunc": aqu,
+    },
+    {
+      "pitch": 34.5,
+      "yaw": -224,
+      "type": "info",
+      "createTooltipFunc": ap,
+    },
+    {
+      "pitch": 36.5,
+      "yaw": -234.5,
+      "type": "info",
+      "createTooltipFunc": leo7,
+    },
+    {
+      "pitch": 39.5,
+      "yaw": -257,
+      "type": "info",
+      "createTooltipFunc": gra2,
+    },
+    {
+      "pitch": 39.5,
+      "yaw": -271,
+      "type": "info",
+      "createTooltipFunc": leo8,
+    },
+    {
+      "pitch": 40,
+      "yaw": -283.3,
+      "type": "info",
+      "createTooltipFunc": ap1,
+    },
+    {
+      "pitch": 38.5,
+      "yaw": -295.5,
+      "type": "info",
+      "createTooltipFunc": gra3,
+    },
+    {
+      "pitch": 37,
+      "yaw": -307,
+      "type": "info",
+      "createTooltipFunc": leo9,
+    },
+    {
+      "pitch": 31,
+      "yaw": -335.5,
+      "type": "info",
+      "createTooltipFunc": leo10,
+    },
+    {
+      "pitch": 29,
+      "yaw": -343.5,
+      "type": "info",
+      "createTooltipFunc": trina,
+    },
+    {
+      "pitch": 27,
+      "yaw": -350.5,
+      "type": "info",
+      "createTooltipFunc": gra4,
+    },
+    {
+      "pitch": 26,
+      "yaw": -357,
+      "type": "info",
+      "createTooltipFunc": leo11,
+    },
+    {
+      "pitch": 24,
+      "yaw": -363,
+      "type": "info",
+      "createTooltipFunc": ap2,
+    },
+    {
+      "pitch": 21.5,
+      "yaw": -374,
+      "type": "info",
+      "createTooltipFunc": leo12,
+    },
+    {
+      "pitch": 21,
+      "yaw": -379,
+      "type": "info",
+      "createTooltipFunc": aqu1,
+    },
+    {
+      "pitch": 20,
+      "yaw": -384,
+      "type": "info",
+      "createTooltipFunc": chi,
+    },
+    {
+      "pitch": 19.5,
+      "yaw": -388.5,
+      "type": "info",
+      "createTooltipFunc": leo13,
+    },
+    {
+      "pitch": 19,
+      "yaw": -393,
+      "type": "info",
+      "createTooltipFunc": ztest2,
+    },
+    {
+      "pitch": 18,
+      "yaw": -397,
+      "type": "info",
+      "createTooltipFunc": gra5,
+    },
+    {
+      "pitch": 17.5,
+      "yaw": -401.5,
+      "type": "info",
+      "createTooltipFunc": leo14,
+    },
+    {
+      "pitch": 15.5,
+      "yaw": -408.5,
+      "type": "info",
+      "createTooltipFunc": divlep2,
+    },
+    {
+      "pitch": 15,
+      "yaw": -411.5,
+      "type": "info",
+      "createTooltipFunc": leo15,
+    },
+    {
+      "pitch": 14.4,
+      "yaw": -414.3,
+      "type": "info",
+      "createTooltipFunc": ztest3,
+    },
+    {
+      "pitch": 13,
+      "yaw": -419.5,
+      "type": "info",
+      "createTooltipFunc": leo16,
+    },
+    {
+      "pitch": 12.5,
+      "yaw": -422,
+      "type": "info",
+      "createTooltipFunc": ap3,
     },
 ]
 })
@@ -181,11 +403,49 @@ const hotspotIds = [
   "divlep",
   "div",
   "leo2",
+  "",
   "ful",
+  "leo3",
   "ztest1",
   "gra",
-  "leo3",
+  "leo4",
   "divlep1",
+  "cavallo",
+  "leo5",
+  "",
+  "gra1",
+  "leo6",
+  "aqu",
+  "ap",
+  "leo7",
+  "",
+  "gra2",
+  "leo8",
+  "ap1",
+  "gra3",
+  "leo9",
+  "",
+  "",
+  "leo10",
+  "trina",
+  "gra4",
+  "leo11",
+  "ap2",
+  "",
+  "leo12",
+  "aqu1",
+  "chi",
+  "leo13",
+  "ztest2",
+  "gra5",
+  "leo14",
+  "",
+  "divlep2",
+  "leo15",
+  "ztest3",
+  "",
+  "leo16",
+  "ap3",
 ];
 const pos = [
 [-10, -90.5], 
@@ -208,13 +468,53 @@ const pos = [
 [13, -122],
 [14, -124],
 [14, -127],
-[],
+[15, -130],
 [16, -133],
 [16, -137],
+[17, -140],
+[],
+[17, -145],
+[18, -149],
+[19, -153],
+[20, -158],
+[21, -163],
+[22, -168],
+[23, -173],
+[24, -179],
+[],
+[29, -199],
+[31, -206],
+[33, -215],
+[34, -224],
+[36, -234],
+[],
+[40, -257],
+[40, -271],
+[40, -283],
+[38, -295],
+[37, -307],
 [],
 [],
+[31, -335],
+[29, -343],
+[27, -350],
+[26, -357],
+[24, -363],
 [],
+[21, -374],
+[21, -379],
+[20, -384],
+[19, -388],
+[19, -393],
+[18, -397],
+[17, -401],
 [],
+[15, -408],
+[15, -411],
+[14, -414],
+[],
+[13, -419],
+[12, -422],
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -2113,5 +2413,1926 @@ function sip(hotSpotDiv, args) {
     }else {
       nuovoOggetto.style.display = "none"; 
     }
+  }
+}
+/*ripetizioni medaglie*/
+function leo1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo2");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo2");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo3(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo3");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo3");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo4(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo4");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo4");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo5(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo5");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo5");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo6(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo6");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo6");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo7(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo7");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo7");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo8(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo8");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo8");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo9(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo9");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo9");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo10(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo10");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo10");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo11(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo11");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo11");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo12(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo12");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo12");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo13(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo13");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo13");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo14(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo14");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo14");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo15(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo15");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo15");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function leo16(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una medaglia';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di colore verde, forma circolare ad imitazione di una medaglia, all'interno della quale è raffigurata una testa di leone. Il dipinto, realizzato come tutte le decorazioni pittoriche e scultoree, su disegno dell’architetto palermitano Giovan Battista Filippo Basile (1875), è racchiuso all'interno di una corona di alloro. Sia la cornice, sia il dipinto si stagliano su sfondo chiaro color giallo tenue, decorato con nastri rosa e fiori di colore bianco, rosso, rosa e azzurro.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('leo');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("leo16");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("leo16");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function divlep1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurate due aquile che divorano il corpo capovolto di una lepre. L'aquila in primo piano, presenta le ali chiuse, la testa sollevata e il becco chiuso; quella in secondo piano ha le ali semiaperte e la testa abbassata. Al pari del granchio, l’aquila era un simbolo distintivo dell'antica Akragas e nella mitologia dell’antica Grecia era considerato attributo di Zeus. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, inizialmente ritrassero l'aquila di profilo (testa e collo), poi nella sua interezza in posizione stante con le ali chiuse o semiaperte e, infine, la mostrarono in volo, con maggiore dettaglio e realismo, nell'atto di ghermire una preda. In alcune monete le aquile sono due, come nella moneta raffigurata nel dipinto in questione, nella quale i rapaci divorano una lepre. La scena di due aquile che divorano una lepre possiede un forte simbolismo ed è un'allegoria ricca di significati che riflette l'identità e gli ideali della città di Akragas. Essa simboleggiava la potenza, la protezione divina e il desiderio di dominio, ma poteva anche essere interpretata in chiave più ampia, come una rappresentazione del ciclo della vita e della morte. L'immagine delle due aquile che divorano una lepre può essere interpretata in diversi modi: la forza e il dominio di Akragas sulle altre città-stato; protezione divina e di Zeus; il ciclo della vita e della morte, con le aquile che simboleggiavano la forza della natura e la lepre la fragilità dell'esistenza. Alcuni studiosi, infatti, hanno ipotizzato che questa raffigurazione possa essere un riferimento ad un passo del drammaturgo Eschilo, che parla di un presagio visto da un comandante prima di una battaglia, in cui due aquile combattevano per una lepre.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('divlep');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("divlep1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("divlep1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function divlep2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurate due aquile che divorano il corpo capovolto di una lepre. L'aquila in primo piano, presenta le ali chiuse, la testa sollevata e il becco chiuso; quella in secondo piano ha le ali semiaperte e la testa abbassata. Al pari del granchio, l’aquila era un simbolo distintivo dell'antica Akragas e nella mitologia dell’antica Grecia era considerato attributo di Zeus. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, inizialmente ritrassero l'aquila di profilo (testa e collo), poi nella sua interezza in posizione stante con le ali chiuse o semiaperte e, infine, la mostrarono in volo, con maggiore dettaglio e realismo, nell'atto di ghermire una preda. In alcune monete le aquile sono due, come nella moneta raffigurata nel dipinto in questione, nella quale i rapaci divorano una lepre. La scena di due aquile che divorano una lepre possiede un forte simbolismo ed è un'allegoria ricca di significati che riflette l'identità e gli ideali della città di Akragas. Essa simboleggiava la potenza, la protezione divina e il desiderio di dominio, ma poteva anche essere interpretata in chiave più ampia, come una rappresentazione del ciclo della vita e della morte. L'immagine delle due aquile che divorano una lepre può essere interpretata in diversi modi: la forza e il dominio di Akragas sulle altre città-stato; protezione divina e di Zeus; il ciclo della vita e della morte, con le aquile che simboleggiavano la forza della natura e la lepre la fragilità dell'esistenza. Alcuni studiosi, infatti, hanno ipotizzato che questa raffigurazione possa essere un riferimento ad un passo del drammaturgo Eschilo, che parla di un presagio visto da un comandante prima di una battaglia, in cui due aquile combattevano per una lepre.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('divlep');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("divlep2");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("divlep2");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ztest1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata la testa la laureata di Zeus. Questa immagine era ricorrente sulle monete greche e rivestiva un significato profondo e poliedrico. Essa rappresentava: potere divino, sicurezza della protezione divina, garanzia di prosperità, legittimità conferita da Zeus al potere politico e sociale delle città-stato, come Akragas; e ancora simboleggiava saggezza e onore dei governanti, vittorie e trionfi, poiché l'alloro era associato alla vittoria, alla gloria e alla sapienza. La testa laureata di Zeus era, dunque, un simbolo complesso e potente, che racchiudeva in sé i valori fondamentali della cultura greca e le aspirazioni di città come Akragas.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ztest');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ztest1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ztest1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ztest2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata la testa la laureata di Zeus. Questa immagine era ricorrente sulle monete greche e rivestiva un significato profondo e poliedrico. Essa rappresentava: potere divino, sicurezza della protezione divina, garanzia di prosperità, legittimità conferita da Zeus al potere politico e sociale delle città-stato, come Akragas; e ancora simboleggiava saggezza e onore dei governanti, vittorie e trionfi, poiché l'alloro era associato alla vittoria, alla gloria e alla sapienza. La testa laureata di Zeus era, dunque, un simbolo complesso e potente, che racchiudeva in sé i valori fondamentali della cultura greca e le aspirazioni di città come Akragas.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ztest');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ztest2");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ztest2");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ztest3(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata la testa la laureata di Zeus. Questa immagine era ricorrente sulle monete greche e rivestiva un significato profondo e poliedrico. Essa rappresentava: potere divino, sicurezza della protezione divina, garanzia di prosperità, legittimità conferita da Zeus al potere politico e sociale delle città-stato, come Akragas; e ancora simboleggiava saggezza e onore dei governanti, vittorie e trionfi, poiché l'alloro era associato alla vittoria, alla gloria e alla sapienza. La testa laureata di Zeus era, dunque, un simbolo complesso e potente, che racchiudeva in sé i valori fondamentali della cultura greca e le aspirazioni di città come Akragas.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ztest');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ztest3");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ztest3");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function gra1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurati un granchio e un piccolo pesce. Il granchio, insieme all’aquila, era un simbolo distintivo dell'antica Akragas. Entrambi sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera dell’antica Akragas; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. Con il suo robusto esoscheletro e le sue pinze potenti, il granchio, era simbolo di forza, tenacia e capacità di adattamento. Queste caratteristiche rispecchiavano lo spirito degli abitanti di Akragas, che si erano affermati come una delle potenze economiche e politiche della Magna Grecia. Ciò è testimoniato anche dalla presenza di un grosso pesce sotto il granchio. Nel mondo antico, infatti, il pesce era simbolo di abbondanza e ricchezza. In altre monete, sotto il granchio, al posto del pesce, furono raffigurati un delfino, un gambero, conchiglia e seppie ma anche chicchi di grano, un fiore, un fiore con due viticci, volute, ecc...";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('gra');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("gra1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("gra1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function gra2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurati un granchio e un piccolo pesce. Il granchio, insieme all’aquila, era un simbolo distintivo dell'antica Akragas. Entrambi sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera dell’antica Akragas; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. Con il suo robusto esoscheletro e le sue pinze potenti, il granchio, era simbolo di forza, tenacia e capacità di adattamento. Queste caratteristiche rispecchiavano lo spirito degli abitanti di Akragas, che si erano affermati come una delle potenze economiche e politiche della Magna Grecia. Ciò è testimoniato anche dalla presenza di un grosso pesce sotto il granchio. Nel mondo antico, infatti, il pesce era simbolo di abbondanza e ricchezza. In altre monete, sotto il granchio, al posto del pesce, furono raffigurati un delfino, un gambero, conchiglia e seppie ma anche chicchi di grano, un fiore, un fiore con due viticci, volute, ecc...";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('gra');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("gra2");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("gra2");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function gra3(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurati un granchio e un piccolo pesce. Il granchio, insieme all’aquila, era un simbolo distintivo dell'antica Akragas. Entrambi sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera dell’antica Akragas; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. Con il suo robusto esoscheletro e le sue pinze potenti, il granchio, era simbolo di forza, tenacia e capacità di adattamento. Queste caratteristiche rispecchiavano lo spirito degli abitanti di Akragas, che si erano affermati come una delle potenze economiche e politiche della Magna Grecia. Ciò è testimoniato anche dalla presenza di un grosso pesce sotto il granchio. Nel mondo antico, infatti, il pesce era simbolo di abbondanza e ricchezza. In altre monete, sotto il granchio, al posto del pesce, furono raffigurati un delfino, un gambero, conchiglia e seppie ma anche chicchi di grano, un fiore, un fiore con due viticci, volute, ecc...";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('gra');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("gra3");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("gra3");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function gra4(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurati un granchio e un piccolo pesce. Il granchio, insieme all’aquila, era un simbolo distintivo dell'antica Akragas. Entrambi sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera dell’antica Akragas; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. Con il suo robusto esoscheletro e le sue pinze potenti, il granchio, era simbolo di forza, tenacia e capacità di adattamento. Queste caratteristiche rispecchiavano lo spirito degli abitanti di Akragas, che si erano affermati come una delle potenze economiche e politiche della Magna Grecia. Ciò è testimoniato anche dalla presenza di un grosso pesce sotto il granchio. Nel mondo antico, infatti, il pesce era simbolo di abbondanza e ricchezza. In altre monete, sotto il granchio, al posto del pesce, furono raffigurati un delfino, un gambero, conchiglia e seppie ma anche chicchi di grano, un fiore, un fiore con due viticci, volute, ecc...";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('gra');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("gra4");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("gra4");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function gra5(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale erano raffigurati un granchio e un piccolo pesce. Il granchio, insieme all’aquila, era un simbolo distintivo dell'antica Akragas. Entrambi sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera dell’antica Akragas; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. Con il suo robusto esoscheletro e le sue pinze potenti, il granchio, era simbolo di forza, tenacia e capacità di adattamento. Queste caratteristiche rispecchiavano lo spirito degli abitanti di Akragas, che si erano affermati come una delle potenze economiche e politiche della Magna Grecia. Ciò è testimoniato anche dalla presenza di un grosso pesce sotto il granchio. Nel mondo antico, infatti, il pesce era simbolo di abbondanza e ricchezza. In altre monete, sotto il granchio, al posto del pesce, furono raffigurati un delfino, un gambero, conchiglia e seppie ma anche chicchi di grano, un fiore, un fiore con due viticci, volute, ecc...";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('gra');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("gra5");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("gra5");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ap1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata un’aquila stante con ali chiuse, in una vista a tre quarti. Al pari del granchio, l’aquila era un simbolo distintivo dell'antica Akragas e nella mitologia dell’antica Grecia era considerato attributo di Zeus. Con l'aumentare delle dimensioni delle monete nel tempo, gli artisti ebbero più spazio per raffigurare figure umane, animali e divinità. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, inizialmente ritrassero l'aquila di profilo (testa e collo), poi nella sua interezza in posizione stante con le ali chiuse, come nella moneta raffigurata nel dipinto in questione, o semiaperte e, infine, la mostrarono in volo, con maggiore dettaglio e realismo, nell'atto di ghermire una preda.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ap');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ap1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ap1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ap2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata un’aquila stante con ali chiuse, in una vista a tre quarti. Al pari del granchio, l’aquila era un simbolo distintivo dell'antica Akragas e nella mitologia dell’antica Grecia era considerato attributo di Zeus. Con l'aumentare delle dimensioni delle monete nel tempo, gli artisti ebbero più spazio per raffigurare figure umane, animali e divinità. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, inizialmente ritrassero l'aquila di profilo (testa e collo), poi nella sua interezza in posizione stante con le ali chiuse, come nella moneta raffigurata nel dipinto in questione, o semiaperte e, infine, la mostrarono in volo, con maggiore dettaglio e realismo, nell'atto di ghermire una preda.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ap');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ap2");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ap2");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function ap3(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata un’aquila stante con ali chiuse, in una vista a tre quarti. Al pari del granchio, l’aquila era un simbolo distintivo dell'antica Akragas e nella mitologia dell’antica Grecia era considerato attributo di Zeus. Con l'aumentare delle dimensioni delle monete nel tempo, gli artisti ebbero più spazio per raffigurare figure umane, animali e divinità. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, inizialmente ritrassero l'aquila di profilo (testa e collo), poi nella sua interezza in posizione stante con le ali chiuse, come nella moneta raffigurata nel dipinto in questione, o semiaperte e, infine, la mostrarono in volo, con maggiore dettaglio e realismo, nell'atto di ghermire una preda.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('ap');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("ap3");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("ap3");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+}
+function aqu1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Dipinto di forma circolare di una moneta dell\'antica Akragas';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '125px';
+  nuovoOggetto.style.height = '80px';
+  nuovoOggetto.style.top = '-20px';
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('sc'); 
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas sulla quale era raffigurata la testa di un’aquila di profilo, con un folto piumaggio e con il becco chiuso. Entrambi i simboli sono stati oggetto di studio e interpretazione per secoli. Questi due animali, così diversi tra loro, racchiudono un simbolismo profondo e complesso che riflette l'identità e i valori di questa importante città della Magna Grecia. In particolare, il granchio, abitante naturale delle coste, degli stagni e dei fiumi, rappresentava la parte a valle e costiera; l’aquila, dominatrice dei cieli e dei territori, nella mitologia dell’antica Grecia attributo di Zeus, rappresentava la parte in collina, dove sorgeva l’acropoli. La raffigurazione di sole teste di animali era una caratteristica comune dell'arte greca arcaica, periodo a cui risalgono le prime monete di Akragas con la testa di aquila di profilo. Con il passare del tempo, le dimensioni delle monete aumentarono e gli artisti ebbero più spazio a disposizione per rappresentare le figure animali, umane e divine seguendo gli stili dei periodi dell’arte greca. Così, da semplici e stilizzate, gli artisti passarono a un realismo sempre maggiore. In particolare, l'aquila dapprima venne raffigurata nella sua interezza, inizialmente in posizione stante con le ali chiuse o semiaperte e successivamente in movimento nell’atto di divorare una lepre o un serpente, e con una maggiore attenzione ai dettagli e alla resa realistica dell'animale.";
+  Oggetto2.style.left = "240px";
+  Oggetto2.style.height = "260px";
+  Oggetto2.style.bottom = "-115px";
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('aqu');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.right = "-4.2%";
+  x.style.top = "-6.7%";
+  x.style.fontSize = "18px";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("aqu1");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("aqu1");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto.style.display = "none";
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
   }
 }

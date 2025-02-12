@@ -3272,8 +3272,7 @@ function r(hotSpotDiv, args) {
   hotSpotDiv.onmouseleave = function() {
     nuovoOggetto.style.display = "none"; 
   }
-}
-f
+}
 function sip(hotSpotDiv, args) {
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   var nuovoOggetto = document.createElement('div');

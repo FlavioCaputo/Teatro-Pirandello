@@ -118,7 +118,7 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": a4,
     },
     {
-      "pitch": 3,
+      "pitch": 5,
       "yaw": -114,
       "type": "info",
       "createTooltipFunc": par1,
@@ -136,13 +136,13 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": leo,
     },
     {
-      "pitch": 0,
+      "pitch": 2,
       "yaw": -122.3,
       "type": "info",
       "createTooltipFunc": para,
     },
     {
-      "pitch": 0,
+      "pitch": 2,
       "yaw": -60,
       "type": "info",
       "createTooltipFunc": para1,
@@ -430,13 +430,13 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": ap3,
     },
     {
-      "pitch": 3,
+      "pitch": 5,
       "yaw": -67.5,
       "type": "info",
       "createTooltipFunc": par2,
     },
     {
-      "pitch": 10.5,
+      "pitch": 24.5,
       "yaw": -67.5,
       "type": "info",
       "createTooltipFunc": ligneo1,
@@ -460,7 +460,7 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": l,
     },
     {
-      "pitch": 10.5,
+      "pitch": 24.8,
       "yaw": -114.5,
       "type": "info",
       "createTooltipFunc": ligneo,
@@ -627,9 +627,9 @@ const pos = [
 [],
 [13, -419],
 [12, -422],
-[10, -113],
+[24, -113],
 [20, -113],
-[10, -67],
+[24, -67],
 [25, -70],
 [27, -67],
 [29, -64],
@@ -2968,7 +2968,7 @@ function ligneo1(hotSpotDiv, args) {
   Oggetto2.style.height = "110px";
   Oggetto2.style.bottom = "-115px";
   var Oggetto = document.createElement('div');
-  Oggetto.classList.add('lign');
+  Oggetto.classList.add('lign1');
   var x = document.createElement('p');
   x.classList.add('text-x');
   x.textContent = "x";

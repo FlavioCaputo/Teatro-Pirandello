@@ -1211,7 +1211,7 @@ pulsante per home
     cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
     width: 400px;
     height: 120px;
-    background: url('../pics/monete/arc6.jpeg') no-repeat center center;
+    background: url('../pics/monete/arc7.jpeg') no-repeat center center;
     background-size: cover;
     display: none;
     border: 10px solid #ddd; /* Definisce uno stile di bordo */
@@ -1224,7 +1224,7 @@ pulsante per home
     cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
     width: 400px;
     height: 120px;
-    background: url('../pics/monete/arc7.jpeg') no-repeat center center;
+    background: url('../pics/monete/arc6.jpeg') no-repeat center center;
     background-size: cover;
     display: none;
     border: 10px solid #ddd; /* Definisce uno stile di bordo */

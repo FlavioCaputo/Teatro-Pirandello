@@ -503,14 +503,14 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipArgs": "Custom Hotspot"
     },
     {
-      "pitch": 18.5,
+      "pitch": 39.5,
       "yaw": -42,
       "type": "info",
       "createTooltipFunc": ligneo1,
       "createTooltipArgs": "Custom Hotspot"
     },
     {
-      "pitch": 18.5,
+      "pitch": 39.5,
       "yaw": -129,
       "type": "info",
       "createTooltipFunc": ligneo,
@@ -698,9 +698,9 @@ const pos = [
 [],
 [23, -380],
 [22, -386],
-[18, -129],
+[39, -129],
 [32, -129],
-[18, -42],
+[39, -42],
 [40, -49],
 [43, -42],
 [46, -33],
@@ -3049,7 +3049,7 @@ function ligneo1(hotSpotDiv, args) {
   Oggetto2.style.height = "110px";
   Oggetto2.style.bottom = "-115px";
   var Oggetto = document.createElement('div');
-  Oggetto.classList.add('lign');
+  Oggetto.classList.add('lign1');
   var x = document.createElement('p');
   x.classList.add('text-x');
   x.textContent = "x";

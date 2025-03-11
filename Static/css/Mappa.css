@@ -190,7 +190,7 @@
     position: absolute;
     font-weight: bold;
     font-size: 1.5vw;
-    width: 17vw;/* Larghezza fissata a 40px */
+    width: 5vw;/* Larghezza fissata a 40px */
     z-index: 1000;
     margin-top: 13vh; /* Spostamento dall'alto */
     margin-left: 25vw;

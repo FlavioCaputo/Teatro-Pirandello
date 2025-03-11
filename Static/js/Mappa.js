@@ -1,3 +1,4 @@
+console.log(window.innerHeight);
 var mobov = document.getElementById('co');
 document.body.style.overflow = "hidden";
 mobov.style.display = 'block';

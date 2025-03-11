@@ -335,17 +335,17 @@ pulsante per home
     display: none;
   }
 
-@media (pointer: coarse) and (max-height: 300px) {
+@media (pointer: coarse) and (max-height: 480px) {
     .custom-hotspot2 {
         width: 4.2vw; /* Imposta la larghezza del bottone */
         height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 9px;
+        font-size: 4px;
         left: 24.3vw;
     } 
     .custom-hotspot3 {
         width: 4.3vw; /* Imposta la larghezza del bottone */
         height: 9.5vh; /* Imposta l'altezza del bottone */
-        font-size: 6.5px;
+        font-size: 4px;
         padding-left: 0.2vw;
         left: 23.3vw;
 
@@ -353,14 +353,14 @@ pulsante per home
       .custom-hotspot4 {
         width: 4vw; /* Imposta la larghezza del bottone */
         height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 6.5px;
+        font-size: 4px;
         padding-left: 0.3vw;
         left: 29vw;
     } 
     .custom-hotspot5 {
         width: 4vw; /* Imposta la larghezza del bottone */
         height: 19.5vh; /* Imposta l'altezza del bottone */
-        font-size: 6.5px;
+        font-size: 4px;
         padding-left: 0.3vw;
         left: 29vw;
     } 
@@ -390,14 +390,14 @@ pulsante per home
         margin-left: 25vw;
     }
     #Oggetti {
-        bottom: 8vh;
+        bottom: 4vh;
     }
     /*
     pulsante per home
     */
     #buttonbordered {
-        width: 35px;
-        height: 30px;
+        width: 25px;
+        height: 20px;
         bottom: 5vh;
         margin-left: 48%;
         border-radius: 30px;

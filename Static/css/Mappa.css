@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.custom-hotspot {
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+}
+#panorama {
+    width: 100vw;
+    height: 100vh;
+}
+.custom-hotspot2 {
+    width: 4.2vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 24.3vw;
+    opacity: 0;
+
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+} 
+.custom-hotspot3 {
+    width: 4.3vw; /* Imposta la larghezza del bottone */
+    height: 9.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 0.2vw;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 23.3vw;
+    opacity: 0;
+
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+  }
+  .custom-hotspot4 {
+    width: 4vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 0.3vw;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 29vw;
+    opacity: 0;
+
+    /* Flexbox per centrare il testo */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+} 
+.custccont {
+    width: 15vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+}
+.custom-hotspot5 {
+    width: 8vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    right: 24.5%;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    transition: opacity 0.5s ease;
+    clip-path: polygon(9% -3%, 80% 4%, 80% 94%, 9% 103%);
+    opacity: 0;
+} 
+.custom-hotspot51 {
+    width: 4.2vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    position: absolute;
+    right: 73%;
+    background-color: rgba(255, 0, 0, 0.497); /* Colore identico al bottone */
+    transition: opacity 0.5s ease;
+    clip-path: ellipse(100% 50% at 99% 50%); /* Crea un semicerchio */
+    z-index: 0; /* Dietro il contenuto principale */
+    opacity: 0;
+}
+.custom-hotspot52 {
+    width: 1.2vw; /* Imposta la larghezza del bottone */
+    height: 19.5vh; /* Imposta l'altezza del bottone */
+    position: absolute;
+    right: 27.29%;
+    background-color: rgba(255, 0, 0, 0.497); /* Colore identico al bottone */
+    transition: opacity 0.5s ease;
+    clip-path: polygon(0 4%, 100% 6%, 100% 92%, 0 94%); /* Trapezio */
+    z-index: 0; /* Dietro il contenuto principale */
+    mask-image: radial-gradient(ellipse at 99% 48%, transparent 58%, black 41%);
+    opacity: 0;
+}
+.tex {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    left: 14%;
+    bottom: 35%;
+    opacity: 0;
+}
+.info {
+    width: 100px; /* Larghezza del rettangolo */
+    height: 30px; /* Altezza del rettangolo */
+    border-radius: 10px; /* Bordi arrotondati */
+    background-color: rgba(18, 17, 16, 0.8); /* Colore di sfondo */
+    margin-top: -30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
+.info::after {
+    content: ''; /* Contenuto pseudoelemento */
+    position: absolute; /* Imposta la posizione assoluta rispetto al rettangolo */
+    bottom: -15px; /* Sposta il triangolo in basso del valore desiderato */
+    left: 13%; /* Centra il triangolo orizzontalmente */
+    margin-left: -10px; /* Per centrare il triangolo */
+    border-width: 10px; /* Dimensioni del triangolo */
+    border-style: solid;
+    border-color: rgba(18, 17, 16, 0.8) transparent transparent transparent; /* Colore del triangolo */
+}
+#foyer {
+    transition: opacity 0.5s ease;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
+}
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+#co {
+    position: fixed;
+  display: flex;
+  top: 0; 
+  left: 0;
+  justify-content: center;   /* Centra orizzontalmente */
+  align-items: center;        /* Centra verticalmente */
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  z-index: 10000;
+}
+#gir {
+    position: fixed;
+    top: -2%;
+    left: 0;
+    justify-content: center; /* Per centrare orizzontalmente */
+    align-items: center;    /* Per centrare verticalmente */
+    width: 100%;
+    height: auto;
+    z-index: 100000000;
+}
+#test{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: justify;
+}
+#testo {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 17vw;/* Larghezza fissata a 40px */
+    z-index: 1000;
+    margin-top: 17vh; /* Spostamento dall'alto */
+    margin-left: 25vw;
+    text-align: justify;
+    
+    /* Usare Flexbox per il centraggio verticale */
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+}
+
+/*
+pulsante per home 
+*/
+#buttonbordered {
+    position: absolute;
+    width: 5.5%;
+    height: 10%;
+    bottom: 13%;
+    margin-left: 48%;
+    background-color:rgba(0, 0, 0, 0.038);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
+    border: 0.5px solid black;
+}
+#buttonbordered::before,
+#buttonbordered::after {
+    content: '';
+    position: absolute;
+    width: 22%;
+    height: 40%;
+    border-radius: 20%;
+    top: 40%;
+    background-color: #000;
+}
+#buttonbordered::before {
+    left: 22%;
+}
+#buttonbordered::after {
+    right: 22%;
+}
+
+#casa {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    border-radius: 20%;
+    left: 22%;
+    top: 40%;
+    background-color: #000;
+}
+#casa::after {
+    content: '';
+    position: absolute;
+    width: 140%;
+    height: 230%;
+    border-radius: 10%;
+    left: -12%;
+    top: -200%;
+    background-color: #000;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#casa::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 200%;
+    border-radius: 15%;
+    left: 75%;
+    top: -200%;
+    background-color: #000;
+}
+#testo1 {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width: 10vw;/* Larghezza fissata a 40px */
+    z-index: 1000;
+    text-align: justify;
+    display: flex;  
+    right: 10%;
+    bottom: 2vh;
+}
+#Oggetti {
+    position: absolute;
+    width: 77%;
+    height: 10%;
+    bottom: 13vh;
+    right: 57%;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Stile del cursore (lo slider) */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    height: 35px;
+    width: 60px;
+    bottom: 3%;
+    right: -0.5vw;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 25px;
+  }
+  
+  /* Il cerchio all'interno dello switch */
+  .slider:before {
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    background-image: url('../pics/swi/info.svg');
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  /* Quando il checkbox è selezionato */
+  input:checked + .slider {
+    background-color: #f51f1f;
+  }
+  
+  /* Movimento del cerchio quando è selezionato */
+  input:checked + .slider:before {
+    transform: translateX(26px);
+    background-image: url('../pics/swi/noinf.svg');
+  }
+  .nul {
+    display: none;
+  }
+

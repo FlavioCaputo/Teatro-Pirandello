@@ -213,7 +213,7 @@ pulsante per home
     margin-left: 48%;
     background-color:rgba(0, 0, 0, 0.038);
     color: rgb(0, 0, 0);
-    border-radius: 30px;
+    border-radius: 40%;
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     border: 0.5px solid black;
 }

@@ -203,17 +203,17 @@
 }
 
 /*
-pulsante per home 
-*/
-#buttonbordered {
+ pulsante per home 
+ */
+ #buttonbordered {
     position: absolute;
-    width: 5.5%;
-    height: 10%;
+    width: 70px;
+    height: 60px;
     bottom: 13%;
     margin-left: 48%;
     background-color:rgba(0, 0, 0, 0.038);
     color: rgb(0, 0, 0);
-    border-radius: 40%;
+    border-radius: 30px;
     cursor: pointer; /* Cambia il cursore quando si passa sopra il pulsante */
     border: 0.5px solid black;
 }
@@ -221,47 +221,48 @@ pulsante per home
 #buttonbordered::after {
     content: '';
     position: absolute;
-    width: 22%;
-    height: 40%;
-    border-radius: 20%;
-    top: 40%;
+    width: 16px;
+    height: 25px;
+    border-radius: 4px;
+    top: 25px;
     background-color: #000;
 }
+
 #buttonbordered::before {
-    left: 22%;
-}
-#buttonbordered::after {
-    right: 22%;
+    left: 15px;
 }
 
+#buttonbordered::after {
+    right: 15px;
+}
 #casa {
     position: absolute;
-    width: 50%;
-    height: 15%;
-    border-radius: 20%;
-    left: 22%;
-    top: 40%;
+    width: 40px;
+    height: 10px;
+    border-radius: 4px;
+    left: 15px;
+    top: 25px;
     background-color: #000;
 }
 #casa::after {
     content: '';
     position: absolute;
-    width: 140%;
-    height: 230%;
-    border-radius: 10%;
-    left: -12%;
-    top: -200%;
+    width: 50px;
+    height: 22px;
+    border-radius: 4px;
+    left: -5px;
+    top: -20px;
     background-color: #000;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 #casa::before {
     content: '';
     position: absolute;
-    width: 30%;
-    height: 200%;
-    border-radius: 15%;
-    left: 75%;
-    top: -200%;
+    width: 10px;
+    height: 40px;
+    border-radius: 2px;
+    left: 26px;
+    top: -20px;
     background-color: #000;
 }
 #testo1 {
@@ -334,3 +335,59 @@ pulsante per home
     display: none;
   }
 
+  @media (pointer: coarse) {
+    /*
+     pulsante per home
+     */
+     #buttonbordered {
+        width: 35px;
+        height: 30px;
+        bottom: 3%;
+        margin-left: 48%;
+        border-radius: 30px;
+        border: 0.5px solid black;
+    }
+    #buttonbordered::before,
+    #buttonbordered::after {
+        width: 8px;
+        height: 12.5px;
+        border-radius: 2px;
+        top: 12.5px;
+    }
+    
+    #buttonbordered::before {
+        left: 7.5px;
+    }
+    
+    #buttonbordered::after {
+        right: 7.5px;
+    }
+    #casa {
+        width: 20px;
+        height: 5px;
+        border-radius: 2px;
+        left: 7.5px;
+        top: 12.5px;
+    }
+    #casa::after {
+        width: 25px;
+        height: 11px;
+        border-radius: 2px;
+        left: -2.5px;
+        top: -10px;
+    }
+    #casa::before {
+        width: 5px;
+        height: 20px;
+        border-radius: 1px;
+        left: 13px;
+        top: -10px;
+    }
+    .slider {
+        right: -4vw;
+        bottom: -100%;
+      }
+    #testo1 {
+        bottom: -7vh;
+    }
+  }

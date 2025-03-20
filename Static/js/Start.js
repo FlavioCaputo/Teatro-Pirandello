@@ -354,7 +354,7 @@ function Lapu(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.height = '55px';
     nuovoOggetto.style.top = '5px';

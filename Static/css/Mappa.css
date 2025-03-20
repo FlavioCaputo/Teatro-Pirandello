@@ -390,4 +390,16 @@
     #testo1 {
         bottom: -12vh;
     }
+       .custom-hotspot2 {
+        font-size: 7px;
+    } 
+    .custom-hotspot3 {
+        font-size: 7px;
+      }
+      .custom-hotspot4 {
+        font-size: 7px;
+    } 
+    .tex {
+        font-size: 18px;
+    }
   }

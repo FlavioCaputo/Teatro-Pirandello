@@ -679,7 +679,7 @@ function medmet(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-90px';
+    testo.style.bottom = '-85px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';

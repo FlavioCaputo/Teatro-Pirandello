@@ -223,9 +223,9 @@ function Fac(hotSpotDiv, args) {
     x.style.top = "-5.5%";
     testo.style.bottom = '-30px';
     testo.style.fontSize = '6.5px';
-    nuovoOggetto.style.height = '45px';
-    nuovoOggetto.style.top = '15px';
-    nuovoOggetto.style.fontSize = '11px';
+    nuovoOggetto.style.height = '35px';
+    nuovoOggetto.style.top = '25px';
+    nuovoOggetto.style.fontSize = '10px';
   } else {
     testo.style.bottom = '-57px';
     testo.style.fontSize = '14px';
@@ -290,8 +290,8 @@ function Lapann(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
-    nuovoOggetto.style.height = '40px';
-    nuovoOggetto.style.top = '20px';
+    nuovoOggetto.style.height = '55px';
+    nuovoOggetto.style.top = '5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
     testo.style.bottom = '-68px';
@@ -354,12 +354,14 @@ function Lapu(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-100px';
+    testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
+    nuovoOggetto.style.height = '55px';
+    nuovoOggetto.style.top = '5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
-    testo.style.bottom = '-120px';
-    testo.style.fontSize = '12px';
+    testo.style.bottom = '-68px';
+    testo.style.fontSize = '12.5px';
   }
   Oggetto2.appendChild(x);
   Oggetto2.appendChild(testo);
@@ -420,7 +422,8 @@ function medmaf(hotSpotDiv, args) {
     testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';
   } else {
     testo.style.bottom = '-72px';
     testo.style.fontSize = '13px';
@@ -481,10 +484,11 @@ function medmon(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-55px';
+    testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';
   } else {
     testo.style.bottom = '-89px';
     testo.style.fontSize = '13px';
@@ -548,7 +552,8 @@ function medalf(hotSpotDiv, args) {
     testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';
   } else {
     testo.style.bottom = '-72px';
     testo.style.fontSize = '13px';
@@ -612,7 +617,8 @@ function medsil(hotSpotDiv, args) {
     testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';
   } else {
     testo.style.bottom = '-72px';
     testo.style.fontSize = '13px';
@@ -673,10 +679,11 @@ function medmet(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-67px';
+    testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';
   } else {
     testo.style.bottom = '-110px';
     testo.style.fontSize = '13px';
@@ -740,7 +747,8 @@ function medgol(hotSpotDiv, args) {
     testo.style.bottom = '-44px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
-    nuovoOggetto.style.top = '0px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';;
   } else {
     testo.style.bottom = '-56px';
     testo.style.fontSize = '13px';
@@ -804,6 +812,8 @@ function can(hotSpotDiv, args) {
   x.style.color = "white";
   if (isMobile) {
     nuovoOggetto.style.fontSize = '11px';
+    nuovoOggetto.style.height = '20px';
+  nuovoOggetto.style.top = '40px';
   } else {
     nuovoOggetto.style.fontSize = '15px';
   }

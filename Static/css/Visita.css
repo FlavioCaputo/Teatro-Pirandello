@@ -1473,7 +1473,7 @@ pulsante per home
         font-size: 8px;
     }
     #controls {
-        bottom: 8%;
+        bottom: 10%;
     }
     /*immagini foyer*/
     .Lap06 {
@@ -1482,7 +1482,7 @@ pulsante per home
         top: -180px;
         left: -80px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 45px solid #ddd;
+        border-bottom: 60px solid #ddd;
     }
     .Lap95 {
         width: 168px;
@@ -1490,7 +1490,7 @@ pulsante per home
         top: -180px;
         left: -80px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 35px solid #ddd;
+        border-bottom: 50px solid #ddd;
     }
     .Dedica {
         width: 180px;
@@ -1505,14 +1505,14 @@ pulsante per home
         height: 300px;
         top: -200px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 50px solid #ddd;
+        border-bottom: 60px solid #ddd;
     }
     .Ing2 {
         width: 180px;
         height: 300px;
         top: -200px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 50px solid #ddd;
+        border-bottom: 60px solid #ddd;
     }
     .ProgettoL {
         width: 300px;
@@ -1719,14 +1719,14 @@ pulsante per home
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 45px solid #ddd;
+        border-bottom: 55px solid #ddd;
         top: -160px;
     }
     .gol {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 48px solid #ddd;
+        border-bottom: 100px solid #ddd;
         top: -160px;
     }
     .mon {

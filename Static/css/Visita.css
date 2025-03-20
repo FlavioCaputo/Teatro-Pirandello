@@ -1,9 +1,3 @@
-/*
-[18, -170],
-[11, -264],
-[18, -361],
-
-*/
 * {
     padding: 0;
     margin: 0;
@@ -540,7 +534,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 70px solid #ddd;
+    border-bottom: 55px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -553,7 +547,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 120px solid #ddd;
+    border-bottom: 80px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -579,7 +573,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 89px solid #ddd;
+    border-bottom: 82px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -1454,6 +1448,18 @@ pulsante per home
         width: 100vw;
         height: 100vh;
     }
+    .custom-hotspot1 {
+        width: 45px;
+        height: 20px;
+      }
+      .custom-hotspot1h {
+        width: 45px;
+        height: 20px;
+      }
+      .custom-hotspot2h {
+        width: 40px;
+        height: 40px;
+      }
     .custom-hotspot2 {
         width: 40px;
         height: 40px;
@@ -1465,6 +1471,9 @@ pulsante per home
       }
     .text {
         font-size: 8px;
+    }
+    #controls {
+        bottom: 8%;
     }
     /*immagini foyer*/
     .Lap06 {
@@ -1609,42 +1618,42 @@ pulsante per home
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 100px solid #ddd;
+        border-bottom: 70px solid #ddd;
         top: -160px;
     }
     .medMAf {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 45px solid #ddd;
+        border-bottom: 60px solid #ddd;
         top: -160px;
     }
     .medMont {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 55px solid #ddd;
+        border-bottom: 60px solid #ddd;
         top: -160px;
     }
     .medalf {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 45px solid #ddd;
+        border-bottom: 60px solid #ddd;
         top: -160px;
     }
     .medsil {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 45px solid #ddd;
+        border-bottom: 60px solid #ddd;
         top: -160px;
     }
     .medmet {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 70px solid #ddd;
+        border-bottom: 85px solid #ddd;
         top: -160px;
     }
     .medgol {

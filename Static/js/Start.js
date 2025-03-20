@@ -294,7 +294,7 @@ function Lapann(hotSpotDiv, args) {
     nuovoOggetto.style.top = '5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
-    testo.style.bottom = '-68px';
+    testo.style.bottom = '-55px';
     testo.style.fontSize = '12.5px';
   }
   Oggetto2.appendChild(x);
@@ -360,7 +360,7 @@ function Lapu(hotSpotDiv, args) {
     nuovoOggetto.style.top = '5px';
     nuovoOggetto.style.fontSize = '13px';
   } else {
-    testo.style.bottom = '-68px';
+    testo.style.bottom = '-70px';
     testo.style.fontSize = '12.5px';
   }
   Oggetto2.appendChild(x);
@@ -419,7 +419,7 @@ function medmaf(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';
@@ -484,13 +484,13 @@ function medmon(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';
     nuovoOggetto.style.top = '-13px';
   } else {
-    testo.style.bottom = '-89px';
+    testo.style.bottom = '-75px';
     testo.style.fontSize = '13px';
   }
   Oggetto2.appendChild(x);
@@ -549,7 +549,7 @@ function medalf(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';
@@ -614,7 +614,7 @@ function medsil(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";  
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';
@@ -679,7 +679,7 @@ function medmet(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-44px';
+    testo.style.bottom = '-90px';
     testo.style.fontSize = '8px';
     nuovoOggetto.style.fontSize = '13px';
     nuovoOggetto.style.height = '70px';

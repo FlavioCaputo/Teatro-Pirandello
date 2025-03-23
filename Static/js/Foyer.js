@@ -471,7 +471,7 @@ function Metastasio(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-46px';
+    testo.style.bottom = '-60px';
     testo.style.fontSize = '7px';
     nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.width = '130px'; 
@@ -539,7 +539,7 @@ function Monti(hotSpotDiv, args) {
   x.classList.add('text-x');
   x.textContent = "x";
   if (isMobile) {
-    testo.style.bottom = '-60px';
+    testo.style.bottom = '-75px';
     testo.style.fontSize = '7px';
     nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.width = '140px';
@@ -863,7 +863,6 @@ function Dedica(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   nuovoOggetto.textContent = 'Lapide con intitolazione del foyer';
   nuovoOggetto.style.width = '150px';
-  nuovoOggetto.style.top = "-20px";
   nuovoOggetto.classList.add('info'); 
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('Dedica'); 
@@ -876,6 +875,7 @@ function Dedica(hotSpotDiv, args) {
   if (isMobile) {
     nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.height= '30px';
+    nuovoOggetto.style.top = "10px";
     testo.style.bottom = '-38px';
     testo.style.fontSize = '7px';
     x.style.top = "-15%";
@@ -884,6 +884,7 @@ function Dedica(hotSpotDiv, args) {
     x.style.right = "-9%";
     testo.style.bottom = '-120px';
     nuovoOggetto.style.height= '80px';
+    nuovoOggetto.style.top = "-20px";
     nuovoOggetto.style.fontSize = "18px";
   }
   Oggetto2.appendChild(x);

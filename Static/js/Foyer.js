@@ -8,6 +8,9 @@ if (dir === "false") {
   inc = -90;
 }
 const isMobile = navigator.userAgentData.mobile;
+if (navigator.maxTouchPoints = 0) {
+  isMobile = false;
+} 
 var selectedButton = null;
 var prevbut = null;
 var img = false;

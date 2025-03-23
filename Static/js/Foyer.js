@@ -473,7 +473,7 @@ function Metastasio(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-46px';
     testo.style.fontSize = '7px';
-    nuovoOggetto.style.fontSize = "13px";
+    nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.width = '130px'; 
   } else {
     testo.style.bottom = '-138px';
@@ -541,7 +541,7 @@ function Monti(hotSpotDiv, args) {
   if (isMobile) {
     testo.style.bottom = '-60px';
     testo.style.fontSize = '7px';
-    nuovoOggetto.style.fontSize = "13px";
+    nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.width = '140px';
   } else {
     testo.style.bottom = '-130px';
@@ -863,7 +863,6 @@ function Dedica(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   nuovoOggetto.textContent = 'Lapide con intitolazione del foyer';
   nuovoOggetto.style.width = '150px';
-  nuovoOggetto.style.height= '80px';
   nuovoOggetto.style.top = "-20px";
   nuovoOggetto.classList.add('info'); 
   var Oggetto2 = document.createElement('div');
@@ -876,6 +875,7 @@ function Dedica(hotSpotDiv, args) {
   x.textContent = "x";
   if (isMobile) {
     nuovoOggetto.style.fontSize = "11px";
+    nuovoOggetto.style.height= '30px';
     testo.style.bottom = '-38px';
     testo.style.fontSize = '7px';
     x.style.top = "-15%";
@@ -883,6 +883,7 @@ function Dedica(hotSpotDiv, args) {
     x.style.top = "-22%";
     x.style.right = "-9%";
     testo.style.bottom = '-120px';
+    nuovoOggetto.style.height= '80px';
     nuovoOggetto.style.fontSize = "18px";
   }
   Oggetto2.appendChild(x);

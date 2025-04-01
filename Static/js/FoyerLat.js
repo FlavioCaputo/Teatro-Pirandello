@@ -75,6 +75,13 @@ viewer = pannellum.viewer('panorama', {
           "text": "Stanza Laterale",
           "createTooltipFunc": ar,
         },
+        {
+        "pitch": 6,
+        "yaw": 210,
+        "type": "info",
+        "text": "Stanza Laterale",
+        "createTooltipFunc": in,
+        },
       ]
   })
   const hotspotIds = [
@@ -173,7 +180,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('temp'); 
-    nuovoOggetto.textContent = 'F. Lojacono (1838-1915), Tempio dei Dioscuri, olio su tela';
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Tempio dei Dioscuri Olio su tela, cm. 103 x 67';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "14.5px";
@@ -223,7 +230,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('ar'); 
-    nuovoOggetto.textContent = 'M. Mirabella (1870-1930), Valle dei templi, olio su tela.';
+    nuovoOggetto.textContent = 'M. Mirabella (1870-1930) Ulivi Olio su tela, cm. 47 x 87,5';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "16px";
@@ -274,7 +281,58 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('gio'); 
-    nuovoOggetto.textContent = 'F. Lojacono (1838-1915), Un giorno di sole in Sicilia. Il duello, olio su tela.';
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Un giorno di sole in Sicilia. Il duello Olio su tela, cmq. 45,5 x 87,5';
+    nuovoOggetto.classList.add('info');  
+    nuovoOggetto.style.width= "200px";
+    nuovoOggetto.style.fontSize = "14.5px";
+    var x = document.createElement('p');
+    x.classList.add('text-x');
+    x.textContent = "x";
+    x.style.right = "-18px";  
+    Oggetto2.appendChild(x);
+    hotSpotDiv.appendChild(Oggetto2);
+    hotSpotDiv.appendChild(nuovoOggetto);
+    hotSpotDiv.onclick = function() {
+      if (us) {
+        ind = hotSpotDiv;
+      if (isMobile) {
+        if (selectedButton == hotSpotDiv){
+          cent("gio");
+        }
+        selectedButton = hotSpotDiv;
+        img = true;
+        Tog();
+      }else {
+        cent("gio");
+      }
+      }
+    };
+    hotSpotDiv.onmouseenter = function() {
+      if (us) {
+        nuovoOggetto.style.display = "Block";
+      }
+    }
+    x.onclick = function() {
+      console.log("primo");
+      Oggetto2.style.display = "none";
+      viewer.setHfov(100);
+      setTimeout(() => {
+        us = true;
+      }, 1000); // 2000 ms = 2 secondi  
+    }
+    hotSpotDiv.onmouseleave = function() {
+      nuovoOggetto.style.display = "none"; 
+    }
+  }
+  function in(hotSpotDiv, args) {
+    if (hot === "true") {
+      hotSpotDiv.style.display = "none";
+    };
+    hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+    var nuovoOggetto = document.createElement('div');
+    var Oggetto2 = document.createElement('div');
+    Oggetto2.classList.add('ina'); 
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Arrivo inatteso Olio su tela, cm. 46 x 88';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "14.5px";

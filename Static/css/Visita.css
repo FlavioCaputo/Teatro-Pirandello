@@ -1475,6 +1475,19 @@ pulsante per home
     left: 20px;
     top: -1000%;
 }
+.ina {
+    position: absolute;
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+    width: 600px;
+    height: 400px;
+    background: url('../pics/quadri/in.jpeg') no-repeat center center;
+    background-size: cover;
+    display: none;
+    border: 20px solid #ddd; /* Definisce uno stile di bordo */
+    border-bottom: 40px solid #ddd;
+    left: 20px;
+    top: -1000%;
+}
 @media (pointer: coarse) {
     * {
         padding: 0;

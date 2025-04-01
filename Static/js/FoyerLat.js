@@ -76,8 +76,8 @@ viewer = pannellum.viewer('panorama', {
           "createTooltipFunc": ar,
         },
         {
-        "pitch": 6,
-        "yaw": 210,
+        "pitch": 3,
+        "yaw": 250,
         "type": "info",
         "text": "Stanza Laterale",
         "createTooltipFunc": ina,
@@ -180,7 +180,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('temp'); 
-    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Tempio dei Dioscuri Olio su tela, cm. 103 x 67';
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915)\nTempio dei Dioscuri Olio su tela,\n cm. 103 x 67';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "14.5px";
@@ -230,7 +230,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('ar'); 
-    nuovoOggetto.textContent = 'M. Mirabella (1870-1930) Ulivi Olio su tela, cm. 47 x 87,5';
+    nuovoOggetto.textContent = 'M. Mirabella (1870-1930)\n Ulivi Olio su tela,\n cm. 47 x 87,5';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "16px";
@@ -281,7 +281,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('gio'); 
-    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Un giorno di sole in Sicilia. Il duello Olio su tela, cmq. 45,5 x 87,5';
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915)\n Un giorno di sole in Sicilia. Il duello Olio su tela,\n cm. 45,5 x 87,5';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "14.5px";
@@ -332,7 +332,7 @@ viewer = pannellum.viewer('panorama', {
     var nuovoOggetto = document.createElement('div');
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('ina'); 
-    nuovoOggetto.textContent = 'F. Lojacono (1838-1915) Arrivo inatteso Olio su tela, cm. 46 x 88';
+    nuovoOggetto.textContent = 'F. Lojacono (1838-1915)\n Arrivo inatteso Olio su tela,\n cm. 46 x 88';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.width= "200px";
     nuovoOggetto.style.fontSize = "14.5px";

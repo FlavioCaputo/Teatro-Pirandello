@@ -80,7 +80,7 @@ viewer = pannellum.viewer('panorama', {
         "yaw": 210,
         "type": "info",
         "text": "Stanza Laterale",
-        "createTooltipFunc": in,
+        "createTooltipFunc": ina,
         },
       ]
   })
@@ -324,7 +324,7 @@ viewer = pannellum.viewer('panorama', {
       nuovoOggetto.style.display = "none"; 
     }
   }
-  function in(hotSpotDiv, args) {
+  function ina(hotSpotDiv, args) {
     if (hot === "true") {
       hotSpotDiv.style.display = "none";
     };

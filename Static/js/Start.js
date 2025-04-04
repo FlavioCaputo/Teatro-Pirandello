@@ -41,7 +41,7 @@ viewer = pannellum.viewer('panorama', {
     },
     {
       "pitch": 4,
-      "yaw": 78,
+      "yaw": 93,
       "type": "info",
       "text": "Stanza Laterale",
       "createTooltipFunc": can,
@@ -137,7 +137,7 @@ const pos = [
   [55.3, 146.8],
   [2.5, 14.5],
   [2.5, 31.5],
-  [4, 78]
+  [4, 93]
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -799,26 +799,31 @@ function can(hotSpotDiv, args) {
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.height = '50px';
   nuovoOggetto.style.top = '10px';
-  var Oggetto = document.createElement('div');
-  Oggetto.classList.add('sc'); 
-  Oggetto.textContent = "Cancello in ferro battuto disegnato dal celebre architetto Giovan Battista Filippo Basile nel1877 e realizzato nello stesso anno dal \"fabbro ferraio\" Gaetano Messina.";
-  Oggetto.style.height = "110px";
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('fe'); 
+  var testo = document.createElement('p');
+  testo.textContent = "Cancello in ferro battuto disegnato dal celebre architetto Giovan Battista Filippo Basile nel 1877 e realizzato nello stesso anno dal \"fabbro ferraio\" Gaetano Messina.";
+  testo.classList.add('text');
   var x = document.createElement('p');
   x.classList.add('text-x');
   x.textContent = "x";
-  x.style.right = "1%";
-  x.style.top = "-6%";
-  x.style.fontSize = "20px";
-  x.style.color = "white";
+  x.style.right = "-4.5%";
+  x.style.top = "-7.2%";
+  x.style.fontSize = "18px";
   if (isMobile) {
-    nuovoOggetto.style.fontSize = '11px';
-    nuovoOggetto.style.height = '20px';
-  nuovoOggetto.style.top = '40px';
+    testo.style.bottom = '-44px';
+    testo.style.fontSize = '8px';
+    nuovoOggetto.style.fontSize = '13px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-13px';;
   } else {
-    nuovoOggetto.style.fontSize = '15px';
+    nuovoOggetto.style.fontSize = '18px';
+    testo.style.bottom = '-67px';
+    testo.style.fontSize = '12px';
   }
-  Oggetto.appendChild(x);
-  hotSpotDiv.appendChild(Oggetto);
+  Oggetto2.appendChild(x);
+  Oggetto2.appendChild(testo);
+  hotSpotDiv.appendChild(Oggetto2);
   hotSpotDiv.appendChild(nuovoOggetto);
   hotSpotDiv.onclick = function() {
     if (us) {
@@ -843,7 +848,6 @@ function can(hotSpotDiv, args) {
   x.onclick = function() {
     console.log("primo");
     Oggetto2.style.display = "none";
-    Oggetto.style.display = "none";
     viewer.setHfov(100);
     setTimeout(() => {
       us = true;

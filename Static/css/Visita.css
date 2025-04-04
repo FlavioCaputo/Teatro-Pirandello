@@ -1488,6 +1488,19 @@ pulsante per home
     left: 20px;
     top: -1000%;
 }
+.fe {
+    position: absolute;
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+    width: 240px;
+    height: 240px;
+    background: url('../pics/Med.ingresso/fe.jpeg') no-repeat center center;
+    background-size: cover;
+    display: none;
+    border: 10px solid #ddd; /* Definisce uno stile di bordo */
+    border-bottom: 70px solid #ddd;
+    left: 20px;
+    top: -500%;
+}
 @media (pointer: coarse) {
     * {
         padding: 0;

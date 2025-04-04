@@ -76,8 +76,8 @@ viewer = pannellum.viewer('panorama', {
           "createTooltipFunc": ar,
         },
         {
-        "pitch": 3,
-        "yaw": 250,
+        "pitch": 7,
+        "yaw": 238,
         "type": "info",
         "text": "Stanza Laterale",
         "createTooltipFunc": ina,
@@ -90,6 +90,7 @@ viewer = pannellum.viewer('panorama', {
     "te",
     "gio",
     "ar",
+    "ina",
   ];
   const pos = [
     [-18, 0],
@@ -97,6 +98,7 @@ viewer = pannellum.viewer('panorama', {
     [1, 135],
     [6, 156],
     [6, 210],
+    [7, 238],
   ]
   
   document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -348,13 +350,13 @@ viewer = pannellum.viewer('panorama', {
         ind = hotSpotDiv;
       if (isMobile) {
         if (selectedButton == hotSpotDiv){
-          cent("gio");
+          cent("ina");
         }
         selectedButton = hotSpotDiv;
         img = true;
         Tog();
       }else {
-        cent("gio");
+        cent("ina");
       }
       }
     };

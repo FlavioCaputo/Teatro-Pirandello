@@ -1,72 +1,82 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(231, 231, 191);
-    overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent; /* Imposta il colore di sfondo della barra di scorrimento trasparente */
+}
+/*
+testo
+*/
 #title {
     font-family: "Times New Roman", Times, serif;
-    font-size: 60px;
-    color: rgb(255, 255, 255);
+    font-size: 180px;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
-    margin-top: 2.5%;
     text-shadow: 
-    -2px -2px 0 black,  
-     2px -2px 0 black,
-    -2px  2px 0 black,
-     2px  2px 0 black;
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+#titoli {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: -30px;
 }
 #testo {
-    margin-top: 10%; 
+    margin-top: 15px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    color: rgb(0, 0, 0);
-}
-.parte1 {
-    display: flex;
-    margin-top: 13.6%;
-    justify-content: space-between;
-    align-items: center;
-}
-.text-column {
-    flex: 1;
-    margin-top: -130px; 
-    padding-left: 20px;
-    padding: 20px 80px; 
-    text-align: center; /* Centra il testo orizzontalmente */
-}
-.image-column {
-    margin-top: -35px; 
-    display: flex;
-    justify-content: center; /* Centra l'immagine orizzontalmente */
-    align-items: center; /* Centra l'immagine verticalmente */
-    padding-left: 20px;
-    flex: 1;
-    text-align: center; /* Opzionale: centra l'immagine orizzontalmente all'interno della colonna */
-}
-.image-column img {
-    max-width: 60%;
-    transform: rotate(-10deg); /* Ruota l'immagine di 45 gradi */
-    height: 46%;
-    display: block;
-    border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 80px solid #ddd;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
-    z-index: 1;
-}
-
-#header {
-    position: absolute; /* Posizione fissa rispetto alla finestra del browser */
-    top: 0; /* Allinea l'elemento all'inizio della finestra */
-    left: 0; /* Allinea l'elemento all'inizio della finestra */
-    width: 98.85vw; /* Larghezza pari al 100% della larghezza della finestra */
-    height: 20%; /* Altezza pari al 30% dell'altezza della finestra */
-    background-image: url("../pics/sipario/sipario.png"); /* Percorso dell'immagine */
-    background-size: cover; /* Adatta l'immagine per coprire tutto l'elemento */
-    background-position: center; /* Centra l'immagine */
     justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
     align-items: center;
-    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+/*
+    Parte iniziale alta
+*/
+#header {
+    font-family: "Times New Roman", Times, serif;
+    position: fixed;
+    height: 250px;
+    background-image: url("../pics/sipario/sipario.png"); /* Opacità per una migliore leggibilità */
+    background-repeat: no-repeat;
+    background-position: 0px -500px;
+    background-size: cover;
+    transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    align-items: center;
+    top: 0%;
+    z-index: 3;
+}
+.header-content {
+    padding: 0px;
+}
+.header-content img {
+    max-width: 100%;
+    height: auto;
+}
+/*
+background
+*/
+#bc {
+    background-color: rgb(231, 231, 191); /* Percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine per coprire tutto l'elemento */
+    background-position: center; /* Centra l'immagine */ /* Altezza della finestra del browser */
+    transition: opacity 1s ease;
 }
   /*
 pulsante per home
@@ -76,7 +86,7 @@ pulsante per home
     width: 70px;
     height: 60px;
     margin-top: -70px;
-    margin-left: 48%;
+    margin-left: 52%;
     background-color:rgba(0, 0, 0, 0.038);
     color: rgb(0, 0, 0);
     border-radius: 30px;
@@ -131,79 +141,74 @@ pulsante per home
     top: -20px;
     background-color: #000;
 }
-@media (pointer: coarse) {
-    #title {
-        font-size: 50px;
-        margin-top: 1%;
-    }
-    #testo {
-        margin-top: 7%; 
-        font-size: 10px;
-    }
-    .parte1 {
-        margin-top: 13.6%;
-    }
-    .text-column {
-        flex: 1;
-        margin-top: -18vh;
-        padding: 10px 40px; 
-    }
-    .image-column {
-        margin-top: -35px; 
-        padding-left: 0px;
-    }
-    .image-column img {
-        transform: rotate(-10deg); /* Ruota l'immagine di 45 gradi */
-        max-width: 35%;
-        height: 30%;
-        border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 40px solid #ddd;
-    }
-      /*
-    pulsante per home
-    */
-    #buttonbordered {
-        width: 52.5px;
-        height: 45px;
-        bottom: 3%;
-        margin-left: 53%;
-        border-radius: 30px;
-        border: 0.5px solid black;
-    }
-    #buttonbordered::before,
-    #buttonbordered::after {
-        width: 12px;
-        height: 18.75px;
-        border-radius: 2px;
-        top: 18.75px;
-    }
-    
-    #buttonbordered::before {
-        left: 11.25px;
-    }
-    
-    #buttonbordered::after {
-        right: 11.25px;
-    }
-    #casa {
-        width: 30px;
-        height: 7.5px;
-        border-radius: 2px;
-        left: 11.25px;
-        top: 18.75px;
-    }
-    #casa::after {
-        width: 37.5px;
-        height: 16.5px;
-        border-radius: 2px;
-        left: -3.75px;
-        top: -15px;
-    }
-    #casa::before {
-        width: 7.5px;
-        height: 30px;
-        border-radius: 1px;
-        left: 19.5px;
-        top: -15px;
-    }
+/* divisione*/
+.parte1 {
+    display: flex;
+    margin-top: 13.6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-column {
+    flex: 1;
+    margin-top: -130px; 
+    padding-left: 20px;
+    padding: 20px 80px; 
+    text-align: center; /* Centra il testo orizzontalmente */
+}
+.image-column {
+    margin-top: -10%; 
+    display: flex;
+    justify-content: center; /* Centra l'immagine orizzontalmente */
+    align-items: center; /* Centra l'immagine verticalmente */
+    padding-left: 20px;
+    flex: 1;
+    text-align: center; /* Opzionale: centra l'immagine orizzontalmente all'interno della colonna */
+}
+.image-column img {
+    max-width: 80%;
+    transform: rotate(-10deg); /* Ruota l'immagine di 45 gradi */
+    height: 46%;
+    display: block;
+    border: 20px solid #ddd; /* Definisce uno stile di bordo */
+    border-bottom: 80px solid #ddd;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
+    z-index: 1;
+}
+.vedere {
+    transform: translate(-50%, -37%) scale(1.5) rotate(10deg);; /* Ingrandisce il pulsante */
+    padding: 50%, 10%;
+  }
+/*
+Overlay
+*/
+#bot {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#Overlayimg {
+    font-family: "Times New Roman", Times, serif;
+    position: fixed;
+    top: -300px; /* Nascondi l'intestazione all'inizio */
+    height: 200%;
+    transition: top 0.3s ease-in-out; /* Aggiungi transizione per effetto di scorrimento */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.148);
+    z-index: 7; /* Assicura che l'intestazione sia sopra l'immagine di sfondo */
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    display: none;
 }

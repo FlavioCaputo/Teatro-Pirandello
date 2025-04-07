@@ -1350,7 +1350,7 @@ pulsante per home
     cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
     width: 240px;
     height: 240px;
-    background: url('../pics/monete/arc9.jpeg') no-repeat center center;
+    background: url('../pics/monete/arc8.jpeg') no-repeat center center;
     background-size: cover;
     display: none;
     border: 10px solid #ddd; /* Definisce uno stile di bordo */

@@ -7,7 +7,3 @@ function rit2() {
 function rit3() {
     window.location.href = "../page/Visita3.html";
 }
-function rit4() {
-    dit = localStorage.getItem('pa');
-    window.location.href = dit;
-}

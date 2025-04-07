@@ -3843,14 +3843,14 @@ function sip(hotSpotDiv, args) {
   hotSpotDiv.onclick = function() {
     if (isMobile) {
       if (selectedButton == hotSpotDiv){
-        localStorage.setItem('pa', '../page/Plat.html');
+        localStorage.setItem('pa', '../page/Plat1.html');
         window.location.href = "../page/Sipario.html";
       }
       selectedButton = hotSpotDiv;
       Tog();
       nuovoOggetto.style.display = "block"; 
     }else {
-      localStorage.setItem('pa', '../page/Plat.html');
+      localStorage.setItem('pa', '../page/Plat1.html');
       window.location.href = "../page/Sipario.html"; // Reindirizza alla pagina desiderata
     }
 };
@@ -3875,7 +3875,7 @@ function arc(hotSpotDiv, args) {
   nuovoOggetto.style.width = '140px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Architrave dell’ingresso laterale sinistro decorato con le due maschere teatrali, una con un'espressione triste e l'altra con un'espressione gioiosa, strumenti musicali (tromba, corni, flauto a canne) foglie di alloro e tralci di vite, fascia con ornamento a motivo floreale e vegetale. L’opera, realizzata nel 1876 dallo scultore palermitano Benedetto Alfano su modelli disegnati dall’architetto G.B.F. Basile (1875) eseguiti a Palermo, simboleggia l'essenza del teatro.";
+  Oggetto2.textContent = "Porta dell'ingresso laterale occidentale della platea. Fregio scolpito a rilievo, di colore \"bianco gialletto perfilato in oro\", raffigurante i simboli dell'arte teatrale (maschere, strumenti musicali, corona d'alloro e tralci di vite, fascia con ornamento a motivo floreale e vegetale). L’opera è stata realizzata nel 1876 dallo scultore palermitano Benedetto Alfano, su modelli disegnati dall’architetto G.B.F. Basile (1875) eseguiti a Palermo.";
   Oggetto2.style.left = "-20px";
   Oggetto2.style.width = "410px";
   Oggetto2.style.height = "110px";
@@ -3941,7 +3941,7 @@ function arc1(hotSpotDiv, args) {
   nuovoOggetto.style.width = '140px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "";
+  Oggetto2.textContent = "Porta dell'ingresso centrale della platea. Fregio scolpito a rilievo, di colore \"bianco gialletto perfilato in oro\", raffigurante gli strumenti musicali del teatro classico (lira, liuto, tamburelli), foglie di alloro e tralci di vite, fascia con ornamento a motivo floreale e vegetale. L'opera fu realizzata nel 1876 dallo scultore palermitano Benedetto Alfano su modelli disegnati dall’architetto G.B.F. Basile (1875) eseguiti a Palermo.";
   Oggetto2.style.left = "-20px";
   Oggetto2.style.width = "410px";
   Oggetto2.style.height = "110px";
@@ -4007,7 +4007,7 @@ function arc2(hotSpotDiv, args) {
   nuovoOggetto.style.width = '140px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "";
+  Oggetto2.textContent = "Porta dell'ingresso laterale occidentale della platea. Fregio scolpito a rilievo, di colore \"bianco gialletto perfilato in oro\", raffigurante elementi simbolici del teatro tragico e gli attributi di hermes (una maschera alata, un elmo, un caduceo, un mascherone grottesco con funzione apotropaica, scudi con rilievi zoomorfi raffigurati un serpente e un leone rampante) ornati con una fascia ad andamento curvilineo decorata a motivo floreale e vegetale, foglie e frutti. L’opera fu realizzata nel 1876 dallo scultore palermitano Benedetto Alfano su modelli disegnati dall’architetto G.B.F. Basile (1875) eseguiti a Palermo.";
   Oggetto2.style.left = "-20px";
   Oggetto2.style.width = "410px";
   Oggetto2.style.height = "110px";

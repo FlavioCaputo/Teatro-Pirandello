@@ -30,9 +30,11 @@ pannellum.viewer('panorama', {
         },
       ]
   })
-  function rit() {
-    window.location.href = "../page/Mappa.html";
-  }
+
+
+function rit() {
+  window.location.href = "../page/Mappa.html";
+}
   function Freccia1(hotSpotDiv, args) {
     hotSpotDiv.classList.add('custom-hotspot');
     hotSpotDiv.onclick = function() {
@@ -64,3 +66,4 @@ pannellum.viewer('panorama', {
       } 
   
   }
+  

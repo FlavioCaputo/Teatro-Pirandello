@@ -55,6 +55,14 @@ pannellum.viewer('panorama', {
       "createTooltipArgs": "Custom Hotspot"
     },
     {
+      "pitch": -6.5,
+      "yaw": -26.5,
+      "cssClass": "custom-hotspot7",
+      "text": "Stanza Laterale",
+      "createTooltipFunc": Foyerlat2,
+      "createTooltipArgs": "Custom Hotspot"
+    },
+    {
       "pitch": -0.2,
       "yaw": -30.7,
       "cssClass": "custom-hotspot4",
@@ -67,6 +75,13 @@ pannellum.viewer('panorama', {
       "yaw": 6,
       "cssClass": "custccont",
       "createTooltipFunc": Platea,
+      "createTooltipArgs": ".custom-hotspot"
+    },
+    {
+      "pitch": -0.2,
+      "yaw": 9.5,
+      "cssClass": "custccont2",
+      "createTooltipFunc": Palco,
       "createTooltipArgs": ".custom-hotspot"
     },
     {
@@ -252,6 +267,69 @@ function Platea(hotSpotDiv, args) {
     sec.classList.remove('fade-in');
     se2c.classList.remove('fade-in');
     tex.classList.remove('fade-in');
+  }
+}
+function Palco(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.classList.add('custom-hotspot6');
+  var sec = document.createElement('div');
+  sec.classList.add('custom-hotspot61');
+  var sec2 = document.createElement('div');
+  sec2.classList.add('custom-hotspot62');
+  var tex = document.createElement('p');
+  tex.classList.add('tex');
+  tex.textContent = "Palco";
+  tex.style.right = "-250%";
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.appendChild(sec);
+  hotSpotDiv.appendChild(sec2);
+  hotSpotDiv.appendChild(tex);
+  hotSpotDiv.onclick = function() {
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+          localStorage.setItem('inc', true);
+          window.location.href = "Plat2.html";
+      }
+      selectedButton = hotSpotDiv;
+    }else {
+      localStorage.setItem('inc', true);
+      window.location.href = "Plat2.html";
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    nuovoOggetto.classList.add('fade-in');
+    sec.classList.add('fade-in');
+    sec2.classList.add('fade-in');
+    tex.classList.add('fade-in');
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.classList.remove('fade-in');
+    sec.classList.remove('fade-in');
+    sec2.classList.remove('fade-in');
+    tex.classList.remove('fade-in');
+  }
+}
+function Foyerlat2(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  hotSpotDiv.textContent = "Stanza Laterale";
+  hotSpotDiv.onclick = function() {
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+          localStorage.setItem('inc', true);
+          window.location.href = "Visita4.html";
+      }
+      selectedButton = hotSpotDiv;
+    }else {
+      localStorage.setItem('inc', true);  
+      window.location.href = "Visita4.html";
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    hotSpotDiv.classList.add('fade-in');
+  }
+  hotSpotDiv.onmouseleave = function() {
+    hotSpotDiv.classList.remove('fade-in');
   }
 }
 function rit() {

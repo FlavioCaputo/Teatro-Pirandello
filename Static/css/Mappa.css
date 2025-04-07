@@ -48,7 +48,7 @@
     justify-content: center; /* Centro orizzontale */
     align-items: center; /* Centro verticale */
   }
-  .custom-hotspot4 {
+.custom-hotspot4 {
     width: 4vw; /* Imposta la larghezza del bottone */
     height: 19.5vh; /* Imposta l'altezza del bottone */
     font-family: "Times New Roman", Times, serif;
@@ -68,6 +68,24 @@
     justify-content: center; /* Centro orizzontale */
     align-items: center; /* Centro verticale */
 } 
+.custom-hotspot7 {
+    width: 3.6vw; /* Imposta la larghezza del bottone */
+    height: 9.5vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 0.5vw;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    border: none; /* Rimuove il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: opacity 0.5s ease;
+    left: 23.3vw;
+    opacity: 0;
+    display: flex;
+    justify-content: center; /* Centro orizzontale */
+    align-items: center; /* Centro verticale */
+  }
 .custccont {
     width: 15vw; /* Imposta la larghezza del bottone */
     height: 19.5vh; /* Imposta l'altezza del bottone */
@@ -109,6 +127,47 @@
     mask-image: radial-gradient(ellipse at 99% 48%, transparent 58%, black 41%);
     opacity: 0;
 }
+.custccont2 {
+    width: 2.5vw; /* Imposta la larghezza del bottone */
+    height: 18vh; /* Imposta l'altezza del bottone */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+}
+.custom-hotspot6 {
+    width: 0.33vw; /* Imposta la larghezza del bottone */
+    height: 17vh; /* Imposta l'altezza del bottone */
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    font-weight: bold;
+    right: 47%;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.497); /* Imposta il colore di sfondo del bottone */
+    transition: opacity 0.5s ease;
+    opacity: 0;
+} 
+.custom-hotspot61 {
+    width: 1.2vw; /* Imposta la larghezza del bottone */
+    height: 18.5vh; /* Imposta l'altezza del bottone */
+    position: absolute;
+    right: 0%;
+    top: -3%;
+    background-color: rgba(255, 0, 0, 0.497); /* Colore identico al bottone */
+    transition: opacity 0.5s ease;
+    clip-path: polygon(0 4%, 100% 6%, 100% 92%, 0 94%); /* Trapezio */
+    z-index: 0; /* Dietro il contenuto principale */
+    mask-image: radial-gradient(ellipse at 99% 48%, transparent 58%, black 41%);
+    opacity: 0;
+} 
+.custom-hotspot62 {
+    width: 1.2vw; /* Imposta la larghezza del bottone */
+    height: 17vh; /* Imposta l'altezza del bottone */
+    position: absolute;
+    right: 60%;
+    background-color: rgba(255, 0, 0, 0.497); /* Colore identico al bottone */
+    transition: opacity 0.5s ease;
+    clip-path: ellipse(100% 50% at 99% 50%); /* Crea un semicerchio */
+    z-index: 0; /* Dietro il contenuto principale */
+    opacity: 0;
+} 
 .tex {
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
@@ -390,7 +449,7 @@
     #testo1 {
         bottom: -12vh;
     }
-       .custom-hotspot2 {
+    .custom-hotspot2 {
         font-size: 7px;
     } 
     .custom-hotspot3 {

@@ -1798,14 +1798,14 @@ pulsante per home
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 75px solid #ddd;
+        border-bottom: 58px solid #ddd;
         top: -160px;
     }
     .met {
         width: 168px;
         height: 252px;
         border: 10px solid #ddd; /* Definisce uno stile di bordo */
-        border-bottom: 75px solid #ddd;
+        border-bottom: 45px solid #ddd;
         top: -160px;
     }
     .bel {

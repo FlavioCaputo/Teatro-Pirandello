@@ -55,14 +55,6 @@ pannellum.viewer('panorama', {
       "createTooltipArgs": "Custom Hotspot"
     },
     {
-      "pitch": -6.5,
-      "yaw": -26.5,
-      "cssClass": "custom-hotspot7",
-      "text": "Stanza Laterale",
-      "createTooltipFunc": Foyerlat2,
-      "createTooltipArgs": "Custom Hotspot"
-    },
-    {
       "pitch": -0.2,
       "yaw": -30.7,
       "cssClass": "custom-hotspot4",

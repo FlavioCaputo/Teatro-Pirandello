@@ -33,55 +33,11 @@ if (hot === "true") {
 }
 viewer = pannellum.viewer('panorama', {
     "type": "equirectangular",
-    "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/Fl3.jpeg",
+    "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/FL4.jpeg",
     "autoLoad": true,
     "showControls": false,
     "yaw": inc, 
     "hotSpots": [
-        {
-          "pitch": -18,
-          "yaw": 0,
-          "cssClass": "custom-hotspot2",
-          "text": "Foyer",
-          "createTooltipFunc": Freccia1,
-          "createTooltipArgs": "Custom Hotspot"
-        },
-        {
-          "pitch": -18,
-          "yaw": 94.5,
-          "cssClass": "custom-hotspot2",
-          "text": "Foyer",
-          "createTooltipFunc": Freccia2,
-          "createTooltipArgs": "Custom Hotspot"
-        },
-        {
-          "pitch": 1.5,
-          "yaw": 131,
-          "type": "info",
-          "text": "Stanza Laterale",
-          "createTooltipFunc": te,
-        },
-        {
-          "pitch": 6,
-          "yaw": 156,
-          "type": "info",
-          "text": "Stanza Laterale",
-          "createTooltipFunc": gio,
-        },
-        {
-          "pitch": 6,
-          "yaw": 210,
-          "type": "info",
-          "text": "Stanza Laterale",
-          "createTooltipFunc": ar,
-        },
-        {
-        "pitch": 7,
-        "yaw": 238,
-        "type": "info",
-        "text": "Stanza Laterale",
-        "createTooltipFunc": ina,
-        },
       ]
   })
   const hotspotIds = [

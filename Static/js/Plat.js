@@ -2621,7 +2621,7 @@ function don(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto di Kore. Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5067,7 +5067,7 @@ function don1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5134,7 +5134,7 @@ function don2(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5201,12 +5201,12 @@ function don3(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
   var Oggetto = document.createElement('div');
-  Oggetto.classList.add('don');
+  Oggetto.classList.add('don1');
   var x = document.createElement('p');
   x.classList.add('text-x');
   x.textContent = "x";

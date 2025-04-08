@@ -773,7 +773,21 @@ function Tog() {
   }
   prevbut = selectedButton;
 }
-
+function Freccia1(hotSpotDiv, args) {
+  hotSpotDiv.classList.add('custom-hotspot');
+  hotSpotDiv.onclick = function() {
+      localStorage.setItem('inc', false);
+      window.location.href = "../page/Plat1.html";
+    };
+    hotSpotDiv.onmouseenter = function() {
+      hotSpotDiv.classList.remove("custom-hotspot1");
+      hotSpotDiv.classList.add('custom-hotspot1h');   
+    }
+    hotSpotDiv.onmouseleave = function() {
+      hotSpotDiv.classList.remove("custom-hotspot1h");
+      hotSpotDiv.classList.add('custom-hotspot1');   
+    }
+}
 function cap1(hotSpotDiv, args) {
   if (hot === "true") {
     hotSpotDiv.style.display = "none";
@@ -2583,7 +2597,7 @@ function don(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto di Kore. Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5029,7 +5043,7 @@ function don1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5096,7 +5110,7 @@ function don2(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -5163,12 +5177,12 @@ function don3(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-20px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875), riproduce una faccia di una moneta dell’antica Akragas, sulla quale è raffigurato il profilo destro del volto della divinità femminile (Kore?). Pindaro definì Akragas figlia di Persefone e secondo Cicerone Cerere e Proserpina furono le dee più venerate in Sicilia";
+  Oggetto2.textContent = "Dipinto di forma circolare, ad imitazione del bronzo, circondato da una cornice dorata e da un filetto di colore rosso. Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno del celebre architetto palermitano Giovan Battista Filippo Basile (1875)";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
   var Oggetto = document.createElement('div');
-  Oggetto.classList.add('don');
+  Oggetto.classList.add('don1');
   var x = document.createElement('p');
   x.classList.add('text-x');
   x.textContent = "x";
@@ -6289,52 +6303,3 @@ function aqu1(hotSpotDiv, args) {
     nuovoOggetto.style.display = "none"; 
   }
 }
-
-
-function Freccia1(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot');
-  hotSpotDiv.onclick = function() {
-      localStorage.setItem('inc', false);
-      window.location.href = "../page/Plat1.html";
-    };
-    hotSpotDiv.onmouseenter = function() {
-      hotSpotDiv.classList.remove("custom-hotspot1");
-      hotSpotDiv.classList.add('custom-hotspot1h');   
-    }
-    hotSpotDiv.onmouseleave = function() {
-      hotSpotDiv.classList.remove("custom-hotspot1h");
-      hotSpotDiv.classList.add('custom-hotspot1');   
-    }
-}
-function sip(hotSpotDiv, args) {
-  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
-  var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Sipario';
-  nuovoOggetto.classList.add('info'); 
-  hotSpotDiv.appendChild(nuovoOggetto);
-  hotSpotDiv.text = "Ciao";
-  hotSpotDiv.onclick = function() {
-    if (isMobile) {
-      if (selectedButton == hotSpotDiv){
-        localStorage.setItem('pa', '../page/Plat2.html');
-        window.location.href = "../page/Sipario.html";
-      }
-      selectedButton = hotSpotDiv;
-      Tog();
-      nuovoOggetto.style.display = "block"; 
-    }else {
-      localStorage.setItem('pa', '../page/Plat2.html');
-      window.location.href = "../page/Sipario.html"; // Reindirizza alla pagina desiderata
-    }
-};
-  hotSpotDiv.onmouseenter = function() {
-      nuovoOggetto.style.display = "block"; // Mostra il div quando il mouse entra
-  }
-  hotSpotDiv.onmouseleave = function() {
-    if (isMobile) {
-    }else {
-      nuovoOggetto.style.display = "none"; 
-    }
-  }
-}
-

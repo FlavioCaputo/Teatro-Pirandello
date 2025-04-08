@@ -1,9 +1,9 @@
 dir = localStorage.getItem('inc');
 console.log(dir);
 if (dir === "false") {
-  inc = 90;
-}else {
   inc = 0;
+}else {
+  inc = 90;
 }
 const isMobile = navigator.userAgentData.mobile;
 var selectedButton = null;
@@ -38,6 +38,14 @@ viewer = pannellum.viewer('panorama', {
     "showControls": false,
     "yaw": inc, 
     "hotSpots": [
+        {
+          "pitch": -18,
+          "yaw": 92,
+          "cssClass": "custom-hotspot2",
+          "text": "Foyer",
+          "createTooltipFunc": Freccia1,
+          "createTooltipArgs": "Custom Hotspot"
+        },
       ]
   })
   const hotspotIds = [

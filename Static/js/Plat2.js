@@ -26,7 +26,7 @@ if (hot === "true") {
 }
 viewer = pannellum.viewer('panorama', {
   "type": "equirectangular",
-  "panorama": "https://raw.githubusercontent.com/FlavioCaputo/Teatro-Pirandello/refs/heads/main/Static/Panorama/Pla3.jpeg",
+  "panorama": "../Panorama/Pla3.jpeg",
   "autoLoad": true,
   "showControls": false,
   "yaw": 90, 

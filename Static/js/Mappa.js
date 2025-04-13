@@ -24,7 +24,7 @@ if (window.innerWidth > window.innerHeight) {
 } 
 pannellum.viewer('panorama', {
   "type": "equirectangular",
-  "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/untitled.jpeg",
+  "panorama": "../Panorama/untitled.jpeg",
   "haov": 180,
   "autoLoad": true,
   "showControls": false,

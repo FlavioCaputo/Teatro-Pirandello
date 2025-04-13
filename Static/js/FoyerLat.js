@@ -1,10 +1,3 @@
-dir = localStorage.getItem('inc');
-console.log(dir);
-if (dir === "false") {
-  inc = 0;
-}else {
-  inc = 90;
-}
 const isMobile = navigator.userAgentData.mobile;
 var selectedButton = null;
 var prevbut = null;
@@ -36,11 +29,11 @@ viewer = pannellum.viewer('panorama', {
     "panorama": "https://flaviocaputo.github.io/Teatro-Pirandello/Static/Panorama/FL4.jpeg",
     "autoLoad": true,
     "showControls": false,
-    "yaw": inc, 
+    "yaw": -90, 
     "hotSpots": [
         {
           "pitch": -18,
-          "yaw": 92,
+          "yaw": 93,
           "cssClass": "custom-hotspot2",
           "text": "Foyer",
           "createTooltipFunc": Freccia1,

@@ -983,9 +983,9 @@ viewer = pannellum.viewer('panorama', {
     nuovoOggetto.textContent = 'Personificazione del fiume Aktagas (1875)';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.fontSize = '16px';
-    nuovoOggetto.style.width = '120px';
-    nuovoOggetto.style.height = '50px';
-    nuovoOggetto.style.top = '8px';
+    nuovoOggetto.style.width = '140px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-10px';
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('Mil'); 
     var testo = document.createElement('p');
@@ -1173,9 +1173,9 @@ viewer = pannellum.viewer('panorama', {
     nuovoOggetto.textContent = 'Busto dell \'attore agrigentino Pippo Montalbano';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.fontSize = '16px';
-    nuovoOggetto.style.width = '120px';
-    nuovoOggetto.style.height = '50px';
-    nuovoOggetto.style.top = '8px';
+    nuovoOggetto.style.width = '140px';
+    nuovoOggetto.style.height = '70px';
+    nuovoOggetto.style.top = '-10px';
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('Pip'); 
     var testo = document.createElement('div');
@@ -1187,7 +1187,7 @@ viewer = pannellum.viewer('panorama', {
     if (isMobile) {
       testo.style.bottom = '-48px';
     } else {
-      testo.style.bottom = '-75px';
+      testo.style.bottom = '-97px';
     }
     Oggetto2.appendChild(x);
     Oggetto2.appendChild(testo);

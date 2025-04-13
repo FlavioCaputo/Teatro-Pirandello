@@ -310,7 +310,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 70px solid #ddd;
+    border-bottom: 80px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -492,7 +492,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 75px solid #ddd;
+    border-bottom: 100px solid #ddd;
     z-index: 100;
     left: 20px;
     top: -1000%;
@@ -692,7 +692,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 130px solid #ddd;
+    border-bottom: 110px solid #ddd;
 }
 .gol {
     position: absolute;
@@ -703,7 +703,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 135px solid #ddd;
+    border-bottom: 165px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -730,7 +730,7 @@ pulsante per home
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 138px solid #ddd;
+    border-bottom: 100px solid #ddd;
     left: 20px;
     top: -1000%;
 }
@@ -1182,19 +1182,6 @@ pulsante per home
     width: 240px;
     height: 240px;
     background: url('../pics/monete/16.jpeg') no-repeat center center;
-    background-size: cover;
-    display: none;
-    border: 10px solid #ddd; /* Definisce uno stile di bordo */
-    border-bottom: 20px solid #ddd;
-    left: 20px;
-    top: -500%;
-}
-.don1 {
-    position: absolute;
-    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
-    width: 240px;
-    height: 240px;
-    background: url('../pics/monete/18.jpeg') no-repeat center center;
     background-size: cover;
     display: none;
     border: 10px solid #ddd; /* Definisce uno stile di bordo */

@@ -295,7 +295,7 @@ function Alfieri(hotSpotDiv, args) {
     nuovoOggetto.style.fontSize = "11px";
     nuovoOggetto.style.width = '140px';
   } else {
-    testo.style.bottom = '-120px';
+    testo.style.bottom = '-100px';
     nuovoOggetto.style.fontSize = "12px";
   }
   Oggetto2.appendChild(x);
@@ -408,7 +408,7 @@ function Goldoni(hotSpotDiv, args) {
     nuovoOggetto.style.height = '55px';
     nuovoOggetto.style.top = '5px';
   } else {
-    testo.style.bottom = '-130px';
+    testo.style.bottom = '-160px';
     nuovoOggetto.style.fontSize = "14px";
   }
   Oggetto2.appendChild(x);
@@ -476,7 +476,7 @@ function Metastasio(hotSpotDiv, args) {
     nuovoOggetto.style.fontSize = "13px";
     nuovoOggetto.style.width = '130px'; 
   } else {
-    testo.style.bottom = '-138px';
+    testo.style.bottom = '-100px';
     nuovoOggetto.style.fontSize = "12px";
   }
   Oggetto2.appendChild(x);
@@ -526,7 +526,7 @@ function Monti(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Ritratto di Vincenzo Monti (Alfonsine, 19 febbraio 1754 – Milano, 13 ottobre 1828)';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.fontSize = '16px';
-  nuovoOggetto.style.width = '120px';
+  nuovoOggetto.style.width = '140px';
   nuovoOggetto.style.height = '70px';
   nuovoOggetto.style.top = '-10px';
   //imagine e testo
@@ -544,7 +544,7 @@ function Monti(hotSpotDiv, args) {
     nuovoOggetto.style.fontSize = "13px";
     nuovoOggetto.style.width = '140px';
   } else {
-    testo.style.bottom = '-130px';
+    testo.style.bottom = '-120px';
     nuovoOggetto.style.fontSize = "12px";
   }
   Oggetto2.appendChild(x);
@@ -817,7 +817,7 @@ function Lapide95(hotSpotDiv, args) {
     nuovoOggetto.style.height = '55px';
     nuovoOggetto.style.top = '5px';
   } else {
-    testo.style.bottom = '-65px';
+    testo.style.bottom = '-78px';
   }
   Oggetto2.appendChild(x);
   Oggetto2.appendChild(testo);

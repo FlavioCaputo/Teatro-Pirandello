@@ -90,7 +90,7 @@ viewer = pannellum.viewer('panorama', {
     "pitch": 36,
     "yaw": 11,
     "type": "info",
-    "createTooltipFunc": Sce,
+    "createTooltipFunc": Sce1,
   },
   {
     "pitch": 45.2,
@@ -120,7 +120,7 @@ viewer = pannellum.viewer('panorama', {
     "pitch": 36,
     "yaw": -181.5,
     "type": "info",
-    "createTooltipFunc": Sce1,
+    "createTooltipFunc": Sce,
   },
   {
     "pitch": 45,
@@ -691,7 +691,7 @@ const pos = [
 [13, 30],
 [13, 30],
 [43, 11],
-[36, 11],
+[36, -181],
 [43, -181],
 [49, -4],
 [48, 11],
@@ -702,7 +702,7 @@ const pos = [
 [3, 143],
 [1, 95],
 [3, 46],
-[36, -181],
+[36, 11],
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -737,7 +737,6 @@ function cent(id) {
   Oggetto2.style.display = 'Block';
   Oggetto.style.display = 'Block';
 }
-
 document.onclick = function() {
   tir++;
   if (isMobile) {

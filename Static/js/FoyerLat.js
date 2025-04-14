@@ -39,6 +39,14 @@ viewer = pannellum.viewer('panorama', {
           "createTooltipFunc": Freccia1,
           "createTooltipArgs": "Custom Hotspot"
         },
+        {
+          "pitch": -18,
+          "yaw": 180,
+          "cssClass": "custom-hotspot2",
+          "text": "Foyer",
+          "createTooltipFunc": Freccia2,
+          "createTooltipArgs": "Custom Hotspot"
+        },
       ]
   })
   const hotspotIds = [

@@ -3356,8 +3356,8 @@ function l(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giovanni Pacini (Catania, 11 febbraio 1796 – Pescia, 6 dicembre 1867). Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
@@ -3423,8 +3423,8 @@ function c(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Vincenzo Bellini (Catania 1801 - Puteaux, Parigi, 1835). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
@@ -3490,8 +3490,8 @@ function r(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giuseppe Verdi (Giuseppe Fortunino Francesco Verdi, Le Roncole, 10 ottobre 1813 – Milano, 27 gennaio 1901). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
@@ -3557,8 +3557,8 @@ function l1(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Gaetano Domenico Maria Donizetti (Bergamo, 29 novembre 1797 – Bergamo, 8 aprile 1848). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
@@ -3624,8 +3624,8 @@ function c1(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera sul quale sono raffigurati due putti alati fitomorfi che sorreggono che sorreggono una ghirlanda di alloro al centro della quale vi è il cognome del celebre compositore Gioachino Rossini (Pesaro, 29 febbraio 1792 – Passy, 13 novembre 1868). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
@@ -3691,8 +3691,8 @@ function r1(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Decorazione del fregio della bocca d’opera';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '125px';
-  nuovoOggetto.style.height = '45px';
-  nuovoOggetto.style.top = '15px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
   Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Errico Petrella, detto Petrel (Palermo, 10 dicembre 1813 – Genova, 7 aprile 1877). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";

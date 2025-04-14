@@ -27,9 +27,9 @@ if (hot === "true") {
 dir = localStorage.getItem('inc');
 console.log(dir);
 if (dir === "false") {
-  inc = 90;
-}else {
   inc = -90;
+}else {
+  inc = 90;
 }
 viewer = pannellum.viewer('panorama', {
     "type": "equirectangular",

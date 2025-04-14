@@ -589,7 +589,7 @@ function abito1(hotSpotDiv, args) {
   };
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
+  nuovoOggetto.textContent = 'Abito di scena del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
@@ -658,7 +658,7 @@ function abito2(hotSpotDiv, args) {
   };
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
+  nuovoOggetto.textContent = 'Abito di scena del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
@@ -736,7 +736,7 @@ function Lapide06(hotSpotDiv, args) {
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('Lap06'); 
   var testo = document.createElement('p');
-  testo.textContent = "Lapide che ricorda la donazione della “Copia del grande sipario storico Il trionfo di Esseneto” da parte del produttore teatrale nazionale agrigentino Francesco Bellomo";
+  testo.textContent = "Lapide che ricorda la donazione della copia del grande sipario storico “Il trionfo di Esseneto” da parte del produttore teatrale nazionale agrigentino Francesco Bellomo";
   testo.classList.add('text');
   var x = document.createElement('p');
   x.classList.add('text-x');

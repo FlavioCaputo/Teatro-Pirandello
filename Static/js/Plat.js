@@ -3222,7 +3222,7 @@ function Sce(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Dipinto di forma semicircolare';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
-  nuovoOggetto.style.height = '30px';
+  nuovoOggetto.style.height = '50px';
   nuovoOggetto.style.top = '30px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
@@ -3289,7 +3289,7 @@ function Sce1(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Dipinto di forma semicircolare';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
-  nuovoOggetto.style.height = '30px';
+  nuovoOggetto.style.height = '50px';
   nuovoOggetto.style.top = '30px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 

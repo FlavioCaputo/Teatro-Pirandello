@@ -24,6 +24,7 @@ but.addEventListener('change', function() {
 if (hot === "true") {
   ch.checked = true;
 }
+dir = localStorage.getItem('inc');
 console.log(dir);
 if (dir === "false") {
   inc = 90;

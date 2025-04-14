@@ -932,8 +932,8 @@ function PlanL(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '100px';
-  nuovoOggetto.style.top = '-30px';
+  nuovoOggetto.style.height = '90px';
+  nuovoOggetto.style.top = '-50px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso – vestibolo soprastante il foyer\n ●atrio e porticato di ingresso";
   testo.classList.add('text');
@@ -1000,8 +1000,8 @@ function PlanF(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '100px';
-  nuovoOggetto.style.top = '-30px';
+  nuovoOggetto.style.height = '90px';
+  nuovoOggetto.style.top = '-50px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●sala con platea e palchi\n ●volta in gesso con cannucciato e copertura";
   testo.classList.add('text');
@@ -1068,7 +1068,8 @@ function PlanT(hotSpotDiv, args) {
   nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '100px';
+  nuovoOggetto.style.height = '90px';
+  nuovoOggetto.style.top = '5px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso e vestibolo\n ●atrio e porticato di ingresso";
   testo.classList.add('text');

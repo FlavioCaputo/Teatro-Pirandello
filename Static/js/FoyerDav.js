@@ -1109,7 +1109,7 @@ viewer = pannellum.viewer('panorama', {
     nuovoOggetto.textContent = 'Busto di Zeus di Orticoli XVIII secolo';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.fontSize = '14px';
-    nuovoOggetto.style.width = '120px';
+    nuovoOggetto.style.width = '140px';
     nuovoOggetto.style.height = '50px';
     nuovoOggetto.style.top = '8px';
     var Oggetto2 = document.createElement('div');

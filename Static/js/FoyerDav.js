@@ -728,7 +728,7 @@ viewer = pannellum.viewer('panorama', {
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ver'); 
   var testo = document.createElement('p');
-  testo.textContent = "Giuseppe Fortunino Francesco Verdi fù uno dei più celebri compositori italiani del XIX secolo. Il dipinto di forma circolare, impreziosito da un elegante profilo dorato e da una cornice in stucco di colore bianco, è opera dei pittori milanesi Luigi Sacco e Antonio Tavella (1879).";
+  testo.textContent = "Giuseppe Fortunino Francesco Verdi fu uno dei più celebri compositori italiani del XIX secolo. Il dipinto di forma circolare, impreziosito da un elegante profilo dorato e da una cornice in stucco di colore bianco, è opera dei pittori milanesi Luigi Sacco e Antonio Tavella (1879).";
   testo.classList.add('text');
   var x = document.createElement('p');
   x.classList.add('text-x');
@@ -1106,7 +1106,7 @@ viewer = pannellum.viewer('panorama', {
     ind = hotSpotDiv;
     hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
     var nuovoOggetto = document.createElement('div');
-    nuovoOggetto.textContent = 'Busto di Zeus di Orticoli';
+    nuovoOggetto.textContent = 'Busto di Zeus di Orticoli XVIII secolo';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.fontSize = '16px';
     nuovoOggetto.style.width = '120px';
@@ -1115,7 +1115,7 @@ viewer = pannellum.viewer('panorama', {
     var Oggetto2 = document.createElement('div');
     Oggetto2.classList.add('Z'); 
     var testo = document.createElement('div');
-    testo.textContent = "Busto in gesso di Zeus di Orticoli, o Giove di Otricolo, XVIII secolo. Il busto raffigura un’opera marmorea rinvenuta nel 1775 nel comune italiano di Otricoli, in provincia di Terni, in Umbria.";
+    testo.textContent = "Busto in gesso di Zeus di Orticoli, o Giove di Otricoli, XVIII secolo. Il busto raffigura un’opera marmorea rinvenuta nel 1775 nel comune italiano di Otricoli, in provincia di Terni, in Umbria.";
     testo.classList.add('text');
     var x = document.createElement('p');
     x.classList.add('text-x');
@@ -1294,7 +1294,7 @@ viewer = pannellum.viewer('panorama', {
     ind = hotSpotDiv;
     hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
     var nuovoOggetto = document.createElement('div');
-    nuovoOggetto.textContent = 'Pippo Flora';
+    nuovoOggetto.textContent = 'Sala Pippo Flora';
     nuovoOggetto.classList.add('info');  
     nuovoOggetto.style.fontSize = '16px';
     nuovoOggetto.style.width = '120px';

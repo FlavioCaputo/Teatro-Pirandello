@@ -929,10 +929,10 @@ function PlanL(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoL'); 
-  nuovoOggetto.textContent = 'Progetto del Teatro vista laterale';
+  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '85px';
+  nuovoOggetto.style.height = '100px';
   nuovoOggetto.style.top = '-30px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso – vestibolo soprastante il foyer\n ●atrio e porticato di ingresso";
@@ -997,10 +997,10 @@ function PlanF(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoF'); 
-  nuovoOggetto.textContent = 'Progetto del Teatro vista Frontale';
+  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '85px';
+  nuovoOggetto.style.height = '100px';
   nuovoOggetto.style.top = '-30px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●sala con platea e palchi\n ●volta in gesso con cannucciato e copertura";
@@ -1065,9 +1065,10 @@ function PlanT(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoT'); 
-  nuovoOggetto.textContent = 'Planimetria del Teatro';
+  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
+  nuovoOggetto.style.height = '100px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso e vestibolo\n ●atrio e porticato di ingresso";
   testo.classList.add('text');

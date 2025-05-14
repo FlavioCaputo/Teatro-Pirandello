@@ -1171,7 +1171,7 @@ function mid(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto a tempera che raffigura Mida, celebre musicista vissuto nell’antica Akragas nel V secolo a.C. Molto probabilmente la sua formazione musicale di auleta avvenne durante la tirannia di Terone. Le fonti storiche e letterarie, infatti, attestano che tra il VI e il V sec. a.C. nella città di Akragas vi era una fervida attività musicale (Bellia 2003). Nel 496 a.C. vinse le celebri gare musicali delle Panatenee e nel 490 a.C. la 24ᵃ Pitiade. Le vittorie di Mida nelle due importanti gare musicali diede grande lustro alla città di Akragas. La fama di questo illustre musicista akragantino, probabilmente proveniente dalla Frigia, fu tramandata dal celebre poeta lirico Pindaro con la XII Ode Pitica.";
+  Oggetto2.textContent = "Dipinto a tempera realizato da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, raffigura Mida, celebre musicista vissuto nell’antica Akragas nel V secolo a.C. Molto probabilmente la sua formazione musicale di auleta avvenne durante la tirannia di Terone. Le fonti storiche e letterarie, infatti, attestano che tra il VI e il V sec. a.C. nella città di Akragas vi era una fervida attività musicale (Bellia 2003). Nel 496 a.C. vinse le celebri gare musicali delle Panatenee e nel 490 a.C. la 24ᵃ Pitiade. Le vittorie di Mida nelle due importanti gare musicali diede grande lustro alla città di Akragas. La fama di questo illustre musicista akragantino, probabilmente proveniente dalla Frigia, fu tramandata dal celebre poeta lirico Pindaro con la XII Ode Pitica.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1238,7 +1238,7 @@ function car(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto a tempera che raffigura Carcino, drammaturgo nato nell’antica Akragas e vissuto nel IV sec. a.C. tra Akragas e Siracusa. Era figlio del drammaturgo greco Senocle e nipote di Carcino il Vecchio, poeta tragico ateniese del V sec. Trascorse gran parte della sua vita alla corte di Dionisio II di Siracusa. Secondo le fonti, scrisse più di centocinquanta tragedie, sebbene si conoscono solo i titoli di sole sei opere: Alope, Achille, Tieste, Semele, Anfiarao, Medea, Edipo, Tereo e Oreste.";
+  Oggetto2.textContent = "Dipinto a tempera realizato da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, raffigura Carcino, drammaturgo nato nell’antica Akragas e vissuto nel IV sec. a.C. tra Akragas e Siracusa. Era figlio del drammaturgo greco Senocle e nipote di Carcino il Vecchio, poeta tragico ateniese del V sec. Trascorse gran parte della sua vita alla corte di Dionisio II di Siracusa. Secondo le fonti, scrisse più di centocinquanta tragedie, sebbene si conoscono solo i titoli di sole sei opere: Alope, Achille, Tieste, Semele, Anfiarao, Medea, Edipo, Tereo e Oreste.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1305,7 +1305,7 @@ function din(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto a tempera che raffigura Dinoloco, poeta e commediografo, nato e vissuto nell’antica città di Akragas nel V sec. a.C. Secondo alcuni, figlio, secondo altri discepolo di Epicarimo, maestro della commedia. Scrisse quattordici drammi in dialetto dorico, di cui sappiamo solo, da alcuni titoli, che alcuni di essi erano su argomenti mitologici.";
+  Oggetto2.textContent = "Dipinto a tempera realizato da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, raffigura Dinoloco, poeta e commediografo, nato e vissuto nell’antica città di Akragas nel V sec. a.C. Secondo alcuni, figlio, secondo altri discepolo di Epicarimo, maestro della commedia. Scrisse quattordici drammi in dialetto dorico, di cui sappiamo solo, da alcuni titoli, che alcuni di essi erano su argomenti mitologici.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1372,7 +1372,7 @@ function met(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Dipinto a tempera che raffigura Metello, musicista e filosofo vissuto nell’antica città di Akragas nel IV secolo a.C., ovvero nell’età di Dionigi, caratterizzata dall'influenza e dall'operato dei due tiranni di Siracusa: Dionisio I e Dionisio II. Insegnò musica in Sicilia e ad Atene e fu precettore e maestro di musica di Platone e di Empedocle. L’illustre artista akragantino è stato ricordato dal celebre scrittore e biografo greco Plutarco nei Moralia Sulla musica.";
+  Oggetto2.textContent = "Dipinto a tempera realizato da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, raffigura Metello, musicista e filosofo vissuto nell’antica città di Akragas nel IV secolo a.C., ovvero nell’età di Dionigi, caratterizzata dall'influenza e dall'operato dei due tiranni di Siracusa: Dionisio I e Dionisio II. Insegnò musica in Sicilia e ad Atene e fu precettore e maestro di musica di Platone e di Empedocle. L’illustre artista akragantino è stato ricordato dal celebre scrittore e biografo greco Plutarco nei Moralia Sulla musica.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1506,7 +1506,7 @@ function a1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Allegoria della musica e della fama, rappresentata da un angelo musicante e un putto alato in volo. L’angelo, adulto, è raffigurato mentre suona una tromba araldica (o chiarina). Indossa una veste lunga e fluente, di colore celeste e dorato Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato tiene in mano una corona di alloro, simbolo di vittoria e gloria. La tromba suonata dall'angelo potrebbe simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
+  Oggetto2.textContent = "Allegoria della musica e della fama realizata da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, rappresentata da un angelo musicante e un putto alato in volo. L’angelo, adulto, è raffigurato mentre suona una tromba araldica (o chiarina). Indossa una veste lunga e fluente, di colore celeste e dorato Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato tiene in mano una corona di alloro, simbolo di vittoria e gloria. La tromba suonata dall'angelo potrebbe simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1573,7 +1573,7 @@ function a2(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Allegoria della musica e della fama, rappresentata da un angelo e un putto alato musicante in volo. L’angelo, adulto, è raffigurato mentre tiene in mano una corona di alloro, simbolo di vittoria e gloria. Indossa una veste lunga e fluente, di colore blu e rosa. Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato suona una tromba araldica (o chiarina). La tromba simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
+  Oggetto2.textContent = "Allegoria della musica e della fama realizata da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, rappresentata da un angelo e un putto alato musicante in volo. L’angelo, adulto, è raffigurato mentre tiene in mano una corona di alloro, simbolo di vittoria e gloria. Indossa una veste lunga e fluente, di colore blu e rosa. Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato suona una tromba araldica (o chiarina). La tromba simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1640,7 +1640,7 @@ function a3(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Allegoria della musica e della fama, rappresentata da un angelo musicante e un putto alato in volo. L’angelo, adulto, è raffigurato mentre suona una tromba araldica (o chiarina). Indossa una veste lunga e fluente, di colore blu e dorato Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato tiene in mano una corona di alloro, simbolo di vittoria e gloria. La tromba suonata dall'angelo potrebbe simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
+  Oggetto2.textContent = "Allegoria della musica e della fama realizata da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, rappresentata da un angelo musicante e un putto alato in volo. L’angelo, adulto, è raffigurato mentre suona una tromba araldica (o chiarina). Indossa una veste lunga e fluente, di colore blu e dorato Le ali, ampie e maestose, sono spiegate e conferiscono all'angelo un aspetto potente e maestoso. A fianco all’angelo, un putto alato tiene in mano una corona di alloro, simbolo di vittoria e gloria. La tromba suonata dall'angelo potrebbe simboleggia contestualmente l’arte musicale e la fama dell’artista che si diffonde attraverso il suono. La corona di alloro rappresenta la ricompensa il musicista o per l'artista, che raggiunge l'apice del successo attraverso la sua arte. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -1707,7 +1707,7 @@ function a4(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Allegoria della musica e della fama, rappresentata da un putto alato che suona una tromba araldica (o chiarina), attraverso il suono della quale si diffonde l’arte musicale e la fama dell’artista, e da un angelo che sorregge una corona d’alloro, simbolo di vittoria e gloria. L’angelo indossa una veste lunga e fluente, di colore marrone e verde, ha le ampie ali spiegate che gli conferiscono un aspetto potente e maestoso. Davanti all’angelo, il putto alato tiene nella mano destra la tromba e con la sinistra si aggrappa a un lenzuolo bianco. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
+  Oggetto2.textContent = "Allegoria della musica e della fama realizata da Luigi Sacco, Antonio Tavella e Giuseppe Bellone, rappresentata da un putto alato che suona una tromba araldica (o chiarina), attraverso il suono della quale si diffonde l’arte musicale e la fama dell’artista, e da un angelo che sorregge una corona d’alloro, simbolo di vittoria e gloria. L’angelo indossa una veste lunga e fluente, di colore marrone e verde, ha le ampie ali spiegate che gli conferiscono un aspetto potente e maestoso. Davanti all’angelo, il putto alato tiene nella mano destra la tromba e con la sinistra si aggrappa a un lenzuolo bianco. La scena è dinamica. L’angelo e il putto alato fluttuano nello spazio con grazia e le espressioni dei volti suggeriscono un senso di gioia e di trionfo.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -2904,7 +2904,7 @@ function para(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione pittorica dei parapetti del primo ordine di palchi, dipinti ad olio di noce su legno realizzati dagli artisti milanesi Luigi Sacco e Antonio Tavella, nel 1879. Le decorazioni pittoriche sono ispirate alle grottesche cinquecentesche alla maniera raffaellesca. Al centro, un putto alato fitomorfo sorregge una collana di perle di colore rosa con un desco ottagonale color oro di forma recante il numero del palco. Alla destra e alla sinistra del putto sono raffigurate, su fondo giallo tenue, eleganti decorazioni con fiori bianchi e rosa e steli spiraliformi di colore varie tonalità di verde intrecciati da fettucce di colore rosa a sviluppo serpentino.";
+  Oggetto2.textContent = "Decorazione pittorica dei parapetti del primo ordine di palchi, dipinti ad olio di noce su legno realizzati dagli artisti milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone, nel 1879. Le decorazioni pittoriche sono ispirate alle grottesche cinquecentesche alla maniera raffaellesca. Al centro, un putto alato fitomorfo sorregge una collana di perle di colore rosa con un desco ottagonale color oro di forma recante il numero del palco. Alla destra e alla sinistra del putto sono raffigurate, su fondo giallo tenue, eleganti decorazioni con fiori bianchi e rosa e steli spiraliformi di colore varie tonalità di verde intrecciati da fettucce di colore rosa a sviluppo serpentino.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -2971,7 +2971,7 @@ function para1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '-10px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione pittorica dei parapetti del primo ordine di palchi, dipinti ad olio di noce su legno realizzati dagli artisti milanesi Luigi Sacco e Antonio Tavella, nel 1879. Le decorazioni pittoriche sono ispirate alle grottesche cinquecentesche alla maniera raffaellesca. Al centro, un putto alato fitomorfo sorregge una collana di perle di colore rosa con un desco ottagonale color oro di forma recante il numero del palco. Alla destra e alla sinistra del putto sono raffigurate, su fondo giallo tenue, eleganti decorazioni con fiori bianchi e rosa e steli spiraliformi di colore varie tonalità di verde intrecciati da fettucce di colore rosa a sviluppo serpentino.";
+  Oggetto2.textContent = "Decorazione pittorica dei parapetti del primo ordine di palchi, dipinti ad olio di noce su legno realizzati dagli artisti milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone, nel 1879. Le decorazioni pittoriche sono ispirate alle grottesche cinquecentesche alla maniera raffaellesca. Al centro, un putto alato fitomorfo sorregge una collana di perle di colore rosa con un desco ottagonale color oro di forma recante il numero del palco. Alla destra e alla sinistra del putto sono raffigurate, su fondo giallo tenue, eleganti decorazioni con fiori bianchi e rosa e steli spiraliformi di colore varie tonalità di verde intrecciati da fettucce di colore rosa a sviluppo serpentino.";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3308,7 +3308,7 @@ function Sce(hotSpotDiv, args) {
   nuovoOggetto.style.top = '30px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Scena mitologica che raffigura Apollo, dio delle arti, nel Parnaso in posizione solenne attorniato da due muse e da un putto alato che gli porge una coppa, quale gesto simbolico di celebrazione e abbondanza. La scena è ambientata su una nuvola, tipica raffigurazione di un ambiente divino o ultraterreno, caratteristico delle rappresentazioni mitologiche. Gli ornati delle superfici triangolari mistilinei sono decorati con motivi floreali e vegetali alla maniera raffaellesca. Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Scena mitologica che raffigura Apollo, dio delle arti, nel Parnaso in posizione solenne attorniato da due muse e da un putto alato che gli porge una coppa, quale gesto simbolico di celebrazione e abbondanza. La scena è ambientata su una nuvola, tipica raffigurazione di un ambiente divino o ultraterreno, caratteristico delle rappresentazioni mitologiche. Gli ornati delle superfici triangolari mistilinei sono decorati con motivi floreali e vegetali alla maniera raffaellesca. Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3375,7 +3375,7 @@ function Sce1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '30px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Coro di ninfe su nuvole con un putto alato che sorregge il mantello di una ninfa. La scena è ambientata su una nuvola, tipica raffigurazione di un ambiente divino o ultraterreno, caratteristico delle rappresentazioni mitologiche. Gli ornati delle superfici triangolari mistilinei sono decorati con motivi floreali e vegetali alla maniera raffaellesca. Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Coro di ninfe su nuvole con un putto alato che sorregge il mantello di una ninfa. La scena è ambientata su una nuvola, tipica raffigurazione di un ambiente divino o ultraterreno, caratteristico delle rappresentazioni mitologiche. Gli ornati delle superfici triangolari mistilinei sono decorati con motivi floreali e vegetali alla maniera raffaellesca. Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "360px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3442,7 +3442,7 @@ function l(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giovanni Pacini (Catania, 11 febbraio 1796 – Pescia, 6 dicembre 1867). Il dipinto, realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giovanni Pacini (Catania, 11 febbraio 1796 – Pescia, 6 dicembre 1867). Il dipinto, realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3509,7 +3509,7 @@ function c(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Vincenzo Bellini (Catania 1801 - Puteaux, Parigi, 1835). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Vincenzo Bellini (Catania 1801 - Puteaux, Parigi, 1835). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3576,7 +3576,7 @@ function r(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giuseppe Verdi (Giuseppe Fortunino Francesco Verdi, Le Roncole, 10 ottobre 1813 – Milano, 27 gennaio 1901). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una ghirlanda intrecciata da un nastro rosa, al centro della quale vi è il cognome del celebre compositore Giuseppe Verdi (Giuseppe Fortunino Francesco Verdi, Le Roncole, 10 ottobre 1813 – Milano, 27 gennaio 1901). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3643,7 +3643,7 @@ function l1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Gaetano Domenico Maria Donizetti (Bergamo, 29 novembre 1797 – Bergamo, 8 aprile 1848). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Gaetano Domenico Maria Donizetti (Bergamo, 29 novembre 1797 – Bergamo, 8 aprile 1848). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3710,7 +3710,7 @@ function c1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera sul quale sono raffigurati due putti alati fitomorfi che sorreggono che sorreggono una ghirlanda di alloro al centro della quale vi è il cognome del celebre compositore Gioachino Rossini (Pesaro, 29 febbraio 1792 – Passy, 13 novembre 1868). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera sul quale sono raffigurati due putti alati fitomorfi che sorreggono che sorreggono una ghirlanda di alloro al centro della quale vi è il cognome del celebre compositore Gioachino Rossini (Pesaro, 29 febbraio 1792 – Passy, 13 novembre 1868). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";
@@ -3777,7 +3777,7 @@ function r1(hotSpotDiv, args) {
   nuovoOggetto.style.top = '0px';
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('sc'); 
-  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Errico Petrella, detto Petrel (Palermo, 10 dicembre 1813 – Genova, 7 aprile 1877). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco e Antonio Tavella tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
+  Oggetto2.textContent = "Decorazione del fregio della bocca d’opera, costituito da un putto alato fitomorfo che sorregge una corona di alloro al centro della quale vi è il cognome del celebre compositore Errico Petrella, detto Petrel (Palermo, 10 dicembre 1813 – Genova, 7 aprile 1877). Il dipinto è stato realizzato dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone tra il 1876 e il 1879, su disegno dell’illustre architetto palermitano Giovan Battista Filippo Basile (1875).";
   Oggetto2.style.left = "240px";
   Oggetto2.style.height = "260px";
   Oggetto2.style.bottom = "-115px";

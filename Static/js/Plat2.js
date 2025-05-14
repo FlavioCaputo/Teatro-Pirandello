@@ -3737,7 +3737,7 @@ function sip(hotSpotDiv, args) {
   hotSpotDiv.onclick = function() {
     if (isMobile) {
       if (selectedButton == hotSpotDiv){
-        localStorage.setItem('pa', '../page/Plat.html');
+        localStorage.setItem('pa', '../page/Plat2.html');
         window.location.href = "../page/Sipario.html";
       }
       selectedButton = hotSpotDiv;

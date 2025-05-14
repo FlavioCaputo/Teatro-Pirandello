@@ -3851,7 +3851,7 @@ function sip(hotSpotDiv, args) {
       Tog();
       nuovoOggetto.style.display = "block"; 
     }else {
-      localStorage.setItem('pa', '../page/Plat.html');
+      localStorage.setItem('pa', '../page/Plat1.html');
       window.location.href = "../page/Sipario.html"; // Reindirizza alla pagina desiderata
     }
 };

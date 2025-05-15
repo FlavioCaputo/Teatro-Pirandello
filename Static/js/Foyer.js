@@ -19,7 +19,7 @@ var l;
 var us = true;
 viewer = pannellum.viewer('panorama', {
   "type": "equirectangular",
-  "panorama": "../Panorama/foyer.jpg",
+  "panorama": "https://raw.githubusercontent.com/FlavioCaputo/Teatro-Pirandello/refs/heads/main/Static/Panorama/foyer.jpg",
   "autoLoad": true,
   "showControls": false,
   "yaw": inc, 
@@ -46,6 +46,13 @@ viewer = pannellum.viewer('panorama', {
       "text": "Foyer",
       "createTooltipFunc": Freccia2,
       "createTooltipArgs": "Custom Hotspot"
+    },
+    {
+      "pitch": -18.5,
+      "yaw": -87.5  ,
+      "type": "info",
+      "text": "Foyer",
+      "createTooltipFunc": inut,
     },
     {
       "pitch": -24,
@@ -159,6 +166,7 @@ const hotspotIds = [
   "plaf",
   "Plan",
   "plat",
+  "inut",
 ];
 const pos = [
 [5, 195], 
@@ -177,6 +185,7 @@ const pos = [
 [2.5, 15.5], 
 [2.5, -115],
 [2.5, -62],
+[-18, -87],
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -234,6 +243,68 @@ function Tog() {
     img = false;
   }
   prevbut = selectedButton;
+}
+function inut (hotSpotDiv, args) {
+    if (hot === "true") {
+    hotSpotDiv.style.display = "none";
+  };
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'informazioni';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '120px';
+  nuovoOggetto.style.height = '20px';
+  nuovoOggetto.style.top = '40px';
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('sc'); 
+  Oggetto.textContent = "Il progetto del Nuovo Teatro Comunale di Agrigento, oggi Teatro \"Luigi Pirandello\", fu redatto dall'Ingegnere agrigentino Dionisio Sciascia e approvato dal Consiglio Comunale il 9 maggio 1869. In seguito alle polemiche sorte successivamente in città in merito al progetto dell'ingegnere Sciascia, l'Amministrazione, nel 1873, affidò all'architetto Giovan Battista Filippo Basile l'incarico per il completamento del Teatro e per la progettazione delle decorazioni pittoriche e scultoree, poi realizzate tra il 1876 e il 1879 dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone e dallo scultore palermitano Benedetto Alfano.";
+  Oggetto.style.width = "230px";
+  Oggetto.style.left = "-20px";
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.left = "-95%";
+  x.style.top = "0%";
+  x.style.fontSize = "18px";
+  x.style.color = "white";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("inut");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("inut");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    Oggetto.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
 }
 function Bigl(hotSpotDiv, args) {
   if (hot === "true") {
@@ -589,7 +660,7 @@ function abito1(hotSpotDiv, args) {
   };
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Abito di scena del baritono Giovan Battista Inghilleri';
+  nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
@@ -658,7 +729,7 @@ function abito2(hotSpotDiv, args) {
   };
   hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
   var nuovoOggetto = document.createElement('div');
-  nuovoOggetto.textContent = 'Abito di scena del baritono Giovan Battista Inghilleri';
+  nuovoOggetto.textContent = 'Abito del baritono Giovan Battista Inghilleri';
   nuovoOggetto.classList.add('info'); 
   nuovoOggetto.style.width = '120px';
   nuovoOggetto.style.height = '70px';
@@ -736,7 +807,7 @@ function Lapide06(hotSpotDiv, args) {
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('Lap06'); 
   var testo = document.createElement('p');
-  testo.textContent = "Lapide che ricorda la donazione della copia del grande sipario storico “Il trionfo di Esseneto” da parte del produttore teatrale nazionale agrigentino Francesco Bellomo";
+  testo.textContent = "Lapide che ricorda la donazione della “Copia del grande sipario storico Il trionfo di Esseneto” da parte del produttore teatrale nazionale agrigentino Francesco Bellomo";
   testo.classList.add('text');
   var x = document.createElement('p');
   x.classList.add('text-x');
@@ -929,11 +1000,11 @@ function PlanL(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoL'); 
-  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
+  nuovoOggetto.textContent = 'Progetto del Teatro vista laterale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '90px';
-  nuovoOggetto.style.top = '-25px';
+  nuovoOggetto.style.height = '85px';
+  nuovoOggetto.style.top = '-30px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso – vestibolo soprastante il foyer\n ●atrio e porticato di ingresso";
   testo.classList.add('text');
@@ -997,11 +1068,11 @@ function PlanF(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoF'); 
-  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
+  nuovoOggetto.textContent = 'Progetto del Teatro vista Frontale';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '90px';
-  nuovoOggetto.style.top = '-25px';
+  nuovoOggetto.style.height = '85px';
+  nuovoOggetto.style.top = '-30px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con sezione trasversale con veduta di:\n ●sala con platea e palchi\n ●volta in gesso con cannucciato e copertura";
   testo.classList.add('text');
@@ -1065,11 +1136,9 @@ function PlanT(hotSpotDiv, args) {
   var nuovoOggetto = document.createElement('div');
   var Oggetto2 = document.createElement('div');
   Oggetto2.classList.add('ProgettoT'); 
-  nuovoOggetto.textContent = 'Progetto del Teatro: vista laterale';
+  nuovoOggetto.textContent = 'Planimetria del Teatro';
   nuovoOggetto.classList.add('info');  
   nuovoOggetto.style.width = '160px';
-  nuovoOggetto.style.height = '90px';
-  nuovoOggetto.style.top = '-25px';
   var testo = document.createElement('p');
   testo.textContent = "Elaborati grafici di progetto del teatro, pianta con veduta di:\n ●palcoscenico e torre scenica\n ●sala con platea e palchi\n ●ingresso e vestibolo\n ●atrio e porticato di ingresso";
   testo.classList.add('text');

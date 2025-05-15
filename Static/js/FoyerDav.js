@@ -826,13 +826,13 @@ viewer = pannellum.viewer('panorama', {
       ind = hotSpotDiv;
     if (isMobile) {
       if (selectedButton == hotSpotDiv){
-        cent("Ver");
+        cent("pac");
       }
       selectedButton = hotSpotDiv;
       img = true;
       Tog();
     }else {
-      cent("Ver");
+      cent("pac");
     }
     }
   };

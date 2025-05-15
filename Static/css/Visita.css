@@ -791,7 +791,7 @@ pulsante per home
     cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
     width: 300px;
     height: 400px;
-    background: url('../pics/ritrattifoyer/10.png') no-repeat center center;
+    background: url('../pics/ritrattifoyer/10.jpeg') no-repeat center center;
     background-size: cover;
     display: none;
     border: 20px solid #ddd; /* Definisce uno stile di bordo */

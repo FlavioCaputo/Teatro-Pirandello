@@ -105,6 +105,13 @@ viewer = pannellum.viewer('panorama', {
         "createTooltipFunc": Rossini,
       },
       {
+        "pitch": 23,
+        "yaw": -6.5,
+        "type": "info",
+        "text": "abito",
+        "createTooltipFunc": Pacini,
+      },
+      {
         "pitch": 30,
         "yaw": 25,
         "type": "info",
@@ -198,6 +205,7 @@ viewer = pannellum.viewer('panorama', {
     "pip",
     "po", 
     "pipr",
+    "pac"
   ];
   const pos = [
     [-4, -5],
@@ -219,6 +227,7 @@ viewer = pannellum.viewer('panorama', {
     [-1, -161],
     [0, -20],
     [14, -92],
+    [23, -7],
   ];
 
   document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -729,6 +738,73 @@ viewer = pannellum.viewer('panorama', {
   Oggetto2.classList.add('ver'); 
   var testo = document.createElement('p');
   testo.textContent = "Giuseppe Fortunino Francesco Verdi fu uno dei più celebri compositori italiani del XIX secolo. Il dipinto di forma circolare, impreziosito da un elegante profilo dorato e da una cornice in stucco di colore bianco, è opera dei pittori milanesi Luigi Sacco e Antonio Tavella (1879).";
+  testo.classList.add('text');
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  if (isMobile) {
+    testo.style.bottom = '-43px';
+    testo.style.fontSize = '7px';
+    nuovoOggetto.style.fontSize = "13px";
+  } else {
+    testo.style.bottom = '-120px';
+    nuovoOggetto.style.fontSize = "12px";
+  }
+  Oggetto2.appendChild(x);
+  Oggetto2.appendChild(testo);
+  hotSpotDiv.appendChild(Oggetto2);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("Ver");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("Ver");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    console.log("primo");
+    Oggetto2.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
+  }
+  function Pacini(hotSpotDiv, args) {
+    if (hot === "true") {
+      hotSpotDiv.style.display = "none";
+    };
+    ind = hotSpotDiv;
+    hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  //testo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'Ritratto di Giovanni Pacini (Catania, 11 febbraio 1796 – Pescia, 6 dicembre 1867)';
+  nuovoOggetto.classList.add('info');  
+  nuovoOggetto.style.fontSize = '16px';
+  nuovoOggetto.style.width = '120px';
+  nuovoOggetto.style.height = '70px';
+  nuovoOggetto.style.top = '-10px';
+  //imagine e testo
+  var Oggetto2 = document.createElement('div');
+  Oggetto2.classList.add('pac'); 
+  var testo = document.createElement('p');
+  testo.textContent = "Giovanni Pacini fu un celebre compositore italiano del XIX secolo. Il dipinto di forma circolare, impreziosito da un elegante profilo dorato e da una cornice in stucco di colore bianco, è opera dei pittori milanesi Luigi Sacco e Antonio Tavella (1879).";
   testo.classList.add('text');
   var x = document.createElement('p');
   x.classList.add('text-x');

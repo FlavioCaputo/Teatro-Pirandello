@@ -786,6 +786,19 @@ pulsante per home
     left: 20px;
     top: -1000%;
 }
+.pac {
+    position: absolute;
+    cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */
+    width: 300px;
+    height: 400px;
+    background: url('../pics/ritrattifoyer/10.png') no-repeat center center;
+    background-size: cover;
+    display: none;
+    border: 20px solid #ddd; /* Definisce uno stile di bordo */
+    border-bottom: 100px solid #ddd;
+    left: 20px;
+    top: -1000%;
+}
 .mis {
     position: absolute;
     cursor: pointer; /* Imposta il cursore a pointer (mano) quando passi sopra l'oggetto */

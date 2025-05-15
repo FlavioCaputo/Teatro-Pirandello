@@ -46,6 +46,13 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipFunc": Freccia2,
     },
     {
+      "pitch": -20,
+      "yaw": -90.5,
+      "cssClass": "custom-hotspot1",
+      "text": "Stanza Laterale",
+      "createTooltipFunc": inut,
+    },
+    {
       "pitch": 7,
       "yaw": -90.5,
       "type": "info",
@@ -634,6 +641,7 @@ const hotspotIds = [
   "arc1",
   "arc2",
   "sce1",
+  "inut",
 ];
 const pos = [
 [-10, -90.5], 
@@ -721,6 +729,7 @@ const pos = [
 [32, -271],
 [12, -411],
 [20, -67],
+[-20, -90],
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
@@ -811,6 +820,68 @@ function Freccia2(hotSpotDiv, args) {
       hotSpotDiv.classList.remove("custom-hotspot1h");
       hotSpotDiv.classList.add('custom-hotspot1');   
     }
+}
+function inut (hotSpotDiv, args) {
+    if (hot === "true") {
+    hotSpotDiv.style.display = "none";
+  };
+  hotSpotDiv.classList.add('custom-hotspot'); // Aggiungi una classe al hotspot per identificarlo
+  var nuovoOggetto = document.createElement('div');
+  nuovoOggetto.textContent = 'informazioni';
+  nuovoOggetto.classList.add('info'); 
+  nuovoOggetto.style.width = '120px';
+  nuovoOggetto.style.height = '20px';
+  nuovoOggetto.style.top = '40px';
+  var Oggetto = document.createElement('div');
+  Oggetto.classList.add('sc'); 
+  Oggetto.textContent = "Il progetto del Nuovo Teatro Comunale di Agrigento, oggi Teatro \"Luigi Pirandello\", fu redatto dall'Ingegnere agrigentino Dionisio Sciascia e approvato dal Consiglio Comunale il 9 maggio 1869. In seguito alle polemiche sorte successivamente in città in merito al progetto dell'ingegnere Sciascia, l'Amministrazione, nel 1873, affidò all'architetto Giovan Battista Filippo Basile l'incarico per il completamento del Teatro e per la progettazione delle decorazioni pittoriche e scultoree, poi realizzate tra il 1876 e il 1879 dai pittori milanesi Luigi Sacco, Antonio Tavella e Giuseppe Bellone e dallo scultore palermitano Benedetto Alfano.";
+  Oggetto.style.width = "230px";
+  Oggetto.style.left = "-20px";
+  var x = document.createElement('p');
+  x.classList.add('text-x');
+  x.textContent = "x";
+  x.style.left = "-95%";
+  x.style.top = "0%";
+  x.style.fontSize = "18px";
+  x.style.color = "white";
+  if (isMobile) {
+    nuovoOggetto.style.fontSize = '11px';
+  } else {
+    nuovoOggetto.style.fontSize = '15px';
+  }
+  Oggetto.appendChild(x);
+  hotSpotDiv.appendChild(Oggetto);
+  hotSpotDiv.appendChild(nuovoOggetto);
+  hotSpotDiv.onclick = function() {
+    if (us) {
+      ind = hotSpotDiv;
+    if (isMobile) {
+      if (selectedButton == hotSpotDiv){
+        cent("inut");
+      }
+      selectedButton = hotSpotDiv;
+      img = true;
+      Tog();
+    }else {
+      cent("inut");
+    }
+    }
+  };
+  hotSpotDiv.onmouseenter = function() {
+    if (us) {
+      nuovoOggetto.style.display = "Block";
+    }
+  }
+  x.onclick = function() {
+    Oggetto.style.display = "none";
+    viewer.setHfov(100);
+    setTimeout(() => {
+      us = true;
+    }, 1000); // 2000 ms = 2 secondi  
+  }
+  hotSpotDiv.onmouseleave = function() {
+    nuovoOggetto.style.display = "none"; 
+  }
 }
 function cap1(hotSpotDiv, args) {
   if (hot === "true") {

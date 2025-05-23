@@ -136,7 +136,7 @@ background
         transform: translateX(-150px);
     }
     100% {
-        transform: translateX(-2812px); /* Scorre verso sinistra */
+        transform: translateX(-3160px); /* Scorre verso sinistra */
     }
 }
 

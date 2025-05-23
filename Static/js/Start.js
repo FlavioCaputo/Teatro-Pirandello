@@ -40,8 +40,8 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipArgs": "Custom Hotspot"
     },
     {
-      "pitch": 4,
-      "yaw": 93,
+      "pitch": 7,
+      "yaw": 120,
       "type": "info",
       "text": "Stanza Laterale",
       "createTooltipFunc": can,

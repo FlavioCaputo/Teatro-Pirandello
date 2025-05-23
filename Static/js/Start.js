@@ -40,8 +40,8 @@ viewer = pannellum.viewer('panorama', {
       "createTooltipArgs": "Custom Hotspot"
     },
     {
-      "pitch": 7,
-      "yaw": 120,
+      "pitch": 10,
+      "yaw": 82,
       "type": "info",
       "text": "Stanza Laterale",
       "createTooltipFunc": can,
@@ -137,7 +137,7 @@ const pos = [
   [55.3, 146.8],
   [2.5, 14.5],
   [2.5, 31.5],
-  [4, 93]
+  [10, 82]
 ]
 
 document.getElementById('buttonbordered').addEventListener('click', function(e) {
